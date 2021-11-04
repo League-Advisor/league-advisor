@@ -20,25 +20,50 @@ _A player often has to do lots of mental math in order to figure out what should
 
 ---
 
-## Planned Features
+## Features and Tests
 
 **_CLI program that provides the following:_**
 
-• A way for the user to enter their current champion and both team compositions.
+• Preview the welcoming message and the list of options and ask the user which option he want to preview.
 
-• A data base of items and champions to process the inputs.
+• Preview the Rules of the League of Legends Game if the user choose to preview the rules.
 
-• A web scraper that collects up-to-date data regarding the best build paths ideally.
+• The user want to preview the champions and the items in the game.
 
-• A data model that elects the best possible situational build path based on the situation.
+• The user want to preview the optimal items for the champion in General.
 
-• Outputs an accurate build path recommendation based on user situation input.
+• The user want to know which items are optimal with respect to his team champions also with respect to the enemy team champions.
 
 ---
 
-<img src="assets/PROJECT MODULE.PNG">
+## User Stories
 
-## Tools Used
+
+
+[GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
+
+--- 
+
+## Wireframes
+
+
+ ### 
+![league_advisor_wireframe_1](assets/league_advisor_wireframe_1.png)
+![league_advisor_wireframe_2](assets/league_advisor_wireframe_2.png)
+![league_advisor_wireframe_3](assets/league_advisor_wireframe_3.png)
+![league_advisor_wireframe_4](assets/league_advisor_wireframe_4.png)
+![league_advisor_wireframe_5](assets/league_advisor_wireframe_5.png)
+
+---
+
+## Domain Model
+
+![Domain_Model](assets/Domain_Model.png)
+
+
+---
+
+## Tools Used 
 
 VS Code
 [GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
@@ -56,6 +81,14 @@ VS Code
 
 _Project created_ - 2 Nov 2021
 
+#### V 0.2
+
+_Software Requirements_ - 3 Nov 2021
+
+#### V 0.3
+
+_User Stories,Domain Model and Wireframes_ - 4 Nov 2021
+
 ---
 
 ## Getting Started
@@ -71,7 +104,8 @@ $ git clone git@github.com:League-Advisor/league-advisor.git
 ## Change Log
 
 0.1: _created project repo and setup tooling for project management_ - 2 Nov 2021
-
+0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 2021
+0.2: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
 ---
 
 ## Authors

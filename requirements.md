@@ -17,7 +17,7 @@ _go for and in which order, while keeping in mind the frequent adjustment and ch
 - _the program will ask for the hero which the user choosed and then will ask for the rest of team member champions and then
   will ask for enemy team champions and then will provide you with a list of optimal items_
 
-# Minimum Viable Product vs
+# Minimum Viable Product 
 
 **CLI program that provides the following:**
 
