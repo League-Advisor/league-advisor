@@ -38,16 +38,12 @@ _A player often has to do lots of mental math in order to figure out what should
 
 ## User Stories
 
-
-
 [GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
 
---- 
+---
 
 ## Wireframes
 
-
- ### 
 ![league_advisor_wireframe_1](assets/league_advisor_wireframe_1.png)
 ![league_advisor_wireframe_2](assets/league_advisor_wireframe_2.png)
 ![league_advisor_wireframe_3](assets/league_advisor_wireframe_3.png)
@@ -60,10 +56,9 @@ _A player often has to do lots of mental math in order to figure out what should
 
 ![Domain_Model](assets/Domain_Model.png)
 
-
 ---
 
-## Tools Used 
+## Tools Used
 
 VS Code
 [GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
@@ -89,6 +84,10 @@ _Software Requirements_ - 3 Nov 2021
 
 _User Stories,Domain Model and Wireframes_ - 4 Nov 2021
 
+#### V 0.4
+
+_league_advisor and input_handler modules_ - 5 Nov 2021
+
 ---
 
 ## Getting Started
@@ -97,15 +96,21 @@ Clone this repository to your local machine.
 
 ```
 $ git clone git@github.com:League-Advisor/league-advisor.git
+
 ```
 
 ---
 
 ## Change Log
 
-0.1: _created project repo and setup tooling for project management_ - 2 Nov 2021
-0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 2021
-0.2: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
+v0.1: _created project repo and setup tooling for project management_ - 2 Nov 2021
+
+v0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 2021
+
+v0.3: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
+
+v0.4: _feat: adding league_advisor and input_handler modules_ - 5 Nov 2021
+
 ---
 
 ## Authors
