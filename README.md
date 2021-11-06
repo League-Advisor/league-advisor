@@ -125,7 +125,7 @@ v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
 
 v0.4.1: _feat: adding unittests and ascii art and color codes_- 6 Nov 2021
 
-v0.5: _feat: adding module and it's unittests_- 6 Nov 2021
+v0.5: _feat: adding discover module and it's unittests_- 6 Nov 2021
 ---
 
 ## Authors
