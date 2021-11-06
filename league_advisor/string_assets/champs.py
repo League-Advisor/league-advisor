@@ -1,6 +1,6 @@
 """This module contains champions ascii art assets"""
 
-from league_advisor.string_assets.colors import color
+from string_assets.colors import color
 
 champions_ascii = {
 
@@ -7144,7 +7144,7 @@ champions_ascii = {
     """ + color.RESET,
 
 
-    "vel_koz_ascii" : color.magenta + """
+    "vel_koz_ascii" : color.MAGENTA + """
                                     `````.``.``````````````           ``````       ````````````      
                                     .:----/+/++++////------..```````````...-://:..-://///:------...`   
                                 `/+/////syhdmmdhyys:://::-.............--:/ossoosddhhhhhyo++///:.``  

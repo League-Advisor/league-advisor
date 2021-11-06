@@ -1,6 +1,8 @@
 """This module interpets user input and redirects it to the corresponding function"""
 
+from league_advisor.discover import Discover
 from league_advisor.string_assets.menu_strings import strings
+
 
 
 class InputHandler:
@@ -64,6 +66,7 @@ class InputHandler:
   def __init__(self):
     self.user_input = ""
     self.input_flag = False
+ 
 
   
   def welcome_message(self):
@@ -90,8 +93,8 @@ class InputHandler:
       self.help_user()
 
     elif user_input.lower() == "d" or user_input.lower() == "discover":
-      self.input_flag = True      
-      print("discover")
+      dis =Discover()     
+      dis.discover()
 
     elif user_input.lower() == "b" or user_input.lower() == "browse":
       self.input_flag = True
@@ -112,3 +115,6 @@ class InputHandler:
       print("Please enter a valid command.")
 
 
+# a=InputHandler()
+# b=a.prompt_user()
+# a.input_interpreter(b)

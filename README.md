@@ -71,6 +71,7 @@ VS Code
 - flake8
 - black
 
+
 ---
 
 ## Recent Updates
@@ -94,6 +95,10 @@ _league_advisor and input_handler modules_ - 5 Nov 2021
 #### V 0.4.1
 
 _input_handler unittests and ascii art and color codes- 6 Nov 2021
+
+#### V 0.5
+
+_discover module and unittests_ - 6 Nov 2021
 
 ---
 
@@ -120,6 +125,7 @@ v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
 
 v0.4.1: _feat: adding unittests and ascii art and color codes_- 6 Nov 2021
 
+v0.5: _feat: adding module and it's unittests_- 6 Nov 2021
 ---
 
 ## Authors
