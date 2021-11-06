@@ -34,8 +34,3 @@ class LeagueAdvisor:
         print(strings["main_menu"])
         self.input_handler.prompt_user()
         self.input_handler.input_interpreter(self.input_handler.user_input)
-
-
-
-league_advisor = LeagueAdvisor()
-league_advisor.run_program()

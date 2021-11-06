@@ -1,6 +1,6 @@
 """This module interpets user input and redirects it to the corresponding function"""
 
-from string_assets.menu_strings import strings
+from league_advisor.string_assets.menu_strings import strings
 
 
 class InputHandler:
@@ -68,6 +68,7 @@ class InputHandler:
   
   def welcome_message(self):
     print(strings["logo_ascii"])
+    print(strings["welcome_message"])
 
 
   def prompt_user(self):
