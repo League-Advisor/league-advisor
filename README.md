@@ -110,6 +110,11 @@ _scrape module and unittests_ - 7 Nov 2021
 #### V 0.6.1
 
 _browser module and get_items method, receive_user_input_ - 7 Nov 2021
+
+
+#### V 0.6.2
+
+_receive_champions method for browser module_ - 7 Nov 2021
 ---
 
 ## Getting Started
@@ -140,6 +145,8 @@ v0.5: _feat: adding discover module and it's unittests_- 6 Nov 2021
 v0.6: _feat: adding scrape module and it's unittests_- 7 Nov 2021
 
 v0.6.1: _feat: adding browser module and get_items method, receive_user_input_- 7 Nov 2021
+
+v0.6.21: _feat: adding receive_champions method for browser module_- 7 Nov 2021
 ---
 
 ## Authors
