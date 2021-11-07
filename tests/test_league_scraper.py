@@ -16,11 +16,11 @@ def test_get_item_response():
     assert actual == expected
 
 
-# def test_get_champions_response():
-#     # Arrange
-#     league_scr = LeagueScraper()
-#     expected = 200
-#     # Actual
-#     actual = league_scr.get_champion()
-#     # Assert
-#     assert actual == expected
+def test_get_champions_response():
+    # Arrange
+    league_scr = LeagueScraper()
+    expected = 200
+    # Actual
+    actual = league_scr.get_champion()
+    # Assert
+    assert actual == expected
