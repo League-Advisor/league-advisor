@@ -1,10 +1,4 @@
-"""This module contains logos ascii art assets"""
 
-from league_advisor.string_assets.colors import color
-
-strings = {
-
-  "logo_ascii" : """
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         
@@ -46,15 +40,11 @@ strings = {
 
 
 
-    """,
+    
 
-    "welcome_message" : """
      Welcome summoner! Get ready to start playing League of Legends like a pro! League Advisor will provide you with all you need to know to get started with the game.
-     """,
+     
 
-
-
-  "main_menu" : """
 
     For new users, enter (h)elp to show all available features 
     and how to operate this program, then (d)
@@ -63,63 +53,23 @@ strings = {
     For experienced summoners, (b)rowse the 
     champions and items, get your (s)olo lane
      build, or raise the stakes and get your (r)anked 
-     queue build ready in an instant!""" + "\n"
-    """
-    To stop the program, enter (q)uit.""",
+     queue build ready in an instant!
+
+    To stop the program, enter (q)uit.
+> b
+
+Would you like to preview (i)tems or (c)hampions? (b)ack to go back to the main menu
+> b
 
 
-  "help_list" : """
-        (h): help, provides a list of available features and commands, this is how you got here.
+    For new users, enter (h)elp to show all available features 
+    and how to operate this program, then (d)
+    iscover the game and learn the rules.
 
-        (d): discover, provides printed text of game description and rules.
+    For experienced summoners, (b)rowse the 
+    champions and items, get your (s)olo lane
+     build, or raise the stakes and get your (r)anked 
+     queue build ready in an instant!
 
-        (b): browse, provides a list of items or champions to choose from, and select a specific one to view its' stats.
-
-        (s): solo, provides the optimal build path for one champion.
-
-        (r): ranked, provieds the statically superior build based on its' win rate based on your team and the enemy's.
-
-        (q): quit, quits the program.
-    """,
-    "desc" : f"""
-        
-        
-        League of Legends is one of the world's most popular video games, developed by Riot Games. 
-
-        It features a team-based competitive game mode based on strategy and outplaying opponents.
-
-        League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
-
-        > Two teams 5 players battle each other on a chosen map. 
-
-        The game's objective is to destroy the key building in enemy base - the Nexus. 
-
-        The gameplay combines use of skill and tactics, and there are many roads to victory. 
-
-        There are plenty of things that a player needs to keep an eye on, such as map visibility,
-         enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
-
-        Outnumbering your opponent may often turn out to be the key to success.
-
-        > LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
-         which are detailed further in the guide.
-
-        > League of Legends is based on microtransactions. Downloading and playing the game is free.
- 
-        > All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
-        which are awarded to each player for their sheer participation in battles.
-
-        > Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
-
-        Skins are just a visual aspect - they do not influence champions' statistics. 
-
-        Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
-
-        Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
-        become the most popular e-sport in the world. 
-
-        To discover more about League of Legends, visit the official website at https://www.leagueoflegends.com.
-
-        To go back to main menu , press any key.
-       """
-}
+    To stop the program, enter (q)uit.
+> 

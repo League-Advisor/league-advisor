@@ -51,7 +51,7 @@ def diff(start_func, path=""):
 
 
     try:
-        start_func.run_program()
+        start_func()
     except SystemExit:
         real_print("No problem. System exits are allowed in this app.")
 

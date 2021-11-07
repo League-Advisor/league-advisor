@@ -1,10 +1,4 @@
-"""This module contains logos ascii art assets"""
 
-from league_advisor.string_assets.colors import color
-
-strings = {
-
-  "logo_ascii" : """
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         
@@ -46,15 +40,11 @@ strings = {
 
 
 
-    """,
+    
 
-    "welcome_message" : """
      Welcome summoner! Get ready to start playing League of Legends like a pro! League Advisor will provide you with all you need to know to get started with the game.
-     """,
+     
 
-
-
-  "main_menu" : """
 
     For new users, enter (h)elp to show all available features 
     and how to operate this program, then (d)
@@ -63,25 +53,11 @@ strings = {
     For experienced summoners, (b)rowse the 
     champions and items, get your (s)olo lane
      build, or raise the stakes and get your (r)anked 
-     queue build ready in an instant!""" + "\n"
-    """
-    To stop the program, enter (q)uit.""",
+     queue build ready in an instant!
 
+    To stop the program, enter (q)uit.
+> d
 
-  "help_list" : """
-        (h): help, provides a list of available features and commands, this is how you got here.
-
-        (d): discover, provides printed text of game description and rules.
-
-        (b): browse, provides a list of items or champions to choose from, and select a specific one to view its' stats.
-
-        (s): solo, provides the optimal build path for one champion.
-
-        (r): ranked, provieds the statically superior build based on its' win rate based on your team and the enemy's.
-
-        (q): quit, quits the program.
-    """,
-    "desc" : f"""
         
         
         League of Legends is one of the world's most popular video games, developed by Riot Games. 
@@ -121,5 +97,17 @@ strings = {
         To discover more about League of Legends, visit the official website at https://www.leagueoflegends.com.
 
         To go back to main menu , press any key.
-       """
-}
+       
+> 
+
+
+    For new users, enter (h)elp to show all available features 
+    and how to operate this program, then (d)
+    iscover the game and learn the rules.
+
+    For experienced summoners, (b)rowse the 
+    champions and items, get your (s)olo lane
+     build, or raise the stakes and get your (r)anked 
+     queue build ready in an instant!
+
+    To stop the program, enter (q)uit.

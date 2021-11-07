@@ -77,7 +77,7 @@ class InputHandler:
     def quit_program(self):
         print("""
     Thank you for using League Advisor. Hope to see you again soon!""")
-        quit()
+        exit()
 
     def help_user(self):
         print(strings["help_list"])

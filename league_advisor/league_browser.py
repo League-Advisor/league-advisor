@@ -57,7 +57,8 @@ class LeagueBrowser:
 
     def receive_user_input(self):
         print()
-        print("Would you like to preview (i)tems or (c)hampions? (b)ack to go back to the main menu")
+        print("Would you like to preview (i)tems or (c)hampions?")
+        print("To stop the program, enter (q)uit || (b)ack to the main menu.\n")
         while True:
             self.prompt_user()
             if self.user_response.lower() == "i" or self.user_response.lower() == "items":
@@ -75,16 +76,16 @@ class LeagueBrowser:
                 print("Please enter a valid command.")
 
     def receive_item(self):
+
         print()
-        print("*** Which class items would you like to check from the list above? ***\n")
+        print("*** Which class items would you like to check from the list below? ***\n")
+        print("To stop the program, enter (q)uit || (b)ack to the main menu.")
+        print()
 
         item_classes = ["Move Speed", "Base Mana Regen", "Base Health Regen", "Health", "Critical Strike Chance", "Ability Power", "Mana", "Armor", "Magic Resist",
                         "Omnivamp", "Attack Damage", "Attack Speed", "Life Steal", "Armor Penetration", "Lethality", "Ability Haste", "Physical Vamp", "Tenacity"]
 
-        item_list = ["|| Move Speed ||", " Base Mana Regen ||", " Base Health Regen ||", " Health ||", " Critical Strike Chance ||", " Ability Power ||", " Mana ||", " Armor ||",
-                     " Magic Resist ||", " Omnivamp ||", " Attack Damage ||", " Attack Speed ||", " Life Steal ||", " Armor Penetration ||", " Lethality ||", " Ability Haste ||", " Physical Vamp ||", " Tenacity ||"]
-
-        print(",".join(item_list).replace('"', "").replace(",", ""))
+        print(",".join(item_classes).replace(',', " || ").replace(",", " "))
         print()
 
         while not self.user_response.lower().title() in item_classes:
@@ -105,12 +106,52 @@ class LeagueBrowser:
             data = data["data"]
             for i in data:
                 recv_dt = data[i]["description"]
-                if self.user_response in recv_dt:
+                if self.user_response.lower().title() in recv_dt:
+                    self.user_choise = []
                     self.user_choise.append(data[i]["name"])
-
-            print(self.user_choise)
             f.close()
-            return self.user_choise
+            print()
+            print(f"The item names below are in {self.user_response} class.")
+            print()
+            print(",".join(self.user_choise).replace(',', " || ").replace(",", " "))
+            print()
+#/////////////////////////////////////
+        print()
+        print("*** Which item would you like to Preview from the list above? ***\n")
+        print("To stop the program, enter (q)uit || (b)ack to the main menu.")
+        print()
+
+        while not self.user_response.lower().title() in self.user_choise:
+            self.prompt_user()
+
+            if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+                return self.receive_item()
+
+            if self.user_response.lower() == "q" or self.user_response.lower() == "quit":
+                exit()
+
+            if not self.user_response.lower().title() in self.user_choise:
+                print("Please enter a valid command.")
+                continue
+            
+            f = open("league_advisor/string_assets/items.json")
+            data = json.load(f)
+            data = data["data"]
+            for i in data:
+                name_dt = data[i]["name"]
+                if self.user_response.lower().title() in name_dt:
+                    self.user_choise = []
+                    self.user_choise.append(data[i]["description"])
+            f.close()
+
+            print()
+            print(
+                f"The description below is for {self.user_response} item.")
+            print()
+            print(",".join(self.user_choise).replace("<mainText><stats><attention>30</attention>", ""))
+            # print(str(self.user_choise))
+            # self.user_choise = []
+            print()
 
     # def receive_champions(self):
     #     print("champions_filter")
