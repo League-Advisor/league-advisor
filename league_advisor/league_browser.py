@@ -2,6 +2,7 @@
 
 import json
 from league_advisor.string_assets.menu_strings import strings
+from league_advisor.string_assets.champs import champions_ascii
 
 class LeagueBrowser:
     """This class handles the user inputs to preview the latest version of items and stats.
@@ -164,18 +165,25 @@ class LeagueBrowser:
                     self.receive_champions()
 
             champion_info = []
+            champion_figure = ""
+
             for i in data:
                 if self.user_response.lower().title() in self.user_choise :
+                    for key in champions_ascii:
+                        if self.user_response.lower() == key:
+                            champion_figure = champions_ascii[key]
                     if self.user_response.lower().title() == data[i]["name"]:
                             champion_info.append(data[i]["name"])
                             champion_info.append(data[i]["info"])
                             print(f"""
+                            {champion_figure}
                             Champion name : {champion_info[0]}
                             Attack : {champion_info[1]["attack"]}
                             Defense : {champion_info[1]["defense"]}
                             Magic : {champion_info[1]["magic"]}
                             Difficulty : {champion_info[1]["difficulty"]}
                             """)
+
                             print("To go back to main menu , press any key")
                             self.prompt_user()
                             return "b"
