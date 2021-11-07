@@ -63,6 +63,7 @@ _A player often has to do lots of mental math in order to figure out what should
 VS Code
 [GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
 
+```py
 - Python
 - Pytest
 - Poetry
@@ -70,7 +71,9 @@ VS Code
 - pytest-cov
 - flake8
 - black
-
+- bs4
+- Requests
+```
 
 ---
 
@@ -100,6 +103,13 @@ _input_handler unittests and ascii art and color codes- 6 Nov 2021
 
 _discover module and unittests_ - 6 Nov 2021
 
+#### V 0.6
+
+_scrape module and unittests_ - 7 Nov 2021
+
+#### V 0.6.1
+
+_browser module and get_items method, receive_user_input_ - 7 Nov 2021
 ---
 
 ## Getting Started
@@ -126,6 +136,10 @@ v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
 v0.4.1: _feat: adding unittests and ascii art and color codes_- 6 Nov 2021
 
 v0.5: _feat: adding discover module and it's unittests_- 6 Nov 2021
+
+v0.6: _feat: adding scrape module and it's unittests_- 7 Nov 2021
+
+v0.6.1: _feat: adding browser module and get_items method, receive_user_input_- 7 Nov 2021
 ---
 
 ## Authors

@@ -2,119 +2,121 @@
 
 from league_advisor.discover import Discover
 from league_advisor.string_assets.menu_strings import strings
-
+from league_advisor.league_browser import LeagueBrowser
 
 
 class InputHandler:
-  """
-  This class handles all user inputs and redirects them to their corresponding functions.
+    """
+    This class handles all user inputs and redirects them to their corresponding functions.
 
-  Methods:
+    Methods:
 
-    welcome_message:
+      welcome_message:
 
-      Prints a welcoming message for the user and prompts them with the main menu.
-      
-      Arguments: None
+        Prints a welcoming message for the user and prompts them with the main menu.
 
-      Return: None
+        Arguments: None
 
-    -------------------------------------------------------------------------------------
+        Return: None
 
-    prompt_user:
+      -------------------------------------------------------------------------------------
 
-      Prompts user to enter his input and stores it.
-      
-      Arguments: None
+      prompt_user:
 
-      Return: None
+        Prompts user to enter his input and stores it.
 
-    -------------------------------------------------------------------------------------
+        Arguments: None
 
-    quit_program:
-      
-      Prints a goodbye message then terminates the program.
-      
-      Arguments: None
+        Return: None
 
-      Return: None
+      -------------------------------------------------------------------------------------
 
-    -------------------------------------------------------------------------------------
+      quit_program:
 
+        Prints a goodbye message then terminates the program.
 
-    help_user:
+        Arguments: None
 
-      Prints a string of all available commands and corresponding features to the user.
-      
-      Arguments: None
+        Return: None
 
-      Return: None
-
-    -------------------------------------------------------------------------------------
-
-    input_interpreter
-
-      Redirects user input to invoke the corresponding function.
-      
-      Arguments: 
-        user_input: string
-
-      Return: None
-
-  """
-
-  def __init__(self):
-    self.user_input = ""
-    self.input_flag = False
- 
-
-  
-  def welcome_message(self):
-    print(strings["logo_ascii"])
-    print(strings["welcome_message"])
+      -------------------------------------------------------------------------------------
 
 
-  def prompt_user(self):
-    self.user_input = input("> ")
-    
+      help_user:
 
-  def quit_program(self):
-    print("""
+        Prints a string of all available commands and corresponding features to the user.
+
+        Arguments: None
+
+        Return: None
+
+      -------------------------------------------------------------------------------------
+
+      input_interpreter
+
+        Redirects user input to invoke the corresponding function.
+
+        Arguments: 
+          user_input: string
+
+        Return: None
+
+    """
+
+    def __init__(self):
+        self.user_input = ""
+        self.input_flag = False
+
+    def welcome_message(self):
+        print(strings["logo_ascii"])
+        print(strings["welcome_message"])
+
+    def prompt_user(self):
+        self.user_input = input("> ")
+
+    def quit_program(self):
+        print("""
     Thank you for using League Advisor. Hope to see you again soon!""")
-    quit()
+        quit()
+
+    def help_user(self):
+        print(strings["help_list"])
+
+    def input_interpreter(self, user_input):
+
+        if user_input.lower() == "h" or user_input.lower() == "help":
+            self.help_user()
+
+        elif user_input.lower() == "d" or user_input.lower() == "discover":
+            dis = Discover()
+            dis.discover()
+
+        elif user_input.lower() == "b" or user_input.lower() == "browse":
+            self.input_flag = True
+            browse = LeagueBrowser()
+            browse_data = browse.receive_user_input()
+            browse_data
+
+            if browse_data == "b" or browse_data == "back":
+                self.input_flag = False
+
+        elif user_input.lower() == "s" or user_input.lower() == "solo":
+            self.input_flag = True
+            print("solo")
+
+        elif user_input.lower() == "r" or user_input.lower() == "ranked":
+            self.input_flag = True
+            print("ranked")
+
+        elif user_input == "q" or user_input.lower() == "quit":
+            self.quit_program()
+
+        else:
+            print("Please enter a valid command.")
 
 
-  def help_user(self):
-    print(strings["help_list"])
+if __name__ == "__main__":
 
-  def input_interpreter(self, user_input):
-
-    if user_input.lower() == "h" or user_input.lower() == "help":
-      self.help_user()
-
-    elif user_input.lower() == "d" or user_input.lower() == "discover":
-      dis =Discover()     
-      dis.discover()
-
-    elif user_input.lower() == "b" or user_input.lower() == "browse":
-      self.input_flag = True
-      print("browse")
-
-    elif user_input.lower() == "s" or user_input.lower() == "solo":
-      self.input_flag = True
-      print("solo")
-
-    elif user_input.lower() == "r" or user_input.lower() == "ranked":
-      self.input_flag = True
-      print("ranked")
-
-    elif user_input == "q" or user_input.lower() == "quit":
-      self.quit_program()
-
-    else:
-      print("Please enter a valid command.")
-
-
-# a=InputHandler()
-# b=a.prompt_user()
-# a.input_interpreter(b)
+    inputhandler = InputHandler()
+    brm_user = inputhandler.prompt_user()
+    inputhandler.input_interpreter(brm_user)

@@ -109,11 +109,11 @@ class LeagueBrowser:
                     self.user_choise.append(data[i]["name"])
 
             print(self.user_choise)
-
             f.close()
+            return self.user_choise
 
-    def receive_champions(self):
-        print("champions_filter")
+    # def receive_champions(self):
+    #     print("champions_filter")
 
 
 if __name__ == "__main__":
