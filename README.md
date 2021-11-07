@@ -70,6 +70,8 @@ VS Code
 - pytest-cov
 - flake8
 - black
+- bs4
+- requests
 
 ---
 
@@ -93,9 +95,11 @@ _league_advisor and input_handler modules_ - 5 Nov 2021
 
 #### V 0.4.1
 
-_input_handler unittests and ascii art and color codes- 6 Nov 2021
+\_input_handler unittests and ascii art and color codes- 6 Nov 2021
 
----
+#### V 0.7
+
+## _solo_items and unit tests_ -7 Nov 2021
 
 ## Getting Started
 
@@ -116,11 +120,11 @@ v0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 20
 
 v0.3: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
 
-v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
+v0.4: _feat: adding league_advisor and input_handler modules_ - 5 Nov 2021
 
 v0.4.1: _feat: adding unittests and ascii art and color codes_- 6 Nov 2021
 
----
+v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
 
 ## Authors
 
