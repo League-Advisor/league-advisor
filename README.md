@@ -99,7 +99,7 @@ _league_advisor and input_handler modules_ - 5 Nov 2021
 
 #### V 0.4.1
 
-_input_handler unittests and ascii art and color codes- 6 Nov 2021
+\_input_handler unittests and ascii art and color codes- 6 Nov 2021
 
 #### V 0.5
 
@@ -123,13 +123,15 @@ _print champion figures in champion browser_ - 7 Nov 2021
 
 ### V 0.8.0
 
-*adding match_data_scraper and ranked_items modules and games data json file* - 7 Nov 2021
+_adding match_data_scraper and ranked_items modules and games data json file_ - 7 Nov 2021
 
 ### V 0.8.1
 
-*adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module* - 8 Nov 2021
+_adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module_ - 8 Nov 2021
 
----
+### v 0.8.3
+
+_adding the ranked item module and prompt_user method,handle_user_input method,handle_user_choice method _ 8 Nov 2021
 
 ## Getting Started
 
@@ -150,7 +152,7 @@ v0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 20
 
 v0.3: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
 
-v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
+v0.4: _feat: adding league_advisor and input_handler modules_ - 5 Nov 2021
 
 v0.4.1: _feat: adding unittests and ascii art and color codes_ - 6 Nov 2021
 
@@ -164,9 +166,11 @@ v0.6.2: _feat: adding receive_champions method for browser module_ - 7 Nov 2021
 
 v06.2.1: _feat: adding champion figures to champion browser_ - 7 Nov 2021
 
-v0.8.0: *feat: adding match_data_scraper and ranked_items modules games data json file* - 7 Nov 2021
+v0.8.0: _feat: adding match_data_scraper and ranked_items modules games data json file_ - 7 Nov 2021
 
-v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module*  - 8 Nov 2021
+v0.8.1 _feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module_ - 8 Nov 2021
+
+v0.8.3 _feat: adding ranked_item, get user choice and comapre it with the list of champions and then send it to data analysis module to pick the optimal items for the user with respect to user team champions also with respect to enemy team champions _ - 8 Nov 2021
 
 ---
 
