@@ -175,13 +175,27 @@ class LeagueBrowser:
                     if self.user_response.lower().title() == data[i]["name"]:
                             champion_info.append(data[i]["name"])
                             champion_info.append(data[i]["info"])
+                            champion_info.append(data[i]["stats"])
+                            champion_info.append(data[i]["blurb"])
                             print(f"""
-                            {champion_figure}
-                            Champion name : {champion_info[0]}
-                            Attack : {champion_info[1]["attack"]}
-                            Defense : {champion_info[1]["defense"]}
-                            Magic : {champion_info[1]["magic"]}
-                            Difficulty : {champion_info[1]["difficulty"]}
+        {champion_figure}
+
+        {champion_info[3]}
+
+        Champion name : {champion_info[0]}
+        Attack : {champion_info[1]["attack"]} /10
+        Defense : {champion_info[1]["defense"]} /10
+        Magic : {champion_info[1]["magic"]} /10
+        Difficulty : {champion_info[1]["difficulty"]} /10
+        
+        Base Health : {champion_info[2]["hp"]}
+        Base Mana : {champion_info[2]["mp"]}
+        Base Armor : {champion_info[2]["armor"]}
+        Base Magic Resistance : {champion_info[2]["spellblock"]}
+        Attack Damage : {champion_info[2]["attackdamage"]}
+        Attack Range : {champion_info[2]["attackrange"]}
+        Attack Speed : {champion_info[2]["attackspeed"]}
+        Movement Speed : {champion_info[2]["movespeed"]}
                             """)
 
                             print("To go back to main menu , press any key")

@@ -119,6 +119,10 @@ _receive_champions method for browser module_ - 7 Nov 2021
 
 _print champion figures in champion browser_ - 7 Nov 2021
 
+### V 0.6.2.2
+
+_extended champion browser print functionality_ - 8 Nov 2021
+
 ---
 
 ## Getting Started
@@ -153,6 +157,8 @@ v0.6.1: _feat: adding browser module and get_items method, receive_user_input_ -
 v0.6.2: _feat: adding receive_champions method for browser module_ - 7 Nov 2021
 
 v06.2.1: _feat: adding champion figures to champion browser_ - 7 Nov 2021
+
+v06.2.2: _feat: extended champion browser print functionality_ - 8 Nov 2021
 
 ---
 
