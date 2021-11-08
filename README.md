@@ -111,7 +111,7 @@ _scrape module and unittests_ - 7 Nov 2021
 
 #### V 0.6.1
 
-_browser module and get_items method, receive_user_input_ - 7 Nov 2021
+_browser module and receive_items method, receive_user_input_ - 7 Nov 2021
 
 #### V 0.6.3
 
@@ -120,6 +120,10 @@ _added flo simulation logic module_ - 7 Nov 2021
 #### V 0.6.3
 
 _adding some simulation tests_ - 7 Nov 2021
+
+#### V 0.6.3
+
+_adding simulation tests for receive_items method_ - 8 Nov 2021
 
 ---
 
@@ -150,13 +154,15 @@ v0.5: _feat: adding discover module and it's unittests_- 6 Nov 2021
 
 v0.6: _feat: adding scrape module and it's unittests_- 7 Nov 2021
 
-v0.6.1: _feat: adding browser module and get_items method, receive_user_input_- 7 Nov 2021
+v0.6.1: _feat: adding browser module and receive_items method, receive_user_input_- 7 Nov 2021
 
 v0.6.3: _test: adding flo simulation logic module_- 7 Nov 2021
 
 v0.6.3: _test: adding some simulation tests_- 7 Nov 2021
 
-v0.6.3: _feat: 90% compleated from get_items method in browser module_- 7 Nov 2021
+v0.6.3: _feat: 90% compleated from receive_items method in browser module_- 7 Nov 2021
+
+v0.6.3: _test: simulation tests for receive_items method in browser module_- 8 Nov 2021
 
 ---
 

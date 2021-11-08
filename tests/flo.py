@@ -1,5 +1,5 @@
 
-from league_advisor.league_advisor import LeagueAdvisor
+# from league_advisor.league_advisor import LeagueAdvisor
 import builtins
 import difflib
 import sys
@@ -89,7 +89,7 @@ def _find_differences(text, expected_lines):
     return "\n".join(diffed)
 
 
-if __name__ == '__main__':
-    leagueadvisor = LeagueAdvisor()
-    diffs = diff(leagueadvisor, path="tests/quetter.sim.txt")
-    assert not diffs, diffs
+# if __name__ == '__main__':
+#     leagueadvisor = LeagueAdvisor()
+#     diffs = diff(leagueadvisor, path="tests/quetter.sim.txt")
+#     assert not diffs, diffs

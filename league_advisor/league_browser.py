@@ -1,7 +1,8 @@
 """ This module will preview the dataset that the user selected to browes"""
 
+from league_advisor.string_assets.items import items_ascii
 import json
-
+import re
 
 class LeagueBrowser:
     """This class handles the user inputs to preview the latest version of items and stats.
@@ -87,6 +88,7 @@ class LeagueBrowser:
 
         print(",".join(item_classes).replace(',', " || ").replace(",", " "))
         print()
+        print("To stop the program, enter (q)uit || (b)ack to the last menu.\n")
 
         while not self.user_response.lower().title() in item_classes:
             self.prompt_user()
@@ -107,18 +109,19 @@ class LeagueBrowser:
             for i in data:
                 recv_dt = data[i]["description"]
                 if self.user_response.lower().title() in recv_dt:
-                    self.user_choise = []
                     self.user_choise.append(data[i]["name"])
             f.close()
             print()
             print(f"The item names below are in {self.user_response} class.")
             print()
-            print(",".join(self.user_choise).replace(',', " || ").replace(",", " "))
-            print()
+            print(",".join(self.user_choise).replace(',', " || ").replace(",", " "),"\n")
+            print("To stop the program, enter (q)uit || (b)ack to the last menu.\n")
+            item_names = []
+            item_names = self.user_choise
 #/////////////////////////////////////
         print()
         print("*** Which item would you like to Preview from the list above? ***\n")
-        print("To stop the program, enter (q)uit || (b)ack to the main menu.")
+        print("To stop the program, enter (q)uit || (b)ack to the last menu.\n")
         print()
 
         while not self.user_response.lower().title() in self.user_choise:
@@ -130,8 +133,8 @@ class LeagueBrowser:
             if self.user_response.lower() == "q" or self.user_response.lower() == "quit":
                 exit()
 
-            if not self.user_response.lower().title() in self.user_choise:
-                print("Please enter a valid command.")
+            if not self.user_response.lower() in [item.lower() for item in item_names]:
+                print("Please enter a valid command.\n")
                 continue
             
             f = open("league_advisor/string_assets/items.json")
@@ -145,13 +148,16 @@ class LeagueBrowser:
             f.close()
 
             print()
-            print(
-                f"The description below is for {self.user_response} item.")
-            print()
-            print(",".join(self.user_choise).replace("<mainText><stats><attention>30</attention>", ""))
-            # print(str(self.user_choise))
-            # self.user_choise = []
-            print()
+            print(f"The description below is for {self.user_response} item.\n")
+            print(items_ascii.get(self.user_response.lower()))
+            match = re.sub(r"(?=)<+[a-z][A-z]+>", "","".join(self.user_choise))
+            match_1 = re.sub(r"</+(?=)+[a-z][A-z]+>", "", match)
+            match_2 = re.findall(r"(?=) [ ^A[A-z\d+%]*]*",  match_1)
+            for i in match_2:
+                print("*** {}  ~~-\/||\/-~~\n".format(i))
+            print("To stop the program, enter (q)uit || (b)ack to the last menu.\n")
+            self.user_choise = []
+            
 
     # def receive_champions(self):
     #     print("champions_filter")
