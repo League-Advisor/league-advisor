@@ -129,6 +129,10 @@ _print champion figures in champion browser_ - 7 Nov 2021
 
 *adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module* - 8 Nov 2021
 
+### V 0.8.3
+
+*extended match_scraper functionality to handle larger data queries and added mroe unittests* - 9 Nov 2021
+
 ---
 
 ## Getting Started
@@ -167,6 +171,8 @@ v06.2.1: _feat: adding champion figures to champion browser_ - 7 Nov 2021
 v0.8.0: *feat: adding match_data_scraper and ranked_items modules games data json file* - 7 Nov 2021
 
 v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module*  - 8 Nov 2021
+
+v0.8.3 *feat: extended match_scraper functionality to handle larger data queries and added mroe unittests* - 9 Nov 2021
 
 ---
 
