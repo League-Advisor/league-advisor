@@ -87,74 +87,76 @@ class MatchDataScraper:
             data = json.load(file)
 
         with open("league_advisor/string_assets/filtered_data.json", "w") as file:
+            json.dump(self.array, file)
+
+        with open("league_advisor/string_assets/filtered_data.json", "w") as file:
             for match in data:
                 champion_list = []
                 team_items = []
+                self.teams = {}
                 for participant in match["info"]["participants"]:
                     item_list = []
-                    champion_list.insert(0, participant["championName"])
                     for i in range(7):
                         item_list += [participant[f"item{i}"]] 
+                    champion_list.insert(0, participant["championName"])
                     team_items.insert(0, item_list)
-
+                    
                 self.teams["team1"] = {
-                   "win" : match["info"]["teams"][0]["win"],
-                   "composition" : {
+                "win" : match["info"]["teams"][0]["win"],
+                "composition" : {
                                     
-                                    "champion1": champion_list[0],
-                                    "champion1_items" :team_items[0],
-                   
-                                    
-                                    "champion2": champion_list[1],
-                                    "champion2_items" :team_items[1],                             
+                "champion1": champion_list[0],
+                "champion1_items" :team_items[0],
 
-                                    
-                                    "champion3": champion_list[2],
-                                    "champion3_items" :team_items[2],       
+                
+                "champion2": champion_list[1],
+                "champion2_items" :team_items[1],                             
 
-                                    
-                                    "champion4": champion_list[3],
-                                    "champion4_items" :team_items[3],       
+                
+                "champion3": champion_list[2],
+                "champion3_items" :team_items[2],       
 
-                                    
-                                    "champion5": champion_list[4],
-                                    "champion5_items" :team_items[4],                                                                                                                                   
-                   }
+                
+                "champion4": champion_list[3],
+                "champion4_items" :team_items[3],       
+
+                
+                "champion5": champion_list[4],
+                "champion5_items" :team_items[4],                                                                                                                                   
+                }
                 }
 
                 self.teams["team2"] = {
-                   "win" : match["info"]["teams"][1]["win"],
-                   "composition" : {
+                "win" : match["info"]["teams"][1]["win"],
+                "composition" : {
                                     
-                                    "champion6": champion_list[5],
-                                    "champion6_items" :team_items[5],
-                   
-                                    
-                                    "champion7": champion_list[6],
-                                    "champion7_items" :team_items[6],                             
+                "champion6": champion_list[5],
+                "champion6_items" :team_items[5],
 
-                                    
-                                    "champion8": champion_list[7],
-                                    "champion8_items" :team_items[7],       
+                
+                "champion7": champion_list[6],
+                "champion7_items" :team_items[6],                             
 
-                                    
-                                    "champion9": champion_list[8],
-                                    "champion9_items" :team_items[8],       
+                
+                "champion8": champion_list[7],
+                "champion8_items" :team_items[7],       
 
-                                    
-                                    "champion10": champion_list[9],
-                                    "champion10_items" :team_items[9],                                                                                                                                   
-                   }
+                
+                "champion9": champion_list[8],
+                "champion9_items" :team_items[8],       
+
+                
+                "champion10": champion_list[9],
+                "champion10_items" :team_items[9],                                                                                                                                   
                 }
-
+                }
                 self.array.append(self.teams)
             json.dump(self.array, file)
 
 
-
         
                 
-# if __name__ == '__main__':
-    # match = MatchDataScraper()
-    # match.filter_match_data()
+if __name__ == '__main__':
+    match = MatchDataScraper()
+    match.filter_match_data()
     # match.get_match_data_by_id()
