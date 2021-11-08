@@ -1,0 +1,4706 @@
+[
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    }
+]
