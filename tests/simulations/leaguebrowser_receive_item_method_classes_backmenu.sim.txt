@@ -1,38 +1,21 @@
 
 Would you like to preview (i)tems or (c)hampions?
 To stop the program, enter (q)uit || (b)ack to the main menu.
-
 > i
 
-*** Which class items would you like to check from the list below? ***
-
-To stop the program, enter (q)uit || (b)ack to the main menu.
+*** Which item class would you like to check from the list below? ***
 
 Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
 
-To stop the program, enter (q)uit || (b)ack to the last menu.
+> Health
 
-> Tenacity
-
-The item names below are in Tenacity class.
-
-Elixir of Iron || Sunfire Aegis || Mercury's Treads || Silvermere Dawn || Anathema's Chains
-
-To stop the program, enter (q)uit || (b)ack to the last menu.
-
-
-*** Which item would you like to Preview from the list above? ***
-
-To stop the program, enter (q)uit || (b)ack to the last menu.
-
+Items with  Health stats.
+*** Which item would you like to Preview? ***
+Rejuvenation Bead || Giant's Belt || Ruby Crystal || Emberknife || Hailblade || Doran's Shield || Doran's Blade || Doran's Ring || Dark Seal || Cull || Health Potion || Total Biscuit of Everlasting Will || Refillable Potion || Corrupting Potion || Guardian's Horn || Shurelya's Battlesong || Elixir of Iron || Abyssal Mask || Guardian Angel || Lord Dominik's Regards || Mejai's Soulstealer || Phage || Zeke's Convergence || Sterak's Gage || Spirit Visage || Winged Moonplate || Kindlegem || Sunfire Aegis || Black Cleaver || Bloodthirster || Thornmail || Trinity Force || Warden's Mail || Warmog's Armor || Redemption || Knight's Vow || Frozen Heart || Guardian's Orb || Rylai's Crystal Scepter || Randuin's Omen || Hextech Rocketbelt || Blade of The Ruined King || Hexdrinker || Maw of Malmortius || Morellonomicon || Guardian's Blade || Hullbreaker || Guardian's Hammer || Locket of the Iron Solari || Gargoyle Stoneplate || Spectre's Cowl || Mikael's Blessing || Dead Man's Plate || Titanic Hydra || Crystalline Bracer || Edge of Night || Spellthief's Edge || Frostfang || Shard of True Ice || Steel Shoulderguards || Runesteel Spaulders || Pauldrons of Whiterock || Relic Shield || Targon's Buckler || Bulwark of the Mountain || Spectral Sickle || Harrowing Crescent || Black Mist Scythe || Imperial Mandate || Force of Nature || The Golden Spatula || Cosmic Drive || Riftmaker || Leeching Leer || Night Harvester || Demonic Embrace || Watchful Wardstone || Vigilant Wardstone || Silvermere Dawn || Death's Dance || Chempunk Chainsword || Moonstone Renewer || Goredrinker || Stridebreaker || Divine Sunderer || Liandry's Anguish || Everfrost || Bami's Cinder || Frostfire Gauntlet || Turbo Chemtank || Galeforce || Immortal Shieldbow || The Collector || Eclipse || Anathema's Chains
 
 > b
 
-*** Which class items would you like to check from the list below? ***
-
-To stop the program, enter (q)uit || (b)ack to the main menu.
+*** Which item class would you like to check from the list below? ***
 
 Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
-
-To stop the program, enter (q)uit || (b)ack to the last menu.
 

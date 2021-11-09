@@ -18,7 +18,7 @@ def test_leaguebrowser_receive_user_input_method_item_class():
     diffs = diff(leaguebrowser.receive_user_input, path="tests/simulations/leaguebrowser_receive_user_input_method_item.sim.txt")
     assert not diffs, diffs
 
-
+#
 def test_leaguebrowser_receive_item_method_classes():
     leaguebrowser = LeagueBrowser()
     diffs = diff(leaguebrowser.receive_user_input, path="tests/simulations/leaguebrowser_receive_item_method_classes.sim.txt")
@@ -30,17 +30,17 @@ def test_leaguebrowser_receive_item_method_names():
     diffs = diff(leaguebrowser.receive_user_input, path="tests/simulations/leaguebrowser_receive_item_method_names.sim.txt")
     assert not diffs, diffs
 
-
+#
 def test_leaguebrowser_receive_item_method_names_backmenu():
     leaguebrowser = LeagueBrowser()
     diffs = diff(leaguebrowser.receive_user_input,
-                 path="tests/simulations/leaguebrowser_receive_item_method_nanes_backmenu.sim.txt")
+                 path="tests/simulations/leaguebrowser_receive_item_method_classes_backmenu.sim.txt")
     assert not diffs, diffs
 
 
 def test_leaguebrowser_receive_item_method_classes_backmenu():
     leaguebrowser = LeagueBrowser()
     diffs = diff(leaguebrowser.receive_user_input,
-                 path="tests/simulations/leaguebrowser_receive_item_method_classes_backmenu.sim.txt")
+                 path="tests/simulations/leaguebrowser_quetter.sim.txt")
     assert not diffs, diffs
 

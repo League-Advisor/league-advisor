@@ -186,6 +186,10 @@ _updating the ranked item module to handle both team and the proper check for th
 ### V 0.9.3
 _adding color mode to other features and polishing them_ - 9 Nov 2021
 
+### V 0.9.4
+
+_adding new simulation tests for league_browser module_ - 9 Nov 2021
+
 ---
 
 ## Getting Started
@@ -256,6 +260,8 @@ v0.9.1 _feat: implemented color mode in champions browser_ - 9 Nov 2021
 v0.9.2 _feat: updating ranked item module to handle the both user and enemy teams also check if champion names are in the game also check if there is a repeated name in side both team_ - 9 Nov 2021
 
 v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 Nov 2021
+
+v0.9.4 _refactor: editing simulation tests for league_browser module_ - 9 Nov 2021
 
 ---
 

@@ -67,9 +67,7 @@ class LeagueBrowser:
             self.mode = color_mode
             return self.mode
 
-    def clear(self):
-        clear = lambda: os.system('clear')
-        clear()
+    
     def receive_user_input(self):
 
 
@@ -83,7 +81,7 @@ class LeagueBrowser:
                 print("Would you like to preview (i)tems or (c)hampions?")
                 print("To stop the program, enter (q)uit || (b)ack to the main menu.")
             self.prompt_user()
-            self.clear()
+            
             if self.user_response.lower().strip() == "i" or self.user_response.lower().strip() == "items":
                 return self.receive_item()
 
@@ -120,7 +118,7 @@ class LeagueBrowser:
             self.prompt_user()
 
             if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
-                self.clear()
+                
                 return self.receive_user_input()
 
             if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
@@ -162,7 +160,7 @@ class LeagueBrowser:
             self.prompt_user()
 
             if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
-                self.clear()
+                
                 return self.receive_item()
 
             if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
@@ -201,7 +199,7 @@ class LeagueBrowser:
                 print()
 
             else:
-                print({description})
+                print(description)
                 print(self.user_response.lower())
                 print()
 
@@ -240,7 +238,7 @@ class LeagueBrowser:
             self.prompt_user()
 
             if self.user_response.lower().strip() == "b" or self.user_response.lower().strip()  == "back":
-                self.clear()
+                
                 return self.receive_user_input()
 
             if self.user_response.lower().strip()  == "q" or self.user_response.lower().strip()  == "quit":
@@ -278,7 +276,6 @@ class LeagueBrowser:
                 self.prompt_user()
 
                 if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
-                    self.clear()
                     self.receive_champions()
 
                 if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
@@ -356,7 +353,6 @@ class LeagueBrowser:
 
             print("To go back to main menu , press any key")
             self.prompt_user()
-            self.clear()
             return "b"
 
 
