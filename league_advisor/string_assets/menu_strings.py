@@ -56,17 +56,19 @@ strings = {
 
   "main_menu" : """
 
-    For new users, enter (""" + color.RED + "h" + color.RESET + """)elp to show all available features 
-    and how to operate this program, then (""" + color.RED + "d" + color.RESET + """)
-    iscover the game and learn the rules.
+    For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
 
-    For experienced summoners, (""" + color.RED + "b" + color.RESET + """)rowse the 
-    champions and items, get your (""" + color.RED + "s" + color.RESET + """)olo lane
-     build, or raise the stakes and get your (""" + color.RED + "r" + color.RESET + """)anked 
-     queue build ready in an instant!""" + "\n"
+    For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!"""
     """
-    To stop the program, enter (""" + color.RED + "q" + color.RESET +""")uit.""",
+    To stop the program, enter (q)uit.""",
 
+  "main_menu_color" : f"""
+
+    For new users, enter ({color.RED}h{color.RESET})elp to show all available features and how to operate this program, then ({color.RED}d{color.RESET})iscover the game and learn the rules.
+
+    For experienced summoners, ({color.RED}b{color.RESET})rowse the champions and items, get your ({color.RED}s{color.RESET})olo lane build, or raise the stakes and get your ({color.RED}r{color.RESET})anked queue build ready in an instant!
+ 
+    To stop the program, enter ({color.RED}q{color.RESET})uit.""",
 
   "help_list" : """
         (h): help, provides a list of available features and commands, this is how you got here.
@@ -81,6 +83,21 @@ strings = {
 
         (q): quit, quits the program.
     """,
+
+      "help_list_color" : f"""
+        ({color.RED}h{color.RESET}): help, provides a list of available features and commands, this is how you got here.
+
+        ({color.RED}d{color.RESET}): discover, provides printed text of game description and rules.
+
+        ({color.RED}b{color.RESET}): browse, provides a list of items or champions to choose from, and select a specific one to view its' stats.
+
+        ({color.RED}s{color.RESET}): solo, provides the optimal build path for one champion.
+
+        ({color.RED}r{color.RESET}): ranked, provieds the statically superior build based on its' win rate based on your team and the enemy's.
+
+        ({color.RED}q{color.RESET}): quit, quits the program.
+    """,
+
     "desc" : f"""
         
         

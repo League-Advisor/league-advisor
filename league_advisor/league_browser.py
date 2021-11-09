@@ -1,8 +1,12 @@
 """ This module will preview the dataset that the user selected to browes"""
 
-import json
-from league_advisor.string_assets.menu_strings import strings
+from league_advisor.string_assets.items import items_ascii
+from league_advisor.string_assets.items_color import items_color_ascii
 from league_advisor.string_assets.champs import champions_ascii
+from league_advisor.string_assets.champs_color import champions_color_ascii
+from league_advisor.string_assets.colors import color
+import json
+import re
 
 class LeagueBrowser:
     """This class handles the user inputs to preview the latest version of items and stats.
@@ -52,9 +56,15 @@ class LeagueBrowser:
     def __init__(self):
         self.user_response = ""
         self.user_choise = []
+        self.description = ""
+        self.mode = ""
 
     def prompt_user(self):
         self.user_response = input("> ")
+
+    def get_color_mode(self, color_mode):
+            self.mode = color_mode
+            return self.mode
 
     def receive_user_input(self):
         print()
@@ -114,26 +124,37 @@ class LeagueBrowser:
             return self.user_choise
 
     def receive_champions(self):
-        
-        print("""*** Which champion tag would you like to check from the list above? ***
-        To go (b)ack    
-        """)
+
+        print(" Which champion tag would you like to check from the list below?")
+
+        if self.mode == "c":
+            print(f" To stop the program, enter ({color.RED}q{color.RESET})uit || ({color.RED}b{color.RESET})ack to the main menu.")
+
+        else:
+            print(" To stop the program, enter (q)uit || (b)ack to the main menu.")
 
         champion_tags = ["Fighter","Tank","Mage","Assassin","Marksman","Support"]
 
-        print(",".join(champion_tags).replace('"', "").replace(",", " || "))
-        print()
+        champions = (",".join(champion_tags).replace('"', "").replace(",", " || "))
 
-        while not self.user_response.lower().title() in champion_tags:
+        if self.mode == "c":
+            print(f"{color.GREEN}{champions}{color.RESET}")
+            print()
+
+        else:
+            print(champions)
+            print()
+
+        while not self.user_response.lower().strip() in [tag.lower() for tag in champion_tags]:
             self.prompt_user()
 
-            if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+            if self.user_response.lower().strip() == "b" or self.user_response.lower().strip()  == "back":
                 return self.receive_user_input()
 
-            if self.user_response.lower() == "q" or self.user_response.lower() == "quit":
+            if self.user_response.lower().strip()  == "q" or self.user_response.lower().strip()  == "quit":
                 exit()
             
-            if not self.user_response.lower().title() in champion_tags:
+            if not self.user_response.lower().strip() in [tag.lower() for tag in champion_tags]:
                 print("Please enter a valid command.")
                 continue
         
@@ -145,66 +166,109 @@ class LeagueBrowser:
 
                     for i in data:
 
-                        if self.user_response.lower().title() in champion_tags:
+                        if self.user_response.lower().strip() in [tag.lower() for tag in champion_tags]:
                             if self.user_response.lower().title() in data[i]["tags"]:
                                 self.user_choise.append(data[i]["name"])
                             
                    
-                    print(",".join(self.user_choise).replace('"', "").replace(",", " || "))
-                    print()
-                    print("""
-                    Which champion whould you like to Know about?
-                    To go (b)ack 
-                    """)
-                if self.user_response.lower() == "b" or self.user_response.lower() == "back":
-                    self.receive_champions()
-                # else :    
+                    champions_list = (",".join(self.user_choise).replace('"', "").replace(",", " || "))
+
+                    if self.mode == "c":
+                        print(f"{color.GREEN} {champions_list} {color.RESET}")
+                        print()
+
+                    else:
+                        print(champions_list)
+                        print()
+
+                    print("Which champion whould you like to Know about?")
+
                 self.prompt_user()
 
-                if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+                if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
                     self.receive_champions()
 
-            champion_info = []
-            champion_figure = ""
+                if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                    print("""
+                        Thank you for using League Advisor. Hope to see you again soon!""")
+                    quit()
 
-            for i in data:
-                if self.user_response.lower().title() in self.user_choise :
-                    for key in champions_ascii:
-                        if self.user_response.lower() == key:
-                            champion_figure = champions_ascii[key]
-                    if self.user_response.lower().title() == data[i]["name"]:
-                            champion_info.append(data[i]["name"])
-                            champion_info.append(data[i]["info"])
-                            champion_info.append(data[i]["stats"])
-                            champion_info.append(data[i]["blurb"])
-                            print(f"""
-        {champion_figure}
+            
+                champion_info = []
+                champion_figure = ""
 
-        {champion_info[3]}
+                for i in data:
+                    if self.user_response.lower().title() in self.user_choise :
+                        for key in champions_ascii:
+                            if self.user_response.lower() == key:
 
-        Champion name : {champion_info[0]}
-        Attack : {champion_info[1]["attack"]} /10
-        Defense : {champion_info[1]["defense"]} /10
-        Magic : {champion_info[1]["magic"]} /10
-        Difficulty : {champion_info[1]["difficulty"]} /10
-        
-        Base Health : {champion_info[2]["hp"]}
-        Base Mana : {champion_info[2]["mp"]}
-        Base Armor : {champion_info[2]["armor"]}
-        Base Magic Resistance : {champion_info[2]["spellblock"]}
-        Attack Damage : {champion_info[2]["attackdamage"]}
-        Attack Range : {champion_info[2]["attackrange"]}
-        Attack Speed : {champion_info[2]["attackspeed"]}
-        Movement Speed : {champion_info[2]["movespeed"]}
-                            """)
+                                if self.mode == "c": 
+                                    champion_figure = champions_color_ascii[key]
 
-                            print("To go back to main menu , press any key")
-                            self.prompt_user()
-                            return "b"
+                                else:
+                                    champion_figure = champions_ascii[key]
+
+                        if self.user_response.lower().title() == data[i]["name"]:
+                                champion_info.append(data[i]["name"])
+                                champion_info.append(data[i]["info"])
+                                champion_info.append(data[i]["stats"])
+                                champion_info.append(data[i]["blurb"])
+
+            if self.mode == "c":
+                print(f"""
+
+            {champion_figure}
+
+            {color.GREEN}{champion_info[3]}{color.RESET}
+
+            {color.YELLOW}Champion name :{color.RESET} {color.CYAN}{champion_info[0]}{color.RESET}
+            {color.YELLOW}Attack :{color.RESET} {color.CYAN}{champion_info[1]["attack"]} /10{color.RESET}
+            {color.YELLOW}Defense :{color.RESET} {color.CYAN}{champion_info[1]["defense"]} /10{color.RESET}
+            {color.YELLOW}Magic :{color.RESET} {color.CYAN}{champion_info[1]["magic"]} /10{color.RESET}
+            {color.YELLOW}Difficulty :{color.RESET} {color.CYAN}{champion_info[1]["difficulty"]} /10{color.RESET}
+            
+            {color.YELLOW}Base Health :{color.RESET} {color.CYAN}{champion_info[2]["hp"]}{color.RESET}
+            {color.YELLOW}Base Mana :{color.RESET} {color.CYAN}{champion_info[2]["mp"]}{color.RESET}
+            {color.YELLOW}Base Armor :{color.RESET} {color.CYAN}{champion_info[2]["armor"]}{color.RESET}
+            {color.YELLOW}Base Magic Resistance :{color.RESET} {color.CYAN}{champion_info[2]["spellblock"]}{color.RESET}
+            {color.YELLOW}Attack Damage :{color.RESET} {color.CYAN}{champion_info[2]["attackdamage"]}{color.RESET}
+            {color.YELLOW}Attack Range :{color.RESET} {color.CYAN}{champion_info[2]["attackrange"]}{color.RESET}
+            {color.YELLOW}Attack Speed :{color.RESET} {color.CYAN}{champion_info[2]["attackspeed"]}{color.RESET}
+            {color.YELLOW}Movement Speed :{color.RESET} {color.CYAN}{champion_info[2]["movespeed"]}{color.RESET}
+                """)
+
+
+            else:
+                print(f"""
+
+            {champion_figure}
+
+            {champion_info[3]}
+
+            Champion name : {champion_info[0]}
+            Attack : {champion_info[1]["attack"]} /10
+            Defense : {champion_info[1]["defense"]} /10
+            Magic : {champion_info[1]["magic"]} /10
+            Difficulty : {champion_info[1]["difficulty"]} /10
+            
+            Base Health : {champion_info[2]["hp"]}
+            Base Mana : {champion_info[2]["mp"]}
+            Base Armor : {champion_info[2]["armor"]}
+            Base Magic Resistance : {champion_info[2]["spellblock"]}
+            Attack Damage : {champion_info[2]["attackdamage"]}
+            Attack Range : {champion_info[2]["attackrange"]}
+            Attack Speed : {champion_info[2]["attackspeed"]}
+            Movement Speed : {champion_info[2]["movespeed"]}
+                 """)
+
+            print("To go back to main menu , press any key")
+            self.prompt_user()
+            return "b"
 
 
 
 
 if __name__ == "__main__":
     leagueBrowser = LeagueBrowser()
+    leagueBrowser.mode = "c"
     leagueBrowser.receive_user_input()
