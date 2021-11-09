@@ -2,7 +2,6 @@
 
 from league_advisor.string_assets.items import items_ascii
 from league_advisor.string_assets.items_color import items_color_ascii
-
 from league_advisor.string_assets.colors import color
 import json
 import re
@@ -88,7 +87,10 @@ class LeagueBrowser:
                 return self.user_response
 
             elif self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
-                exit()
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
+
             else:
                 print("Please enter a valid command.")
 
@@ -119,7 +121,9 @@ class LeagueBrowser:
                 return self.receive_user_input()
 
             if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
-                exit()
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
 
             if not self.user_response.lower().title().strip() in item_classes:
                 print("Please enter a valid command.")
@@ -158,7 +162,9 @@ class LeagueBrowser:
                 return self.receive_item()
 
             if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
-                exit()
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
 
             if not self.user_response.lower().strip() in [item.lower() for item in item_names]:
                 print("Please enter a valid command.")
