@@ -8,4 +8,3 @@
 #     diffs = diff(leagueadvisor.run_program,path="tests/simulations/quetter.sim.txt")
 #     assert not diffs, diffs
 
-

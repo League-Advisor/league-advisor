@@ -2,6 +2,7 @@
 
 from league_advisor.discover import Discover
 from league_advisor.string_assets.menu_strings import strings
+from league_advisor.solo_items import SoloItems
 from league_advisor.league_browser import LeagueBrowser
 
 
@@ -66,10 +67,12 @@ class InputHandler:
     def __init__(self):
         self.user_input = ""
         self.input_flag = False
+
         self.mode = ""
         self.league_browser = LeagueBrowser()
         self.discover = Discover()
-
+        self.solo_champion = SoloItems()
+        
     def welcome_message(self):
         print(strings["logo_ascii"])
         print(strings["welcome_message"])
@@ -110,8 +113,14 @@ class InputHandler:
                 self.input_flag = False
 
         elif user_input == "s" or user_input == "solo":
-            self.input_flag = True
-            print("solo")
+
+            solo_items = self.solo_champion.direct_input()
+            
+            if solo_items == "b" or solo_items == "back":
+                self.input_flag = False
+            else:
+                solo_items
+
 
         elif user_input == "r" or user_input == "ranked":
             self.input_flag = True
