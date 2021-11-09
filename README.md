@@ -131,7 +131,11 @@ _adding match_scraper, get_match_data_by_id, and filter_match_data methods to ma
 
 ### v 0.8.3
 
-_adding the ranked item module and prompt_user method,handle_user_input method,handle_user_choice method _ 8 Nov 2021
+_adding the ranked item module and prompt_user method,handle_user_input method,handle_user_choice method_ - 8 Nov 2021
+
+### v 0.9.2
+
+_updating the ranked item module to handle both team and the proper check for them weather in numbers of champions also the repeated champion in both team or repeated name in same team_ - 8 Nov 2021
 
 ## Getting Started
 
@@ -172,7 +176,7 @@ v0.8.1 _feat: adding match_scraper, get_match_data_by_id, and filter_match_data 
 
 v0.8.3 _feat: adding ranked_item, get user choice and comapre it with the list of champions and then send it to data analysis module to pick the optimal items for the user with respect to user team champions also with respect to enemy team champions _ - 8 Nov 2021
 
----
+v0.9.2 _feat: updating ranked item module to handle the both user and enemy teams also check if champion names are in the game also check if there is a repeated name in side both team_ - 8 Nov 2021
 
 ## Authors
 
