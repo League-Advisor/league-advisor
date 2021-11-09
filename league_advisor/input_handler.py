@@ -140,5 +140,4 @@ class InputHandler:
 if __name__ == "__main__":
 
     inputhandler = InputHandler()
-    brm_user = inputhandler.prompt_user()
-    inputhandler.input_interpreter(brm_user)
+    inputhandler = inputhandler.input_interpreter("b")
