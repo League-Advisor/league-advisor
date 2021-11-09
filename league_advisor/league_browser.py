@@ -26,7 +26,7 @@ class LeagueBrowser:
 
       receive_user_input:
 
-        Redirects user input to invoke the corresponding function..
+        Redirects user input to invoke the corresponding function.
 
         Arguments: None
 
@@ -66,48 +66,69 @@ class LeagueBrowser:
             self.mode = color_mode
             return self.mode
 
+
     def receive_user_input(self):
-        print()
-        print("Would you like to preview (i)tems or (c)hampions? (b)ack to go back to the main menu")
+        if self.mode == "c":
+            print()
+            print(f"Would you like to preview ({color.RED}i{color.RESET})tems or ({color.RED}c{color.RESET})hampions?")
+            print(f"To stop the program, enter ({color.RED}q{color.RESET})uit || ({color.RED}b{color.RESET})ack to the main menu.")            
+        else:
+            print()
+            print("Would you like to preview (i)tems or (c)hampions?")
+            print("To stop the program, enter (q)uit || (b)ack to the main menu.")
+
+
         while True:
             self.prompt_user()
-            if self.user_response.lower() == "i" or self.user_response.lower() == "items":
+            if self.user_response.lower().strip() == "i" or self.user_response.lower().strip() == "items":
                 return self.receive_item()
 
-            elif self.user_response.lower() == "c" or self.user_response.lower() == "champions":
+            elif self.user_response.lower().strip() == "c" or self.user_response.lower().strip() == "champions":
                 return self.receive_champions()
 
-            elif self.user_response.lower() == "b" or self.user_response.lower() == "back":
+            elif self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
                 return self.user_response
 
-            elif self.user_response.lower() == "q" or self.user_response.lower() == "quit":
-                exit()
+            elif self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
+
             else:
                 print("Please enter a valid command.")
 
     def receive_item(self):
-        print()
-        print("*** Which class items would you like to check from the list above? ***\n")
+        if self.mode == "c":
+            print()
+            print("*** Which item class would you like to check from the list below? ***")
+            print()
+        else:
+            print()
+            print("*** Which item class would you like to check from the list below? ***")
+            print()
 
         item_classes = ["Move Speed", "Base Mana Regen", "Base Health Regen", "Health", "Critical Strike Chance", "Ability Power", "Mana", "Armor", "Magic Resist",
                         "Omnivamp", "Attack Damage", "Attack Speed", "Life Steal", "Armor Penetration", "Lethality", "Ability Haste", "Physical Vamp", "Tenacity"]
 
-        item_list = ["|| Move Speed ||", " Base Mana Regen ||", " Base Health Regen ||", " Health ||", " Critical Strike Chance ||", " Ability Power ||", " Mana ||", " Armor ||",
-                     " Magic Resist ||", " Omnivamp ||", " Attack Damage ||", " Attack Speed ||", " Life Steal ||", " Armor Penetration ||", " Lethality ||", " Ability Haste ||", " Physical Vamp ||", " Tenacity ||"]
+        if self.mode == "c":
+            items = (",".join(item_classes).replace(',', " || ").replace(",", " "))
+            print(f"{color.GREEN} {items} {color.RESET}")
+        else:
+            print(",".join(item_classes).replace(',', " || ").replace(",", " "))
+            print()
 
-        print(",".join(item_list).replace('"', "").replace(",", ""))
-        print()
-
-        while not self.user_response.lower().title() in item_classes:
+        while not self.user_response.lower().strip() in [item.lower() for item in item_classes]:
             self.prompt_user()
 
-            if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+            if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
                 return self.receive_user_input()
 
-            if self.user_response.lower() == "q" or self.user_response.lower() == "quit":
-                exit()
+            if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
 
-            if not self.user_response.lower().title() in item_classes:
+            if not self.user_response.lower().title().strip() in item_classes:
                 print("Please enter a valid command.")
                 continue
 
@@ -116,12 +137,81 @@ class LeagueBrowser:
             data = data["data"]
             for i in data:
                 recv_dt = data[i]["description"]
-                if self.user_response in recv_dt:
+                if self.user_response.lower().title().strip() in recv_dt:
                     self.user_choise.append(data[i]["name"])
-
-            print(self.user_choise)
             f.close()
-            return self.user_choise
+
+            if self.mode == "c":
+                print()
+                print(f"The item names below are in {color.GREEN}{self.user_response}{color.RESET} class.")
+                user_choice = (",".join(self.user_choise).replace(',', " || ").replace(",", " "))
+                print(f"{color.GREEN}{user_choice}{color.RESET}")
+                print()
+
+            else:
+                print()
+                print(f"The item names below are in {self.user_response} class.")
+                print("*** Which item would you like to Preview? ***")
+                print(",".join(self.user_choise).replace(',', " || ").replace(",", " "))
+                print()
+
+            item_names = []
+            item_names = self.user_choise
+
+        while not self.user_response.lower().title().strip() in self.user_choise:
+            self.prompt_user()
+
+            if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
+                return self.receive_item()
+
+            if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                print("""
+                    Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
+
+            if not self.user_response.lower().strip() in [item.lower() for item in item_names]:
+                print("Please enter a valid command.")
+                continue
+            
+            f = open("league_advisor/string_assets/items.json")
+            data = json.load(f)
+            data = data["data"]
+            for i in data:
+                name_dt = data[i]["name"]
+                if self.user_response.lower().strip() in name_dt.lower():
+                    self.description = (data[i]["description"])
+            f.close()
+            if self.mode == "c":
+                print()
+                print(items_color_ascii.get(self.user_response.lower()))
+                print(f"{color.GREEN}{self.user_response}{color.RESET}")
+                print()
+
+            else:
+                print()
+                print(items_ascii.get(self.user_response.lower()))
+                print(f"{self.user_response}")
+                print()
+
+            description = re.sub(r"<[^>]*>","", self.description)
+
+            if self.mode == "c":
+                print(color.GREEN + description + color.RESET)
+                print()
+
+            else:
+                print({description})
+                print(self.user_response.lower())
+                print()
+
+    
+            if self.mode == "c":
+                print(f"To stop the program, enter ({color.RED}q{color.RESET})uit || ({color.RED}b{color.RESET})ack to the last menu.")   
+                            
+            else:
+                print("To stop the program, enter (q)uit || (b)ack to the last menu.")
+            self.user_choise = []
+            
 
     def receive_champions(self):
 
@@ -267,8 +357,9 @@ class LeagueBrowser:
 
 
 
-
 if __name__ == "__main__":
     leagueBrowser = LeagueBrowser()
-    leagueBrowser.mode = "c"
     leagueBrowser.receive_user_input()
+
+
+

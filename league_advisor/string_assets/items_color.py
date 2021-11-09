@@ -10497,3 +10497,4 @@ items_color_ascii = {
                   ```````````````````````.:o+/:++:+ooooss+:--/+++oo/-:/hssooooydmmms+-.`````          
   """ + color.RESET,
 }
+
