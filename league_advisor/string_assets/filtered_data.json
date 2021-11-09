@@ -1,0 +1,4706 @@
+[
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Blitzcrank",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    3860,
+                    3076,
+                    3047,
+                    0,
+                    3364
+                ],
+                "champion2": "Kaisa",
+                "champion2_items": [
+                    3006,
+                    2031,
+                    6671,
+                    6676,
+                    3123,
+                    3086,
+                    3363
+                ],
+                "champion3": "Ryze",
+                "champion3_items": [
+                    3040,
+                    2420,
+                    6656,
+                    3020,
+                    1029,
+                    2055,
+                    3363
+                ],
+                "champion4": "Sejuani",
+                "champion4_items": [
+                    6662,
+                    2031,
+                    2055,
+                    3047,
+                    1029,
+                    8001,
+                    3364
+                ],
+                "champion5": "Gangplank",
+                "champion5_items": [
+                    2033,
+                    3078,
+                    3047,
+                    3123,
+                    6695,
+                    1028,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    3158,
+                    6617,
+                    1052,
+                    3853,
+                    2055,
+                    1004,
+                    3364
+                ],
+                "champion7": "Draven",
+                "champion7_items": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3363
+                ],
+                "champion8": "Kayle",
+                "champion8_items": [
+                    3115,
+                    3111,
+                    0,
+                    1055,
+                    1028,
+                    0,
+                    3340
+                ],
+                "champion9": "RekSai",
+                "champion9_items": [
+                    3111,
+                    2031,
+                    3814,
+                    1028,
+                    0,
+                    6693,
+                    3364
+                ],
+                "champion10": "Yone",
+                "champion10_items": [
+                    2031,
+                    3006,
+                    3086,
+                    1054,
+                    6673,
+                    1018,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Seraphine",
+                "champion1_items": [
+                    3158,
+                    6617,
+                    3853,
+                    3114,
+                    1052,
+                    2055,
+                    3364
+                ],
+                "champion2": "Jhin",
+                "champion2_items": [
+                    6676,
+                    3086,
+                    2015,
+                    3009,
+                    6671,
+                    0,
+                    3363
+                ],
+                "champion3": "Cassiopeia",
+                "champion3_items": [
+                    3157,
+                    6653,
+                    4630,
+                    0,
+                    1082,
+                    3070,
+                    3340
+                ],
+                "champion4": "LeeSin",
+                "champion4_items": [
+                    2031,
+                    6630,
+                    2055,
+                    3047,
+                    3071,
+                    3133,
+                    3340
+                ],
+                "champion5": "Nasus",
+                "champion5_items": [
+                    1054,
+                    3193,
+                    3047,
+                    6632,
+                    1029,
+                    1029,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Rakan",
+                "champion6_items": [
+                    3860,
+                    2055,
+                    2065,
+                    3158,
+                    3916,
+                    4642,
+                    3364
+                ],
+                "champion7": "Caitlyn",
+                "champion7_items": [
+                    1055,
+                    6691,
+                    6676,
+                    3006,
+                    3086,
+                    1042,
+                    3363
+                ],
+                "champion8": "Zed",
+                "champion8_items": [
+                    6692,
+                    6694,
+                    6695,
+                    3158,
+                    3814,
+                    1036,
+                    3364
+                ],
+                "champion9": "Sejuani",
+                "champion9_items": [
+                    3047,
+                    3001,
+                    3082,
+                    0,
+                    6662,
+                    0,
+                    3364
+                ],
+                "champion10": "Darius",
+                "champion10_items": [
+                    3078,
+                    2033,
+                    3071,
+                    3047,
+                    3123,
+                    0,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Lulu",
+                "champion1_items": [
+                    2055,
+                    3158,
+                    3860,
+                    3011,
+                    3114,
+                    2065,
+                    3364
+                ],
+                "champion2": "Tristana",
+                "champion2_items": [
+                    3046,
+                    3026,
+                    1018,
+                    3006,
+                    6672,
+                    3091,
+                    3363
+                ],
+                "champion3": "TwistedFate",
+                "champion3_items": [
+                    3157,
+                    3094,
+                    6656,
+                    3041,
+                    3158,
+                    0,
+                    3363
+                ],
+                "champion4": "Sejuani",
+                "champion4_items": [
+                    3109,
+                    3067,
+                    2055,
+                    3047,
+                    3001,
+                    6662,
+                    3364
+                ],
+                "champion5": "Darius",
+                "champion5_items": [
+                    3193,
+                    3082,
+                    1057,
+                    3047,
+                    3053,
+                    3078,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Swain",
+                "champion6_items": [
+                    3853,
+                    3157,
+                    4637,
+                    6653,
+                    3020,
+                    0,
+                    3364
+                ],
+                "champion7": "Syndra",
+                "champion7_items": [
+                    3020,
+                    1058,
+                    3135,
+                    0,
+                    6655,
+                    4628,
+                    3363
+                ],
+                "champion8": "Akshan",
+                "champion8_items": [
+                    6672,
+                    3091,
+                    1037,
+                    3111,
+                    1053,
+                    1043,
+                    3363
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    3026,
+                    2422,
+                    3814,
+                    6694,
+                    6692,
+                    0,
+                    3340
+                ],
+                "champion10": "DrMundo",
+                "champion10_items": [
+                    3143,
+                    3076,
+                    3047,
+                    3065,
+                    3068,
+                    1028,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Morgana",
+                "champion1_items": [
+                    3158,
+                    2065,
+                    3157,
+                    3853,
+                    2055,
+                    3011,
+                    3364
+                ],
+                "champion2": "Caitlyn",
+                "champion2_items": [
+                    3035,
+                    6671,
+                    1018,
+                    3006,
+                    3031,
+                    3095,
+                    3363
+                ],
+                "champion3": "Sylas",
+                "champion3_items": [
+                    3158,
+                    3157,
+                    6656,
+                    4629,
+                    1056,
+                    1058,
+                    3364
+                ],
+                "champion4": "Evelynn",
+                "champion4_items": [
+                    3152,
+                    1058,
+                    3041,
+                    3089,
+                    3135,
+                    3020,
+                    3363
+                ],
+                "champion5": "Rengar",
+                "champion5_items": [
+                    3047,
+                    3071,
+                    6630,
+                    1054,
+                    3077,
+                    1011,
+                    3364
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Nautilus",
+                "champion6_items": [
+                    3860,
+                    2031,
+                    3190,
+                    3047,
+                    3076,
+                    0,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    1038,
+                    6672,
+                    2055,
+                    1037,
+                    3006,
+                    3046,
+                    3363
+                ],
+                "champion8": "Jayce",
+                "champion8_items": [
+                    3042,
+                    3158,
+                    1036,
+                    6692,
+                    6609,
+                    3134,
+                    3363
+                ],
+                "champion9": "Viego",
+                "champion9_items": [
+                    3111,
+                    3091,
+                    6632,
+                    3211,
+                    3067,
+                    0,
+                    3364
+                ],
+                "champion10": "Kennen",
+                "champion10_items": [
+                    3089,
+                    0,
+                    3152,
+                    3020,
+                    3135,
+                    3191,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Rell",
+                "champion1_items": [
+                    8001,
+                    3860,
+                    0,
+                    3047,
+                    3105,
+                    3067,
+                    3364
+                ],
+                "champion2": "Aphelios",
+                "champion2_items": [
+                    3031,
+                    6673,
+                    3006,
+                    6676,
+                    1036,
+                    2055,
+                    3363
+                ],
+                "champion3": "Sylas",
+                "champion3_items": [
+                    6656,
+                    2033,
+                    3157,
+                    1058,
+                    3158,
+                    3082,
+                    3363
+                ],
+                "champion4": "XinZhao",
+                "champion4_items": [
+                    6630,
+                    3143,
+                    3044,
+                    3047,
+                    0,
+                    6333,
+                    3364
+                ],
+                "champion5": "Graves",
+                "champion5_items": [
+                    3508,
+                    6673,
+                    3031,
+                    3111,
+                    1055,
+                    1018,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Trundle",
+                "champion6_items": [
+                    8001,
+                    3857,
+                    2403,
+                    1033,
+                    3047,
+                    3067,
+                    3364
+                ],
+                "champion7": "Jhin",
+                "champion7_items": [
+                    6671,
+                    3031,
+                    1018,
+                    3009,
+                    6676,
+                    1055,
+                    3363
+                ],
+                "champion8": "Lucian",
+                "champion8_items": [
+                    6671,
+                    6694,
+                    2055,
+                    3133,
+                    3006,
+                    3123,
+                    3363
+                ],
+                "champion9": "Evelynn",
+                "champion9_items": [
+                    3152,
+                    3089,
+                    3135,
+                    1082,
+                    3020,
+                    0,
+                    3340
+                ],
+                "champion10": "Malphite",
+                "champion10_items": [
+                    3047,
+                    2033,
+                    3082,
+                    3075,
+                    3067,
+                    3068,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Alistar",
+                "champion1_items": [
+                    3050,
+                    3067,
+                    3190,
+                    3859,
+                    2055,
+                    3117,
+                    3364
+                ],
+                "champion2": "Yasuo",
+                "champion2_items": [
+                    3031,
+                    6673,
+                    3033,
+                    0,
+                    3006,
+                    0,
+                    3340
+                ],
+                "champion3": "Cassiopeia",
+                "champion3_items": [
+                    0,
+                    1052,
+                    1082,
+                    6653,
+                    3040,
+                    4629,
+                    3340
+                ],
+                "champion4": "Ekko",
+                "champion4_items": [
+                    3152,
+                    2031,
+                    3020,
+                    3041,
+                    3115,
+                    1058,
+                    3364
+                ],
+                "champion5": "Gangplank",
+                "champion5_items": [
+                    3158,
+                    6632,
+                    3053,
+                    3004,
+                    2033,
+                    1036,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sett",
+                "champion6_items": [
+                    6631,
+                    3047,
+                    3855,
+                    0,
+                    2055,
+                    0,
+                    3364
+                ],
+                "champion7": "Samira",
+                "champion7_items": [
+                    1055,
+                    6673,
+                    1036,
+                    3047,
+                    1036,
+                    1018,
+                    3340
+                ],
+                "champion8": "Ornn",
+                "champion8_items": [
+                    2033,
+                    3068,
+                    3047,
+                    1028,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    0,
+                    2031,
+                    3111,
+                    6692,
+                    3134,
+                    1028,
+                    3340
+                ],
+                "champion10": "Ziggs",
+                "champion10_items": [
+                    6653,
+                    3020,
+                    3070,
+                    1052,
+                    1058,
+                    1082,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Lulu",
+                "champion1_items": [
+                    3853,
+                    2065,
+                    2055,
+                    3504,
+                    3114,
+                    3158,
+                    3364
+                ],
+                "champion2": "Aphelios",
+                "champion2_items": [
+                    6673,
+                    3006,
+                    3026,
+                    3031,
+                    3085,
+                    6676,
+                    3363
+                ],
+                "champion3": "Ryze",
+                "champion3_items": [
+                    3157,
+                    6656,
+                    3110,
+                    3040,
+                    1058,
+                    3020,
+                    3363
+                ],
+                "champion4": "XinZhao",
+                "champion4_items": [
+                    6630,
+                    2055,
+                    3026,
+                    3047,
+                    3053,
+                    0,
+                    3364
+                ],
+                "champion5": "Aatrox",
+                "champion5_items": [
+                    2420,
+                    3053,
+                    6630,
+                    1054,
+                    3111,
+                    3133,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Bard",
+                "champion6_items": [
+                    2065,
+                    3114,
+                    3853,
+                    3117,
+                    3067,
+                    3011,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    3006,
+                    3085,
+                    3091,
+                    0,
+                    6673,
+                    3363
+                ],
+                "champion8": "Lucian",
+                "champion8_items": [
+                    6671,
+                    6676,
+                    1038,
+                    6695,
+                    6694,
+                    3047,
+                    3363
+                ],
+                "champion9": "Trundle",
+                "champion9_items": [
+                    1031,
+                    3053,
+                    6632,
+                    3066,
+                    3075,
+                    3047,
+                    3364
+                ],
+                "champion10": "Teemo",
+                "champion10_items": [
+                    4633,
+                    3165,
+                    3157,
+                    1011,
+                    3006,
+                    3115,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Trundle",
+                "champion1_items": [
+                    3857,
+                    8001,
+                    3105,
+                    1028,
+                    0,
+                    3047,
+                    3364
+                ],
+                "champion2": "Yasuo",
+                "champion2_items": [
+                    3006,
+                    2421,
+                    6673,
+                    1031,
+                    3031,
+                    1055,
+                    3363
+                ],
+                "champion3": "Galio",
+                "champion3_items": [
+                    3152,
+                    3157,
+                    0,
+                    3135,
+                    3020,
+                    1056,
+                    3340
+                ],
+                "champion4": "Volibear",
+                "champion4_items": [
+                    6632,
+                    1037,
+                    3065,
+                    3158,
+                    3044,
+                    3742,
+                    3364
+                ],
+                "champion5": "Akali",
+                "champion5_items": [
+                    3020,
+                    1056,
+                    4633,
+                    3041,
+                    3165,
+                    3157,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Nautilus",
+                "champion6_items": [
+                    3860,
+                    3190,
+                    2055,
+                    3047,
+                    3076,
+                    1028,
+                    3364
+                ],
+                "champion7": "Kalista",
+                "champion7_items": [
+                    6672,
+                    3153,
+                    3006,
+                    3086,
+                    1055,
+                    1042,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6693,
+                    2033,
+                    3042,
+                    3035,
+                    1036,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    6655,
+                    4630,
+                    3157,
+                    0,
+                    1082,
+                    3020,
+                    3364
+                ],
+                "champion10": "DrMundo",
+                "champion10_items": [
+                    8001,
+                    3065,
+                    3068,
+                    1054,
+                    3111,
+                    3076,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Janna",
+                "champion1_items": [
+                    2065,
+                    3853,
+                    3011,
+                    3158,
+                    1082,
+                    3108,
+                    3364
+                ],
+                "champion2": "Varus",
+                "champion2_items": [
+                    1055,
+                    6691,
+                    3158,
+                    3042,
+                    3814,
+                    2055,
+                    3363
+                ],
+                "champion3": "Galio",
+                "champion3_items": [
+                    3152,
+                    3041,
+                    1058,
+                    3135,
+                    1058,
+                    3020,
+                    3364
+                ],
+                "champion4": "Kindred",
+                "champion4_items": [
+                    6672,
+                    6676,
+                    2031,
+                    3031,
+                    3006,
+                    1018,
+                    3364
+                ],
+                "champion5": "Jax",
+                "champion5_items": [
+                    3153,
+                    2033,
+                    3078,
+                    3091,
+                    1037,
+                    3158,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Pantheon",
+                "champion6_items": [
+                    3864,
+                    6692,
+                    6676,
+                    2055,
+                    3117,
+                    0,
+                    3364
+                ],
+                "champion7": "Samira",
+                "champion7_items": [
+                    1055,
+                    6673,
+                    6676,
+                    3047,
+                    1018,
+                    0,
+                    3363
+                ],
+                "champion8": "Sylas",
+                "champion8_items": [
+                    6656,
+                    2424,
+                    1056,
+                    3158,
+                    4629,
+                    2055,
+                    3340
+                ],
+                "champion9": "Graves",
+                "champion9_items": [
+                    6695,
+                    6671,
+                    6676,
+                    1001,
+                    1037,
+                    1038,
+                    3364
+                ],
+                "champion10": "Kennen",
+                "champion10_items": [
+                    3152,
+                    3157,
+                    1055,
+                    3020,
+                    3108,
+                    3067,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Braum",
+                "champion1_items": [
+                    3067,
+                    3105,
+                    3857,
+                    0,
+                    3111,
+                    0,
+                    3364
+                ],
+                "champion2": "Tristana",
+                "champion2_items": [
+                    3006,
+                    6672,
+                    3046,
+                    1055,
+                    1038,
+                    2055,
+                    3363
+                ],
+                "champion3": "Leblanc",
+                "champion3_items": [
+                    2033,
+                    6655,
+                    3020,
+                    1056,
+                    3165,
+                    0,
+                    3340
+                ],
+                "champion4": "Volibear",
+                "champion4_items": [
+                    3158,
+                    6632,
+                    2055,
+                    3157,
+                    1028,
+                    0,
+                    3364
+                ],
+                "champion5": "Ornn",
+                "champion5_items": [
+                    2055,
+                    2033,
+                    7005,
+                    3111,
+                    3075,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Rakan",
+                "champion6_items": [
+                    3853,
+                    2065,
+                    0,
+                    1082,
+                    1028,
+                    3111,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    3091,
+                    0,
+                    1053,
+                    3006,
+                    6670,
+                    3363
+                ],
+                "champion8": "Viktor",
+                "champion8_items": [
+                    1056,
+                    1082,
+                    6655,
+                    3100,
+                    3020,
+                    1058,
+                    3363
+                ],
+                "champion9": "Trundle",
+                "champion9_items": [
+                    6632,
+                    3047,
+                    3053,
+                    3076,
+                    1028,
+                    0,
+                    3364
+                ],
+                "champion10": "DrMundo",
+                "champion10_items": [
+                    1054,
+                    6662,
+                    8001,
+                    0,
+                    3111,
+                    3801,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Sona",
+                "champion1_items": [
+                    2065,
+                    3853,
+                    3011,
+                    3158,
+                    1052,
+                    1052,
+                    3364
+                ],
+                "champion2": "Syndra",
+                "champion2_items": [
+                    6655,
+                    0,
+                    3070,
+                    1052,
+                    1056,
+                    3020,
+                    3363
+                ],
+                "champion3": "Lucian",
+                "champion3_items": [
+                    6671,
+                    2031,
+                    1055,
+                    3133,
+                    3006,
+                    1018,
+                    3340
+                ],
+                "champion4": "Viego",
+                "champion4_items": [
+                    6632,
+                    2055,
+                    2031,
+                    3044,
+                    3047,
+                    1028,
+                    3364
+                ],
+                "champion5": "Illaoi",
+                "champion5_items": [
+                    2033,
+                    2420,
+                    6630,
+                    3047,
+                    3076,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Janna",
+                "champion6_items": [
+                    2065,
+                    3853,
+                    2031,
+                    1082,
+                    3011,
+                    3158,
+                    3364
+                ],
+                "champion7": "Twitch",
+                "champion7_items": [
+                    2031,
+                    6671,
+                    6676,
+                    1036,
+                    1036,
+                    3006,
+                    3363
+                ],
+                "champion8": "Zoe",
+                "champion8_items": [
+                    2033,
+                    4628,
+                    3041,
+                    3020,
+                    1052,
+                    6655,
+                    3363
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    3053,
+                    2055,
+                    1038,
+                    0,
+                    3158,
+                    6630,
+                    3340
+                ],
+                "champion10": "Tryndamere",
+                "champion10_items": [
+                    6672,
+                    1055,
+                    3153,
+                    3006,
+                    1037,
+                    1018,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Pyke",
+                "champion1_items": [
+                    6691,
+                    3179,
+                    2420,
+                    3009,
+                    3134,
+                    3857,
+                    3364
+                ],
+                "champion2": "Caitlyn",
+                "champion2_items": [
+                    1055,
+                    2055,
+                    3006,
+                    6676,
+                    6691,
+                    3036,
+                    3363
+                ],
+                "champion3": "Qiyana",
+                "champion3_items": [
+                    6693,
+                    6695,
+                    3158,
+                    6694,
+                    3070,
+                    0,
+                    3364
+                ],
+                "champion4": "Shyvana",
+                "champion4_items": [
+                    3157,
+                    4636,
+                    3115,
+                    4629,
+                    3165,
+                    3020,
+                    3364
+                ],
+                "champion5": "Shen",
+                "champion5_items": [
+                    3068,
+                    3075,
+                    3067,
+                    1029,
+                    3047,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Leona",
+                "champion6_items": [
+                    3009,
+                    3109,
+                    2055,
+                    3190,
+                    3857,
+                    0,
+                    3364
+                ],
+                "champion7": "Kaisa",
+                "champion7_items": [
+                    6676,
+                    6671,
+                    3036,
+                    3094,
+                    0,
+                    3006,
+                    3363
+                ],
+                "champion8": "Vladimir",
+                "champion8_items": [
+                    3152,
+                    3135,
+                    3089,
+                    2055,
+                    1082,
+                    3020,
+                    3363
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    3053,
+                    0,
+                    6630,
+                    3026,
+                    3047,
+                    6333,
+                    3340
+                ],
+                "champion10": "MonkeyKing",
+                "champion10_items": [
+                    6632,
+                    3071,
+                    6609,
+                    3047,
+                    3044,
+                    1037,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Seraphine",
+                "champion1_items": [
+                    6655,
+                    3157,
+                    3040,
+                    1058,
+                    0,
+                    3158,
+                    3363
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    3158,
+                    2421,
+                    3110,
+                    3042,
+                    3078,
+                    3074,
+                    3363
+                ],
+                "champion3": "Karma",
+                "champion3_items": [
+                    3157,
+                    3222,
+                    2055,
+                    6617,
+                    3158,
+                    3853,
+                    3364
+                ],
+                "champion4": "JarvanIV",
+                "champion4_items": [
+                    6630,
+                    3193,
+                    3026,
+                    3053,
+                    3047,
+                    0,
+                    3364
+                ],
+                "champion5": "Aatrox",
+                "champion5_items": [
+                    6630,
+                    3026,
+                    3071,
+                    6333,
+                    3047,
+                    1036,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Leona",
+                "champion6_items": [
+                    3190,
+                    4643,
+                    3860,
+                    8001,
+                    3117,
+                    1028,
+                    3364
+                ],
+                "champion7": "Karthus",
+                "champion7_items": [
+                    3040,
+                    6655,
+                    3089,
+                    1082,
+                    3165,
+                    3020,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6693,
+                    6695,
+                    3042,
+                    3158,
+                    6694,
+                    3814,
+                    3364
+                ],
+                "champion9": "Khazix",
+                "champion9_items": [
+                    6693,
+                    3814,
+                    6694,
+                    6695,
+                    3111,
+                    3133,
+                    3364
+                ],
+                "champion10": "Camille",
+                "champion10_items": [
+                    3074,
+                    6632,
+                    3053,
+                    3026,
+                    3047,
+                    6609,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Bard",
+                "champion1_items": [
+                    3111,
+                    3157,
+                    4005,
+                    3853,
+                    3067,
+                    2055,
+                    3364
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    3110,
+                    3042,
+                    3140,
+                    3158,
+                    6694,
+                    6632,
+                    3363
+                ],
+                "champion3": "Ryze",
+                "champion3_items": [
+                    3040,
+                    6656,
+                    3157,
+                    3158,
+                    3165,
+                    2055,
+                    3363
+                ],
+                "champion4": "Khazix",
+                "champion4_items": [
+                    3158,
+                    3140,
+                    1037,
+                    6691,
+                    3814,
+                    6695,
+                    3364
+                ],
+                "champion5": "Viego",
+                "champion5_items": [
+                    3153,
+                    6632,
+                    2420,
+                    1038,
+                    3053,
+                    3047,
+                    3364
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Leona",
+                "champion6_items": [
+                    2055,
+                    3190,
+                    8001,
+                    3857,
+                    1028,
+                    3111,
+                    3364
+                ],
+                "champion7": "Twitch",
+                "champion7_items": [
+                    3006,
+                    6671,
+                    6676,
+                    3036,
+                    1037,
+                    1018,
+                    3363
+                ],
+                "champion8": "Pyke",
+                "champion8_items": [
+                    3814,
+                    3134,
+                    6333,
+                    3047,
+                    6691,
+                    6695,
+                    3364
+                ],
+                "champion9": "Skarner",
+                "champion9_items": [
+                    8001,
+                    3742,
+                    3158,
+                    1011,
+                    3076,
+                    6662,
+                    3364
+                ],
+                "champion10": "Yone",
+                "champion10_items": [
+                    3026,
+                    3006,
+                    3031,
+                    6673,
+                    3033,
+                    1031,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Brand",
+                "champion1_items": [
+                    3853,
+                    3108,
+                    1082,
+                    6653,
+                    0,
+                    3020,
+                    3364
+                ],
+                "champion2": "Caitlyn",
+                "champion2_items": [
+                    1055,
+                    6691,
+                    6676,
+                    3006,
+                    1018,
+                    0,
+                    3363
+                ],
+                "champion3": "Gangplank",
+                "champion3_items": [
+                    2033,
+                    3078,
+                    3158,
+                    3074,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion4": "Graves",
+                "champion4_items": [
+                    2055,
+                    2031,
+                    3047,
+                    6692,
+                    3035,
+                    0,
+                    3364
+                ],
+                "champion5": "Fiora",
+                "champion5_items": [
+                    1055,
+                    6630,
+                    2055,
+                    1001,
+                    1036,
+                    1037,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Velkoz",
+                "champion6_items": [
+                    3851,
+                    6653,
+                    2055,
+                    0,
+                    2003,
+                    0,
+                    3364
+                ],
+                "champion7": "Ziggs",
+                "champion7_items": [
+                    3070,
+                    3108,
+                    1001,
+                    0,
+                    3802,
+                    1056,
+                    3340
+                ],
+                "champion8": "Yasuo",
+                "champion8_items": [
+                    3086,
+                    2031,
+                    1018,
+                    1055,
+                    1042,
+                    3006,
+                    3340
+                ],
+                "champion9": "Kayn",
+                "champion9_items": [
+                    6695,
+                    6029,
+                    2031,
+                    3158,
+                    1036,
+                    0,
+                    3364
+                ],
+                "champion10": "Malphite",
+                "champion10_items": [
+                    1082,
+                    3076,
+                    6660,
+                    1001,
+                    1029,
+                    2033,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Gragas",
+                "champion1_items": [
+                    2421,
+                    3860,
+                    3190,
+                    3108,
+                    3158,
+                    2055,
+                    3364
+                ],
+                "champion2": "Aphelios",
+                "champion2_items": [
+                    1055,
+                    6671,
+                    1053,
+                    3085,
+                    3006,
+                    1036,
+                    3363
+                ],
+                "champion3": "Vladimir",
+                "champion3_items": [
+                    4629,
+                    3152,
+                    1052,
+                    3108,
+                    1082,
+                    3158,
+                    3340
+                ],
+                "champion4": "Khazix",
+                "champion4_items": [
+                    0,
+                    6693,
+                    3814,
+                    3158,
+                    1036,
+                    1036,
+                    3364
+                ],
+                "champion5": "Illaoi",
+                "champion5_items": [
+                    6632,
+                    3071,
+                    1033,
+                    3111,
+                    1029,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Rell",
+                "champion6_items": [
+                    8001,
+                    3067,
+                    3860,
+                    3009,
+                    1033,
+                    2055,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    1055,
+                    6672,
+                    3094,
+                    1038,
+                    1018,
+                    3006,
+                    3363
+                ],
+                "champion8": "Orianna",
+                "champion8_items": [
+                    6653,
+                    3191,
+                    3165,
+                    3070,
+                    3020,
+                    0,
+                    3363
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    3157,
+                    3041,
+                    4630,
+                    3020,
+                    1026,
+                    3364
+                ],
+                "champion10": "Sion",
+                "champion10_items": [
+                    3077,
+                    3076,
+                    3047,
+                    6662,
+                    3181,
+                    1011,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Leona",
+                "champion1_items": [
+                    3009,
+                    4643,
+                    3857,
+                    3067,
+                    3076,
+                    8001,
+                    3364
+                ],
+                "champion2": "Malphite",
+                "champion2_items": [
+                    3047,
+                    1056,
+                    3075,
+                    3082,
+                    3068,
+                    1029,
+                    3340
+                ],
+                "champion3": "Taliyah",
+                "champion3_items": [
+                    4632,
+                    3108,
+                    3157,
+                    3135,
+                    3020,
+                    6655,
+                    3340
+                ],
+                "champion4": "LeeSin",
+                "champion4_items": [
+                    3026,
+                    6630,
+                    3053,
+                    3123,
+                    3133,
+                    3047,
+                    3340
+                ],
+                "champion5": "Draven",
+                "champion5_items": [
+                    6695,
+                    6673,
+                    1055,
+                    3047,
+                    1037,
+                    3036,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Karma",
+                "champion6_items": [
+                    3853,
+                    2065,
+                    2031,
+                    3011,
+                    3158,
+                    0,
+                    3364
+                ],
+                "champion7": "Twitch",
+                "champion7_items": [
+                    1055,
+                    6671,
+                    3036,
+                    1037,
+                    3134,
+                    3006,
+                    3363
+                ],
+                "champion8": "Talon",
+                "champion8_items": [
+                    6630,
+                    3133,
+                    6695,
+                    3158,
+                    2055,
+                    1036,
+                    3364
+                ],
+                "champion9": "Khazix",
+                "champion9_items": [
+                    3071,
+                    3047,
+                    6630,
+                    1036,
+                    1036,
+                    6694,
+                    3364
+                ],
+                "champion10": "Sylas",
+                "champion10_items": [
+                    6656,
+                    3157,
+                    1052,
+                    4629,
+                    1082,
+                    3158,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Maokai",
+                "champion1_items": [
+                    3855,
+                    0,
+                    1057,
+                    1011,
+                    3742,
+                    3009,
+                    3364
+                ],
+                "champion2": "Twitch",
+                "champion2_items": [
+                    6676,
+                    6671,
+                    3036,
+                    1038,
+                    0,
+                    3006,
+                    3363
+                ],
+                "champion3": "Yasuo",
+                "champion3_items": [
+                    3031,
+                    3006,
+                    6673,
+                    3033,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    3165,
+                    3157,
+                    1026,
+                    3041,
+                    4636,
+                    3020,
+                    3364
+                ],
+                "champion5": "Vladimir",
+                "champion5_items": [
+                    3020,
+                    4629,
+                    3152,
+                    1052,
+                    1056,
+                    2055,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Pyke",
+                "champion6_items": [
+                    3855,
+                    3142,
+                    3133,
+                    3117,
+                    6691,
+                    3179,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    3006,
+                    1083,
+                    6673,
+                    3091,
+                    0,
+                    3363
+                ],
+                "champion8": "Ryze",
+                "champion8_items": [
+                    2420,
+                    2420,
+                    2420,
+                    2420,
+                    2420,
+                    2420,
+                    3363
+                ],
+                "champion9": "Zac",
+                "champion9_items": [
+                    2031,
+                    6662,
+                    8001,
+                    2055,
+                    3158,
+                    1028,
+                    3364
+                ],
+                "champion10": "Fiora",
+                "champion10_items": [
+                    3508,
+                    6630,
+                    3077,
+                    3111,
+                    1055,
+                    3133,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Brand",
+                "champion1_items": [
+                    1026,
+                    6653,
+                    3853,
+                    4637,
+                    3020,
+                    3916,
+                    3364
+                ],
+                "champion2": "Twitch",
+                "champion2_items": [
+                    6676,
+                    6671,
+                    2420,
+                    3031,
+                    3036,
+                    3006,
+                    3363
+                ],
+                "champion3": "Leblanc",
+                "champion3_items": [
+                    6655,
+                    0,
+                    3041,
+                    3089,
+                    3135,
+                    3020,
+                    3364
+                ],
+                "champion4": "Sejuani",
+                "champion4_items": [
+                    3083,
+                    3110,
+                    0,
+                    3158,
+                    6662,
+                    3075,
+                    3364
+                ],
+                "champion5": "Camille",
+                "champion5_items": [
+                    3748,
+                    3026,
+                    3053,
+                    6632,
+                    3047,
+                    3082,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Blitzcrank",
+                "champion6_items": [
+                    3860,
+                    2065,
+                    3109,
+                    4643,
+                    3107,
+                    3009,
+                    3364
+                ],
+                "champion7": "Ezreal",
+                "champion7_items": [
+                    1029,
+                    3042,
+                    6694,
+                    3074,
+                    6632,
+                    3158,
+                    3363
+                ],
+                "champion8": "Yone",
+                "champion8_items": [
+                    3091,
+                    6673,
+                    3111,
+                    3031,
+                    3082,
+                    1029,
+                    3363
+                ],
+                "champion9": "Trundle",
+                "champion9_items": [
+                    6632,
+                    3748,
+                    3211,
+                    0,
+                    3111,
+                    3083,
+                    3364
+                ],
+                "champion10": "Pantheon",
+                "champion10_items": [
+                    6630,
+                    2421,
+                    3053,
+                    3111,
+                    3153,
+                    1029,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Zilean",
+                "champion1_items": [
+                    3158,
+                    3853,
+                    2055,
+                    0,
+                    1082,
+                    2065,
+                    3364
+                ],
+                "champion2": "Ziggs",
+                "champion2_items": [
+                    6653,
+                    2422,
+                    2010,
+                    3070,
+                    2055,
+                    1056,
+                    3340
+                ],
+                "champion3": "Jhin",
+                "champion3_items": [
+                    3009,
+                    6671,
+                    3134,
+                    1018,
+                    2055,
+                    1055,
+                    3363
+                ],
+                "champion4": "Kayn",
+                "champion4_items": [
+                    1001,
+                    1029,
+                    0,
+                    6630,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion5": "Riven",
+                "champion5_items": [
+                    1031,
+                    2031,
+                    6630,
+                    3123,
+                    3158,
+                    3133,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Braum",
+                "champion6_items": [
+                    3067,
+                    3047,
+                    3105,
+                    0,
+                    3855,
+                    0,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    1055,
+                    6670,
+                    2031,
+                    1037,
+                    1001,
+                    0,
+                    3340
+                ],
+                "champion8": "Leblanc",
+                "champion8_items": [
+                    1082,
+                    2033,
+                    3802,
+                    1001,
+                    1052,
+                    1026,
+                    3340
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    6029,
+                    2031,
+                    0,
+                    3044,
+                    3133,
+                    2422,
+                    3340
+                ],
+                "champion10": "Fiora",
+                "champion10_items": [
+                    1055,
+                    0,
+                    6630,
+                    0,
+                    1001,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Zilean",
+                "champion1_items": [
+                    3158,
+                    3853,
+                    4643,
+                    1082,
+                    3011,
+                    2065,
+                    3364
+                ],
+                "champion2": "Vayne",
+                "champion2_items": [
+                    6673,
+                    3091,
+                    1042,
+                    0,
+                    1055,
+                    3006,
+                    3363
+                ],
+                "champion3": "Syndra",
+                "champion3_items": [
+                    3102,
+                    2421,
+                    0,
+                    3020,
+                    6655,
+                    4630,
+                    3363
+                ],
+                "champion4": "Viego",
+                "champion4_items": [
+                    3026,
+                    2055,
+                    3153,
+                    3111,
+                    6632,
+                    3053,
+                    3364
+                ],
+                "champion5": "Sion",
+                "champion5_items": [
+                    3082,
+                    6662,
+                    3748,
+                    3111,
+                    1033,
+                    3181,
+                    3364
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    3853,
+                    6616,
+                    3158,
+                    3067,
+                    0,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    6673,
+                    3091,
+                    3035,
+                    0,
+                    3006,
+                    3363
+                ],
+                "champion8": "Kennen",
+                "champion8_items": [
+                    1011,
+                    3152,
+                    3157,
+                    3135,
+                    3020,
+                    1026,
+                    3364
+                ],
+                "champion9": "Khazix",
+                "champion9_items": [
+                    6691,
+                    6695,
+                    3047,
+                    1036,
+                    1036,
+                    0,
+                    3364
+                ],
+                "champion10": "Malphite",
+                "champion10_items": [
+                    2033,
+                    2055,
+                    3047,
+                    3075,
+                    3082,
+                    6662,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Zyra",
+                "champion1_items": [
+                    2055,
+                    0,
+                    0,
+                    3853,
+                    6653,
+                    3020,
+                    3364
+                ],
+                "champion2": "Jhin",
+                "champion2_items": [
+                    6671,
+                    2031,
+                    3134,
+                    2055,
+                    3009,
+                    0,
+                    3363
+                ],
+                "champion3": "Kassadin",
+                "champion3_items": [
+                    1082,
+                    2031,
+                    3110,
+                    3070,
+                    1001,
+                    4635,
+                    3340
+                ],
+                "champion4": "RekSai",
+                "champion4_items": [
+                    0,
+                    6693,
+                    2031,
+                    3111,
+                    1036,
+                    1036,
+                    3364
+                ],
+                "champion5": "Gangplank",
+                "champion5_items": [
+                    2033,
+                    3508,
+                    0,
+                    1036,
+                    3009,
+                    1036,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Pantheon",
+                "champion6_items": [
+                    2033,
+                    6692,
+                    3071,
+                    2055,
+                    3158,
+                    0,
+                    3363
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    1057,
+                    6673,
+                    3006,
+                    3051,
+                    0,
+                    3340
+                ],
+                "champion8": "Velkoz",
+                "champion8_items": [
+                    3853,
+                    3158,
+                    4636,
+                    3145,
+                    0,
+                    1082,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    2031,
+                    3020,
+                    3041,
+                    1029,
+                    1052,
+                    3364
+                ],
+                "champion10": "Tryndamere",
+                "champion10_items": [
+                    1055,
+                    2031,
+                    6672,
+                    3006,
+                    6675,
+                    1036,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Zyra",
+                "champion1_items": [
+                    1026,
+                    3853,
+                    1052,
+                    3020,
+                    1011,
+                    6653,
+                    3364
+                ],
+                "champion2": "Tristana",
+                "champion2_items": [
+                    1055,
+                    3046,
+                    3006,
+                    3031,
+                    0,
+                    6672,
+                    3363
+                ],
+                "champion3": "Leblanc",
+                "champion3_items": [
+                    3191,
+                    6655,
+                    3020,
+                    3089,
+                    0,
+                    0,
+                    3363
+                ],
+                "champion4": "Khazix",
+                "champion4_items": [
+                    6691,
+                    3814,
+                    6695,
+                    3035,
+                    1036,
+                    3158,
+                    3364
+                ],
+                "champion5": "Akali",
+                "champion5_items": [
+                    3157,
+                    3152,
+                    3135,
+                    1058,
+                    3041,
+                    3020,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Rakan",
+                "champion6_items": [
+                    2065,
+                    3158,
+                    3114,
+                    3853,
+                    2055,
+                    3067,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    3046,
+                    6673,
+                    3091,
+                    0,
+                    3006,
+                    3363
+                ],
+                "champion8": "Ekko",
+                "champion8_items": [
+                    2033,
+                    3115,
+                    1082,
+                    3152,
+                    3020,
+                    0,
+                    3340
+                ],
+                "champion9": "Shyvana",
+                "champion9_items": [
+                    2055,
+                    3102,
+                    2421,
+                    3020,
+                    3115,
+                    4636,
+                    3364
+                ],
+                "champion10": "Sett",
+                "champion10_items": [
+                    3053,
+                    6631,
+                    3111,
+                    1029,
+                    0,
+                    0,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Trundle",
+                "champion1_items": [
+                    3857,
+                    3047,
+                    1011,
+                    4005,
+                    3067,
+                    2055,
+                    3364
+                ],
+                "champion2": "Kalista",
+                "champion2_items": [
+                    1055,
+                    2031,
+                    3091,
+                    6670,
+                    1053,
+                    3006,
+                    3363
+                ],
+                "champion3": "Velkoz",
+                "champion3_items": [
+                    2031,
+                    6655,
+                    1056,
+                    3020,
+                    3145,
+                    1058,
+                    3364
+                ],
+                "champion4": "Khazix",
+                "champion4_items": [
+                    6691,
+                    0,
+                    3158,
+                    3134,
+                    1036,
+                    1028,
+                    3364
+                ],
+                "champion5": "Renekton",
+                "champion5_items": [
+                    1055,
+                    6630,
+                    3067,
+                    3111,
+                    3053,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Yuumi",
+                "champion6_items": [
+                    3853,
+                    6617,
+                    3916,
+                    1082,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion7": "Ezreal",
+                "champion7_items": [
+                    0,
+                    3133,
+                    1036,
+                    2422,
+                    3070,
+                    6632,
+                    3363
+                ],
+                "champion8": "Leblanc",
+                "champion8_items": [
+                    6655,
+                    3020,
+                    4630,
+                    1026,
+                    0,
+                    2055,
+                    3364
+                ],
+                "champion9": "MasterYi",
+                "champion9_items": [
+                    6691,
+                    2031,
+                    1018,
+                    3134,
+                    3006,
+                    0,
+                    3340
+                ],
+                "champion10": "Teemo",
+                "champion10_items": [
+                    1056,
+                    3020,
+                    1082,
+                    3115,
+                    4635,
+                    1026,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    2055,
+                    3860,
+                    8001,
+                    3117,
+                    3067,
+                    3105,
+                    3364
+                ],
+                "champion2": "Kaisa",
+                "champion2_items": [
+                    4629,
+                    1058,
+                    0,
+                    3020,
+                    3042,
+                    6655,
+                    3363
+                ],
+                "champion3": "Sylas",
+                "champion3_items": [
+                    6656,
+                    3157,
+                    3102,
+                    3916,
+                    3111,
+                    0,
+                    3363
+                ],
+                "champion4": "LeeSin",
+                "champion4_items": [
+                    3111,
+                    2055,
+                    3053,
+                    6630,
+                    0,
+                    3071,
+                    3340
+                ],
+                "champion5": "Irelia",
+                "champion5_items": [
+                    6609,
+                    3047,
+                    3153,
+                    3091,
+                    3053,
+                    6632,
+                    3364
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Braum",
+                "champion6_items": [
+                    3860,
+                    3190,
+                    8001,
+                    0,
+                    0,
+                    3009,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    1018,
+                    6671,
+                    3123,
+                    6676,
+                    3006,
+                    3031,
+                    3363
+                ],
+                "champion8": "Xerath",
+                "champion8_items": [
+                    6655,
+                    4628,
+                    1082,
+                    3020,
+                    3089,
+                    3916,
+                    3363
+                ],
+                "champion9": "FiddleSticks",
+                "champion9_items": [
+                    3157,
+                    3020,
+                    3165,
+                    4630,
+                    0,
+                    4636,
+                    3330
+                ],
+                "champion10": "Urgot",
+                "champion10_items": [
+                    1055,
+                    3123,
+                    3047,
+                    3071,
+                    3748,
+                    6662,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    3857,
+                    2055,
+                    3117,
+                    3067,
+                    0,
+                    3364
+                ],
+                "champion2": "Xayah",
+                "champion2_items": [
+                    1055,
+                    6672,
+                    3006,
+                    3046,
+                    3036,
+                    0,
+                    3363
+                ],
+                "champion3": "Sylas",
+                "champion3_items": [
+                    6656,
+                    3157,
+                    2055,
+                    3108,
+                    3158,
+                    1082,
+                    3340
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    4636,
+                    2031,
+                    3158,
+                    3157,
+                    1026,
+                    0,
+                    3364
+                ],
+                "champion5": "Darius",
+                "champion5_items": [
+                    2031,
+                    6631,
+                    3044,
+                    1037,
+                    3047,
+                    1054,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Nautilus",
+                "champion6_items": [
+                    3190,
+                    3860,
+                    2055,
+                    3111,
+                    1011,
+                    3067,
+                    3364
+                ],
+                "champion7": "Cassiopeia",
+                "champion7_items": [
+                    3157,
+                    6653,
+                    3040,
+                    1052,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    3042,
+                    6693,
+                    2031,
+                    3158,
+                    6695,
+                    0,
+                    3364
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    6630,
+                    2055,
+                    3053,
+                    3111,
+                    6609,
+                    3133,
+                    3340
+                ],
+                "champion10": "Urgot",
+                "champion10_items": [
+                    6631,
+                    0,
+                    3047,
+                    3075,
+                    3748,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Zilean",
+                "champion1_items": [
+                    2420,
+                    3851,
+                    2065,
+                    2055,
+                    3158,
+                    0,
+                    3364
+                ],
+                "champion2": "KogMaw",
+                "champion2_items": [
+                    1055,
+                    3085,
+                    3091,
+                    3006,
+                    1028,
+                    0,
+                    3340
+                ],
+                "champion3": "Kassadin",
+                "champion3_items": [
+                    3070,
+                    1058,
+                    6656,
+                    1082,
+                    3158,
+                    1052,
+                    3364
+                ],
+                "champion4": "Nocturne",
+                "champion4_items": [
+                    2031,
+                    0,
+                    1037,
+                    3158,
+                    3134,
+                    6691,
+                    3363
+                ],
+                "champion5": "Urgot",
+                "champion5_items": [
+                    1055,
+                    3071,
+                    3111,
+                    3077,
+                    1011,
+                    3123,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    2065,
+                    3853,
+                    0,
+                    3158,
+                    6616,
+                    0,
+                    3364
+                ],
+                "champion7": "Ezreal",
+                "champion7_items": [
+                    3042,
+                    3078,
+                    3158,
+                    3024,
+                    1029,
+                    2055,
+                    3363
+                ],
+                "champion8": "Kayle",
+                "champion8_items": [
+                    1058,
+                    1056,
+                    3006,
+                    3115,
+                    4633,
+                    3041,
+                    3363
+                ],
+                "champion9": "Khazix",
+                "champion9_items": [
+                    6691,
+                    3047,
+                    6676,
+                    3133,
+                    1036,
+                    2055,
+                    3364
+                ],
+                "champion10": "Chogath",
+                "champion10_items": [
+                    6662,
+                    1056,
+                    3075,
+                    3047,
+                    4401,
+                    2055,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Braum",
+                "champion1_items": [
+                    3047,
+                    3067,
+                    3855,
+                    1033,
+                    1029,
+                    0,
+                    3364
+                ],
+                "champion2": "Ashe",
+                "champion2_items": [
+                    1055,
+                    6677,
+                    2055,
+                    6673,
+                    3006,
+                    0,
+                    3340
+                ],
+                "champion3": "Lucian",
+                "champion3_items": [
+                    3006,
+                    2031,
+                    6671,
+                    2055,
+                    3086,
+                    0,
+                    3340
+                ],
+                "champion4": "Kayn",
+                "champion4_items": [
+                    2422,
+                    6630,
+                    2031,
+                    1036,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion5": "Vladimir",
+                "champion5_items": [
+                    3145,
+                    1056,
+                    0,
+                    3020,
+                    0,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Nautilus",
+                "champion6_items": [
+                    1028,
+                    3047,
+                    3858,
+                    1029,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion7": "Draven",
+                "champion7_items": [
+                    1055,
+                    3134,
+                    1036,
+                    0,
+                    1036,
+                    0,
+                    3340
+                ],
+                "champion8": "MasterYi",
+                "champion8_items": [
+                    3006,
+                    2031,
+                    2055,
+                    1036,
+                    3134,
+                    0,
+                    3340
+                ],
+                "champion9": "Nunu",
+                "champion9_items": [
+                    1039,
+                    2031,
+                    1001,
+                    3041,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion10": "Gangplank",
+                "champion10_items": [
+                    2033,
+                    3051,
+                    3057,
+                    3067,
+                    1001,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3860,
+                    3117,
+                    3050,
+                    3190,
+                    1029,
+                    0,
+                    3364
+                ],
+                "champion2": "Jinx",
+                "champion2_items": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "champion3": "Zed",
+                "champion3_items": [
+                    2031,
+                    3158,
+                    6693,
+                    3036,
+                    6695,
+                    1018,
+                    3340
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    4636,
+                    4630,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion5": "Darius",
+                "champion5_items": [
+                    3193,
+                    8001,
+                    3111,
+                    3078,
+                    3053,
+                    1033,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Nunu",
+                "champion6_items": [
+                    1039,
+                    0,
+                    3190,
+                    3075,
+                    3047,
+                    0,
+                    3364
+                ],
+                "champion7": "Kaisa",
+                "champion7_items": [
+                    3031,
+                    1018,
+                    3046,
+                    6672,
+                    3006,
+                    3035,
+                    3363
+                ],
+                "champion8": "Ekko",
+                "champion8_items": [
+                    3152,
+                    3157,
+                    2055,
+                    3041,
+                    3089,
+                    3020,
+                    3364
+                ],
+                "champion9": "Lulu",
+                "champion9_items": [
+                    2065,
+                    3853,
+                    0,
+                    3114,
+                    3158,
+                    3011,
+                    3364
+                ],
+                "champion10": "Sett",
+                "champion10_items": [
+                    6630,
+                    3047,
+                    3053,
+                    1028,
+                    0,
+                    0,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Alistar",
+                "champion1_items": [
+                    3117,
+                    0,
+                    3190,
+                    3109,
+                    1028,
+                    3860,
+                    3364
+                ],
+                "champion2": "Kaisa",
+                "champion2_items": [
+                    6672,
+                    3006,
+                    3091,
+                    1042,
+                    3036,
+                    1042,
+                    3363
+                ],
+                "champion3": "Qiyana",
+                "champion3_items": [
+                    6692,
+                    6695,
+                    2055,
+                    3134,
+                    6694,
+                    3158,
+                    3364
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    4636,
+                    3020,
+                    3157,
+                    4628,
+                    3135,
+                    1082,
+                    3364
+                ],
+                "champion5": "DrMundo",
+                "champion5_items": [
+                    8001,
+                    3075,
+                    3047,
+                    6662,
+                    3065,
+                    3105,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Thresh",
+                "champion6_items": [
+                    3857,
+                    3158,
+                    3801,
+                    2055,
+                    3190,
+                    0,
+                    3364
+                ],
+                "champion7": "Karthus",
+                "champion7_items": [
+                    6653,
+                    3157,
+                    3916,
+                    3135,
+                    0,
+                    3020,
+                    3363
+                ],
+                "champion8": "Graves",
+                "champion8_items": [
+                    1055,
+                    0,
+                    6692,
+                    3036,
+                    3047,
+                    3033,
+                    3340
+                ],
+                "champion9": "Kindred",
+                "champion9_items": [
+                    6672,
+                    3046,
+                    3006,
+                    3031,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "MonkeyKing",
+                "champion10_items": [
+                    6632,
+                    3053,
+                    3748,
+                    3123,
+                    3047,
+                    3133,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Nami",
+                "champion1_items": [
+                    3851,
+                    6617,
+                    3070,
+                    2422,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    1055,
+                    6632,
+                    3070,
+                    3133,
+                    3158,
+                    0,
+                    3340
+                ],
+                "champion3": "Syndra",
+                "champion3_items": [
+                    1056,
+                    3158,
+                    3070,
+                    1026,
+                    3802,
+                    0,
+                    3340
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    3145,
+                    3020,
+                    1028,
+                    1026,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion5": "Yone",
+                "champion5_items": [
+                    1054,
+                    2031,
+                    1018,
+                    6670,
+                    3006,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Karma",
+                "champion6_items": [
+                    3158,
+                    2065,
+                    3851,
+                    2055,
+                    2031,
+                    3916,
+                    3364
+                ],
+                "champion7": "KogMaw",
+                "champion7_items": [
+                    1055,
+                    3006,
+                    3091,
+                    3086,
+                    1042,
+                    1042,
+                    3340
+                ],
+                "champion8": "Ekko",
+                "champion8_items": [
+                    3111,
+                    2033,
+                    1082,
+                    3152,
+                    3057,
+                    1052,
+                    3340
+                ],
+                "champion9": "Volibear",
+                "champion9_items": [
+                    0,
+                    3111,
+                    1042,
+                    1042,
+                    6632,
+                    1026,
+                    3364
+                ],
+                "champion10": "Camille",
+                "champion10_items": [
+                    1055,
+                    1083,
+                    2031,
+                    3078,
+                    1036,
+                    2422,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Sona",
+                "champion1_items": [
+                    2065,
+                    3853,
+                    3158,
+                    3916,
+                    1004,
+                    2055,
+                    3364
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    1055,
+                    3042,
+                    6632,
+                    3158,
+                    3133,
+                    3035,
+                    3363
+                ],
+                "champion3": "Irelia",
+                "champion3_items": [
+                    2420,
+                    0,
+                    3111,
+                    6632,
+                    1031,
+                    3153,
+                    3363
+                ],
+                "champion4": "Viego",
+                "champion4_items": [
+                    3111,
+                    6632,
+                    3091,
+                    2055,
+                    1043,
+                    1036,
+                    3364
+                ],
+                "champion5": "Ryze",
+                "champion5_items": [
+                    6656,
+                    3157,
+                    3040,
+                    4630,
+                    1026,
+                    3111,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Leona",
+                "champion6_items": [
+                    3860,
+                    3190,
+                    0,
+                    3117,
+                    3067,
+                    1011,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    6672,
+                    3026,
+                    3046,
+                    3031,
+                    1018,
+                    3006,
+                    3363
+                ],
+                "champion8": "Jayce",
+                "champion8_items": [
+                    6694,
+                    2033,
+                    3123,
+                    0,
+                    3047,
+                    6692,
+                    3363
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4630,
+                    3157,
+                    1082,
+                    0,
+                    3020,
+                    3364
+                ],
+                "champion10": "Lillia",
+                "champion10_items": [
+                    3070,
+                    3157,
+                    3916,
+                    3158,
+                    4633,
+                    4629,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Yuumi",
+                "champion1_items": [
+                    6616,
+                    2065,
+                    3853,
+                    1057,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    3158,
+                    3078,
+                    3042,
+                    0,
+                    0,
+                    1055,
+                    3363
+                ],
+                "champion3": "Lucian",
+                "champion3_items": [
+                    6671,
+                    3057,
+                    6694,
+                    1055,
+                    3111,
+                    0,
+                    3363
+                ],
+                "champion4": "Khazix",
+                "champion4_items": [
+                    6692,
+                    6609,
+                    3133,
+                    1036,
+                    3158,
+                    6695,
+                    3364
+                ],
+                "champion5": "Yasuo",
+                "champion5_items": [
+                    3006,
+                    1037,
+                    6673,
+                    1055,
+                    1018,
+                    1038,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Twitch",
+                "champion6_items": [
+                    3158,
+                    0,
+                    3853,
+                    1082,
+                    4633,
+                    3115,
+                    3364
+                ],
+                "champion7": "Cassiopeia",
+                "champion7_items": [
+                    3040,
+                    6656,
+                    3157,
+                    3916,
+                    0,
+                    4629,
+                    3340
+                ],
+                "champion8": "Graves",
+                "champion8_items": [
+                    6692,
+                    3031,
+                    6676,
+                    3036,
+                    3047,
+                    1036,
+                    3340
+                ],
+                "champion9": "LeeSin",
+                "champion9_items": [
+                    1036,
+                    3082,
+                    3067,
+                    6630,
+                    0,
+                    3047,
+                    3340
+                ],
+                "champion10": "Irelia",
+                "champion10_items": [
+                    1055,
+                    1036,
+                    6630,
+                    3047,
+                    3153,
+                    0,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Pyke",
+                "champion1_items": [
+                    3857,
+                    6693,
+                    3009,
+                    3179,
+                    3134,
+                    1037,
+                    3364
+                ],
+                "champion2": "Vayne",
+                "champion2_items": [
+                    3091,
+                    0,
+                    6672,
+                    3111,
+                    3124,
+                    3046,
+                    3363
+                ],
+                "champion3": "Akshan",
+                "champion3_items": [
+                    6676,
+                    3111,
+                    3091,
+                    6672,
+                    1036,
+                    0,
+                    3363
+                ],
+                "champion4": "Elise",
+                "champion4_items": [
+                    4636,
+                    3100,
+                    3020,
+                    1026,
+                    1028,
+                    3102,
+                    3364
+                ],
+                "champion5": "Camille",
+                "champion5_items": [
+                    3053,
+                    1038,
+                    1036,
+                    3074,
+                    3111,
+                    6632,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Nautilus",
+                "champion6_items": [
+                    3860,
+                    3190,
+                    0,
+                    3117,
+                    3067,
+                    8001,
+                    3364
+                ],
+                "champion7": "Kaisa",
+                "champion7_items": [
+                    3085,
+                    6671,
+                    6676,
+                    3031,
+                    2421,
+                    3006,
+                    3363
+                ],
+                "champion8": "Leblanc",
+                "champion8_items": [
+                    3135,
+                    6655,
+                    3089,
+                    1082,
+                    1052,
+                    3020,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    3041,
+                    3157,
+                    3089,
+                    3135,
+                    4636,
+                    3020,
+                    3364
+                ],
+                "champion10": "Irelia",
+                "champion10_items": [
+                    1055,
+                    3044,
+                    6630,
+                    3047,
+                    3153,
+                    2421,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Nautilus",
+                "champion1_items": [
+                    3860,
+                    2055,
+                    3190,
+                    3009,
+                    3001,
+                    1028,
+                    3364
+                ],
+                "champion2": "LeeSin",
+                "champion2_items": [
+                    3111,
+                    3053,
+                    6630,
+                    3133,
+                    3211,
+                    3067,
+                    3340
+                ],
+                "champion3": "Sylas",
+                "champion3_items": [
+                    3157,
+                    3158,
+                    3089,
+                    3041,
+                    4629,
+                    6656,
+                    3340
+                ],
+                "champion4": "Kindred",
+                "champion4_items": [
+                    1055,
+                    6632,
+                    3006,
+                    3091,
+                    1042,
+                    1042,
+                    3363
+                ],
+                "champion5": "Fiora",
+                "champion5_items": [
+                    6630,
+                    3074,
+                    0,
+                    1055,
+                    1037,
+                    3009,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Maokai",
+                "champion6_items": [
+                    3009,
+                    2055,
+                    3860,
+                    3742,
+                    3076,
+                    1011,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1055,
+                    6673,
+                    3006,
+                    3091,
+                    1042,
+                    2055,
+                    3363
+                ],
+                "champion8": "Anivia",
+                "champion8_items": [
+                    1056,
+                    3070,
+                    4630,
+                    3157,
+                    6653,
+                    3020,
+                    3340
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    3135,
+                    4636,
+                    3157,
+                    3916,
+                    3020,
+                    1026,
+                    3364
+                ],
+                "champion10": "Gangplank",
+                "champion10_items": [
+                    3078,
+                    3074,
+                    2033,
+                    3047,
+                    6609,
+                    3044,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Yuumi",
+                "champion1_items": [
+                    3850,
+                    2055,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion2": "Ziggs",
+                "champion2_items": [
+                    2010,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "champion3": "Akshan",
+                "champion3_items": [
+                    1055,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion4": "LeeSin",
+                "champion4_items": [
+                    1035,
+                    2031,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion5": "Kayle",
+                "champion5_items": [
+                    2003,
+                    1056,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Lulu",
+                "champion6_items": [
+                    3850,
+                    2003,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion7": "Vayne",
+                "champion7_items": [
+                    1055,
+                    2003,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion8": "Sett",
+                "champion8_items": [
+                    1054,
+                    0,
+                    2003,
+                    0,
+                    0,
+                    0,
+                    3340
+                ],
+                "champion9": "Kindred",
+                "champion9_items": [
+                    1035,
+                    2031,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Mordekaiser",
+                "champion10_items": [
+                    1054,
+                    1028,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    3047,
+                    3860,
+                    2055,
+                    3067,
+                    3076,
+                    3364
+                ],
+                "champion2": "Ezreal",
+                "champion2_items": [
+                    1055,
+                    3123,
+                    3158,
+                    6694,
+                    6632,
+                    3042,
+                    3363
+                ],
+                "champion3": "Qiyana",
+                "champion3_items": [
+                    6695,
+                    6694,
+                    6693,
+                    3158,
+                    3134,
+                    1036,
+                    3364
+                ],
+                "champion4": "Karthus",
+                "champion4_items": [
+                    3916,
+                    3157,
+                    4630,
+                    3020,
+                    3089,
+                    6653,
+                    3364
+                ],
+                "champion5": "Camille",
+                "champion5_items": [
+                    3053,
+                    3158,
+                    3026,
+                    6609,
+                    3074,
+                    6632,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Pantheon",
+                "champion6_items": [
+                    3857,
+                    3009,
+                    6692,
+                    2055,
+                    3179,
+                    6609,
+                    3364
+                ],
+                "champion7": "Tristana",
+                "champion7_items": [
+                    6672,
+                    3046,
+                    1038,
+                    3031,
+                    3006,
+                    1053,
+                    3363
+                ],
+                "champion8": "Sylas",
+                "champion8_items": [
+                    6656,
+                    3157,
+                    4629,
+                    1058,
+                    3158,
+                    1058,
+                    3340
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    0,
+                    3157,
+                    3020,
+                    1058,
+                    3364
+                ],
+                "champion10": "Renekton",
+                "champion10_items": [
+                    8001,
+                    3153,
+                    6632,
+                    3047,
+                    6609,
+                    3181,
+                    3363
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Nami",
+                "champion1_items": [
+                    3853,
+                    4005,
+                    2055,
+                    3158,
+                    3916,
+                    4642,
+                    3364
+                ],
+                "champion2": "Yasuo",
+                "champion2_items": [
+                    1055,
+                    3006,
+                    6673,
+                    3031,
+                    2055,
+                    0,
+                    3363
+                ],
+                "champion3": "Galio",
+                "champion3_items": [
+                    1082,
+                    6656,
+                    2033,
+                    3191,
+                    3111,
+                    3108,
+                    3340
+                ],
+                "champion4": "Nidalee",
+                "champion4_items": [
+                    4636,
+                    3041,
+                    3108,
+                    3191,
+                    0,
+                    3020,
+                    3513
+                ],
+                "champion5": "Irelia",
+                "champion5_items": [
+                    3067,
+                    3153,
+                    3047,
+                    1055,
+                    3057,
+                    1028,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Braum",
+                "champion6_items": [
+                    3047,
+                    3067,
+                    2055,
+                    3855,
+                    1029,
+                    0,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    1042,
+                    2031,
+                    1055,
+                    6672,
+                    3006,
+                    1018,
+                    3363
+                ],
+                "champion8": "Katarina",
+                "champion8_items": [
+                    1055,
+                    2420,
+                    3153,
+                    3111,
+                    1026,
+                    1052,
+                    3364
+                ],
+                "champion9": "Shaco",
+                "champion9_items": [
+                    6676,
+                    2031,
+                    3006,
+                    6670,
+                    0,
+                    1037,
+                    3364
+                ],
+                "champion10": "Volibear",
+                "champion10_items": [
+                    1056,
+                    3076,
+                    6632,
+                    3047,
+                    0,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "TahmKench",
+                "champion1_items": [
+                    3111,
+                    3067,
+                    3860,
+                    0,
+                    8001,
+                    3105,
+                    3364
+                ],
+                "champion2": "Kalista",
+                "champion2_items": [
+                    1055,
+                    3006,
+                    6673,
+                    3046,
+                    3124,
+                    1031,
+                    3363
+                ],
+                "champion3": "Cassiopeia",
+                "champion3_items": [
+                    2033,
+                    3040,
+                    6653,
+                    1026,
+                    1052,
+                    1082,
+                    3340
+                ],
+                "champion4": "Kindred",
+                "champion4_items": [
+                    6672,
+                    3091,
+                    3111,
+                    3086,
+                    1036,
+                    1036,
+                    3364
+                ],
+                "champion5": "Jax",
+                "champion5_items": [
+                    2421,
+                    3153,
+                    3071,
+                    6632,
+                    3091,
+                    3111,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Janna",
+                "champion6_items": [
+                    3853,
+                    2065,
+                    2055,
+                    3011,
+                    1052,
+                    3158,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    1055,
+                    6672,
+                    3086,
+                    3006,
+                    6676,
+                    3031,
+                    3363
+                ],
+                "champion8": "Xerath",
+                "champion8_items": [
+                    1056,
+                    6655,
+                    2031,
+                    3020,
+                    4628,
+                    4630,
+                    3363
+                ],
+                "champion9": "Maokai",
+                "champion9_items": [
+                    6653,
+                    2031,
+                    3020,
+                    4630,
+                    1026,
+                    0,
+                    3364
+                ],
+                "champion10": "Volibear",
+                "champion10_items": [
+                    6632,
+                    3047,
+                    2031,
+                    3053,
+                    0,
+                    0,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Zilean",
+                "champion1_items": [
+                    2065,
+                    3853,
+                    4643,
+                    1052,
+                    4629,
+                    3158,
+                    3364
+                ],
+                "champion2": "Jhin",
+                "champion2_items": [
+                    2031,
+                    3086,
+                    6671,
+                    6676,
+                    3009,
+                    3031,
+                    3363
+                ],
+                "champion3": "Syndra",
+                "champion3_items": [
+                    3040,
+                    6655,
+                    3020,
+                    3089,
+                    4630,
+                    0,
+                    3363
+                ],
+                "champion4": "Nocturne",
+                "champion4_items": [
+                    6631,
+                    3053,
+                    3026,
+                    3158,
+                    0,
+                    3133,
+                    3363
+                ],
+                "champion5": "Tryndamere",
+                "champion5_items": [
+                    1055,
+                    3508,
+                    6672,
+                    3006,
+                    3031,
+                    0,
+                    3340
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Thresh",
+                "champion6_items": [
+                    3857,
+                    3190,
+                    2055,
+                    3114,
+                    3158,
+                    3067,
+                    3364
+                ],
+                "champion7": "Ashe",
+                "champion7_items": [
+                    3153,
+                    1057,
+                    6673,
+                    3006,
+                    3046,
+                    0,
+                    3363
+                ],
+                "champion8": "Graves",
+                "champion8_items": [
+                    1055,
+                    6691,
+                    3006,
+                    6676,
+                    3035,
+                    1018,
+                    3340
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    3089,
+                    0,
+                    3157,
+                    3020,
+                    4628,
+                    3364
+                ],
+                "champion10": "Shyvana",
+                "champion10_items": [
+                    3051,
+                    6631,
+                    3047,
+                    3076,
+                    3053,
+                    1057,
+                    3340
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": true,
+            "composition": {
+                "champion1": "Leona",
+                "champion1_items": [
+                    3857,
+                    3190,
+                    2055,
+                    1028,
+                    1029,
+                    3047,
+                    3364
+                ],
+                "champion2": "Kaisa",
+                "champion2_items": [
+                    6676,
+                    6671,
+                    3006,
+                    3046,
+                    1055,
+                    0,
+                    3363
+                ],
+                "champion3": "Ryze",
+                "champion3_items": [
+                    2031,
+                    6656,
+                    3040,
+                    3020,
+                    4630,
+                    0,
+                    3340
+                ],
+                "champion4": "Viego",
+                "champion4_items": [
+                    6632,
+                    2055,
+                    3047,
+                    3153,
+                    1028,
+                    1037,
+                    3364
+                ],
+                "champion5": "MonkeyKing",
+                "champion5_items": [
+                    3508,
+                    6691,
+                    3047,
+                    1054,
+                    3053,
+                    3133,
+                    3364
+                ]
+            }
+        },
+        "team2": {
+            "win": false,
+            "composition": {
+                "champion6": "Pyke",
+                "champion6_items": [
+                    3179,
+                    3117,
+                    3855,
+                    0,
+                    6691,
+                    3026,
+                    3364
+                ],
+                "champion7": "Samira",
+                "champion7_items": [
+                    3047,
+                    6676,
+                    3036,
+                    0,
+                    1055,
+                    6673,
+                    3363
+                ],
+                "champion8": "Garen",
+                "champion8_items": [
+                    3006,
+                    3078,
+                    3033,
+                    3742,
+                    1054,
+                    1028,
+                    3363
+                ],
+                "champion9": "Malphite",
+                "champion9_items": [
+                    2033,
+                    3047,
+                    6662,
+                    3135,
+                    3108,
+                    0,
+                    3340
+                ],
+                "champion10": "Kindred",
+                "champion10_items": [
+                    6672,
+                    3046,
+                    3006,
+                    3036,
+                    3031,
+                    0,
+                    3364
+                ]
+            }
+        }
+    },
+    {
+        "team1": {
+            "win": false,
+            "composition": {
+                "champion1": "Thresh",
+                "champion1_items": [
+                    3190,
+                    2055,
+                    8001,
+                    3860,
+                    3158,
+                    3076,
+                    3364
+                ],
+                "champion2": "Draven",
+                "champion2_items": [
+                    3026,
+                    3006,
+                    3508,
+                    3036,
+                    3031,
+                    6693,
+                    3363
+                ],
+                "champion3": "Malphite",
+                "champion3_items": [
+                    1082,
+                    3145,
+                    1058,
+                    3089,
+                    4636,
+                    3158,
+                    3363
+                ],
+                "champion4": "Rengar",
+                "champion4_items": [
+                    6691,
+                    3508,
+                    3158,
+                    3036,
+                    1018,
+                    0,
+                    3364
+                ],
+                "champion5": "Skarner",
+                "champion5_items": [
+                    1054,
+                    3158,
+                    6632,
+                    3110,
+                    3065,
+                    2055,
+                    3363
+                ]
+            }
+        },
+        "team2": {
+            "win": true,
+            "composition": {
+                "champion6": "Sona",
+                "champion6_items": [
+                    6617,
+                    2420,
+                    3853,
+                    3158,
+                    0,
+                    3107,
+                    3364
+                ],
+                "champion7": "Aphelios",
+                "champion7_items": [
+                    6673,
+                    3085,
+                    0,
+                    3006,
+                    3036,
+                    3031,
+                    3363
+                ],
+                "champion8": "Qiyana",
+                "champion8_items": [
+                    6692,
+                    3133,
+                    6695,
+                    1036,
+                    3070,
+                    3158,
+                    3364
+                ],
+                "champion9": "Nidalee",
+                "champion9_items": [
+                    4636,
+                    4628,
+                    3020,
+                    3157,
+                    0,
+                    0,
+                    3364
+                ],
+                "champion10": "Aatrox",
+                "champion10_items": [
+                    3053,
+                    6630,
+                    3047,
+                    1029,
+                    3071,
+                    1029,
+                    3340
+                ]
+            }
+        }
+    }
+]

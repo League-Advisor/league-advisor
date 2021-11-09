@@ -3,6 +3,8 @@
 from league_advisor.string_assets.items import items_ascii
 import json
 import re
+from league_advisor.string_assets.menu_strings import strings
+from league_advisor.string_assets.champs import champions_ascii
 
 class LeagueBrowser:
     """This class handles the user inputs to preview the latest version of items and stats.
@@ -159,8 +161,82 @@ class LeagueBrowser:
             self.user_choise = []
             
 
-    # def receive_champions(self):
-    #     print("champions_filter")
+    def receive_champions(self):
+        
+        print("""*** Which champion tag would you like to check from the list above? ***
+        To go (b)ack    
+        """)
+
+        champion_tags = ["Fighter","Tank","Mage","Assassin","Marksman","Support"]
+
+        print(",".join(champion_tags).replace('"', "").replace(",", " || "))
+        print()
+
+        while not self.user_response.lower().title() in champion_tags:
+            self.prompt_user()
+
+            if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+                return self.receive_user_input()
+
+            if self.user_response.lower() == "q" or self.user_response.lower() == "quit":
+                exit()
+            
+            if not self.user_response.lower().title() in champion_tags:
+                print("Please enter a valid command.")
+                continue
+        
+            else:
+                with open("league_advisor/string_assets/champions.json") as f :
+                    data = json.load(f)
+                    data = data["data"]
+
+
+                    for i in data:
+
+                        if self.user_response.lower().title() in champion_tags:
+                            if self.user_response.lower().title() in data[i]["tags"]:
+                                self.user_choise.append(data[i]["name"])
+                            
+                   
+                    print(",".join(self.user_choise).replace('"', "").replace(",", " || "))
+                    print()
+                    print("""
+                    Which champion whould you like to Know about?
+                    To go (b)ack 
+                    """)
+                if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+                    self.receive_champions()
+                # else :    
+                self.prompt_user()
+
+                if self.user_response.lower() == "b" or self.user_response.lower() == "back":
+                    self.receive_champions()
+
+            champion_info = []
+            champion_figure = ""
+
+            for i in data:
+                if self.user_response.lower().title() in self.user_choise :
+                    for key in champions_ascii:
+                        if self.user_response.lower() == key:
+                            champion_figure = champions_ascii[key]
+                    if self.user_response.lower().title() == data[i]["name"]:
+                            champion_info.append(data[i]["name"])
+                            champion_info.append(data[i]["info"])
+                            print(f"""
+                            {champion_figure}
+                            Champion name : {champion_info[0]}
+                            Attack : {champion_info[1]["attack"]}
+                            Defense : {champion_info[1]["defense"]}
+                            Magic : {champion_info[1]["magic"]}
+                            Difficulty : {champion_info[1]["difficulty"]}
+                            """)
+
+                            print("To go back to main menu , press any key")
+                            self.prompt_user()
+                            return "b"
+
+
 
 
 if __name__ == "__main__":
