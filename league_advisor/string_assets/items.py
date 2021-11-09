@@ -1,6 +1,6 @@
 """This module contains items ascii art assets"""
 
-from league_advisor.string_assets.colors import color
+from string_assets.colors import color
 
 items_ascii = {
   "eye_of_the_herald_ascii" : color.MAGENTA + """
