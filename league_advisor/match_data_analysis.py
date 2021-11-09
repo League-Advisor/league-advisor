@@ -24,19 +24,19 @@ class MatchData:
         self.user_input =[]
         self.champion = ''
 
-    def data_analyzer(self,user_input=[]) :
+    def data_analyzer(self,user_input) :
         self.user_input = user_input
         self.champion = user_input[2] 
 
         with open('league_advisor/string_assets/filtered_data_extra.json') as f:
             data = json.load(f)
 
-        df = json_normalize(data)
+        df = pd.json_normalize(data)
 
         df.to_csv('league_advisor/string_assets/match_data_analysis.csv', index=False)  
 
         champion_input=df[df.values == self.champion]
-
+        
         champ_col = ''
         df_for_winners = pd.DataFrame()
         for i in champion_input.columns:
@@ -47,11 +47,14 @@ class MatchData:
                 for (j,row) in  helper_df.iterrows(): 
                         if "team1" in champ_col and row['team1.win'] :
                             df_for_winners = df_for_winners.append(row, ignore_index=True)
-                        
+                     
                             
-                        if "team2" in champ_col and row['team2.win'] :
-                            df_for_winners = df_for_winners.append(row, ignore_index=True)    
+                        elif "team2" in champ_col and row['team2.win'] :
+                            df_for_winners = df_for_winners.append(row, ignore_index=True)  
+                      
 
+                         
+       
         teams_winners_list =[]
 
         for row in df_for_winners.itertuples():
@@ -74,7 +77,6 @@ class MatchData:
             
                     items_for_winners_list.append(row[i+1])
 
-
         with open("league_advisor/string_assets/items.json" , "r") as f:
             items_names_list =[]
             data = json.load(f)
@@ -84,14 +86,17 @@ class MatchData:
                     string_item = str(items_for_winners_list[i][j])
                     if string_item in data :
                         items_names_list.append(data[string_item]["name"])
-
+      
         recommended_build = []
         count_items=Counter(items_names_list)
         most_common_items_used=count_items.most_common()
-        for i in range(8):
-            recommended_build.append(most_common_items_used[i][0])
-        return recommended_build
+        try:
+            for i in range(5):
+                recommended_build.append(most_common_items_used[i][0])
+            return recommended_build
+        except:
+            print("There is no enough data , please try our solo champion")    
+            return 
 
-    
 
 
