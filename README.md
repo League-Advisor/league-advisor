@@ -171,6 +171,9 @@ _implementing color mode in league champion browser feature_ - 9 Nov 2021
 
 _implemented color mode in champions browser_ - 9 Nov 2021
 
+### V 0.9.3
+_adding color mode to other features and polishing them_ - 9 Nov 2021
+
 ---
 
 ## Getting Started
@@ -233,6 +236,8 @@ v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
 v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
 
 v0.9.1 _feat: implemented color mode in champions browser_ - 9 Nov 2021
+
+v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 Nov 2021
 
 ## Authors
 

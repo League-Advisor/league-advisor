@@ -3,7 +3,7 @@
 
 from league_advisor.input_handler import InputHandler
 from league_advisor.string_assets.menu_strings import strings
-
+import os
 
 class LeagueAdvisor:
     """
@@ -32,14 +32,14 @@ class LeagueAdvisor:
         if self.welcome_flag == True:
             self.welcome_flag = False
             self.input_handler.welcome_message()
-            while not(self.mode.lower() == "c" or self.mode.lower() == "color" or self.mode.lower() == "colour" or self.mode.lower() =="b" or self.mode.lower() == "basic"):
-                self.mode = self.input_handler.color_mode()   
-                print("Please enter the mode you wish to use.")
-
-                
+            self.mode = self.input_handler.color_mode()
+            if self.mode.lower() == "c" or self.mode.lower() == "color" or self.mode.lower() == "colour":
+                self.mode = "c"
+            if self.mode or self.mode=="":
+                clear = lambda: os.system('clear')
+                clear()
+                   
         self.input_handler.input_flag = False
-        print(self.mode)
-
 
         while not self.input_handler.input_flag:
             if self.mode == "c":
