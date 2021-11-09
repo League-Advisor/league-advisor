@@ -82,7 +82,7 @@ class InputHandler:
 
     def color_mode(self):
         print("""
-        Enter (c)olor to use color mode, or continue with the (b)asic mode.
+    Enter (c)olor to use color mode, or continue in basic mode by entering any button.
         """)
         self.mode = input("> ").lower().strip()
         return self.mode
@@ -93,7 +93,10 @@ class InputHandler:
         exit()
 
     def help_user(self):
-        print(strings["help_list"])
+        if self.mode == "c":
+            print(strings["help_list_color"])
+        else:
+            print(strings["help_list"])
 
     def input_interpreter(self, user_input):
 
@@ -101,6 +104,7 @@ class InputHandler:
             self.help_user()
 
         elif user_input == "d" or user_input == "discover":
+            self.discover.get_color_mode(self.mode)
             self.discover.discover()
 
         elif user_input == "b" or user_input == "browse":
@@ -113,7 +117,7 @@ class InputHandler:
                 self.input_flag = False
 
         elif user_input == "s" or user_input == "solo":
-
+            self.solo_champion.get_color_mode(self.mode)
             solo_items = self.solo_champion.direct_input()
             
             if solo_items == "b" or solo_items == "back":
