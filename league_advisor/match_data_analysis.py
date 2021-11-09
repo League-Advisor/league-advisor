@@ -96,7 +96,7 @@ class MatchData:
             return recommended_build
         except:
             print("There is no enough data , please try our solo champion")    
-            return 
+            return
 
 
 

@@ -140,6 +140,9 @@ _print champion figures in champion browser_ - 7 Nov 2021
 ### V 0.8.4
 
 *data_analyzer method for MatchData class* - 9 Nov 2021
+
+### v0.9.4
+adding notebook ranked-analysi-elected-items method for MatchData class *  - 9 Nov 2021
 ---
 
 ## Getting Started
@@ -182,6 +185,9 @@ v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data 
 v0.8.2 *feat : data analysis method for ranked module inprogress*  - 8 Nov 2021
 
 v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
+
+v0.9.4 *test : notebook ranked-analysi-elected-items method for MatchData class *  - 9 Nov 2021
+
 ---
 
 ## Authors
