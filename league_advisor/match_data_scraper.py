@@ -50,7 +50,6 @@
 
 #             Return: None
         
-
 #     """
 
 #     def __init__(self):
@@ -173,11 +172,3 @@
                     
 #                     json.dump(self.array, file)
             
-                
-# # if __name__ == '__main__':
-#     # match = MatchDataScraper()
-#     # match.filter_match_data()
-#     # match.get_match_data_by_id()
-
-
-

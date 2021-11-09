@@ -1,0 +1,5 @@
+
+Would you like to preview (i)tems or (c)hampions?
+To stop the program, enter (q)uit || (b)ack to the main menu.
+
+> q
