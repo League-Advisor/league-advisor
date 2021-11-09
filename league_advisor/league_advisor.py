@@ -1,3 +1,4 @@
+
 """This module runs the core functions of the program"""
 
 from league_advisor.input_handler import InputHandler
@@ -24,19 +25,34 @@ class LeagueAdvisor:
     def __init__(self):
         self.input_handler = InputHandler()
         self.welcome_flag = True
+        self.mode = ""
 
     def run_program(self):
-        self.input_handler.input_flag = False
 
         if self.welcome_flag == True:
             self.welcome_flag = False
             self.input_handler.welcome_message()
+            while not(self.mode.lower() == "c" or self.mode.lower() == "color" or self.mode.lower() == "colour" or self.mode.lower() =="b" or self.mode.lower() == "basic"):
+                self.mode = self.input_handler.color_mode()   
+                print("Please enter the mode you wish to use.")
+
+                
+        self.input_handler.input_flag = False
+        print(self.mode)
+
 
         while not self.input_handler.input_flag:
-            print(strings["main_menu"])
-            self.input_handler.prompt_user()
-            self.input_handler.input_interpreter(self.input_handler.user_input)
+            if self.mode == "c":
+                print(strings["main_menu_color"])
+                self.input_handler.prompt_user()
+                self.input_handler.input_interpreter(self.input_handler.user_input)
 
+            else:
+                print(strings["main_menu"])
+                self.input_handler.prompt_user()
+                self.input_handler.input_interpreter(self.input_handler.user_input)
 
-x = LeagueAdvisor()
-x.run_program()
+if __name__ == "__main__":
+
+    league_advisor = LeagueAdvisor()
+    league_advisor.run_program()

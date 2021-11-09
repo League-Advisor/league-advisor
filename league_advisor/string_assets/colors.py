@@ -29,3 +29,4 @@ class color:
   CYAN_BG = "\033[1;46m"
   WHITE_BG = "\033[1;47m"
   RESET_BG = "\033[1;49m"
+

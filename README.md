@@ -63,6 +63,7 @@ _A player often has to do lots of mental math in order to figure out what should
 VS Code
 [GitHub Projects](https://github.com/orgs/League-Advisor/projects/1)
 
+```py
 - Python
 - Pytest
 - Poetry
@@ -71,7 +72,11 @@ VS Code
 - flake8
 - black
 - bs4
-- requests
+- Requests
+- difflib
+- builtins
+```
+
 
 ---
 
@@ -95,11 +100,57 @@ _league_advisor and input_handler modules_ - 5 Nov 2021
 
 #### V 0.4.1
 
-\_input_handler unittests and ascii art and color codes- 6 Nov 2021
+_input_handler unittests and ascii art and color codes- 6 Nov 2021
+
+#### V 0.5
+
+_discover module and unittests_ - 6 Nov 2021
+
+#### V 0.6
+
+_scrape module and unittests_ - 7 Nov 2021
+
+#### V 0.6.1
+
+_browser module and get_items method, receive_user_input_ - 7 Nov 2021
+
+#### V 0.6.2
+
+_receive_champions method for browser module_ - 7 Nov 2021
+
+### V 0.6.2.1
+
+_print champion figures in champion browser_ - 7 Nov 2021
+
+#### V 0.6.3
+
+_added flo simulation logic module_ - 7 Nov 2021
+
+#### V 0.6.4
+
+_adding some simulation tests_ - 7 Nov 2021
+
+### V 0.6.5
+
+_extended champion browser print functionality_ - 8 Nov 2021
+
+#### V 0.6.6
+
+_adding simulation tests for receive_items method_ - 8 Nov 2021
 
 #### V 0.7
 
 ## _solo_items and unit tests_ -7 Nov 2021
+
+### V 0.9.0
+
+_implementing color mode in league champion browser feature_ - 9 Nov 2021
+
+### V 0.9.1
+
+_implemented color mode in champions browser_ - 9 Nov 2021
+
+---
 
 ## Getting Started
 
@@ -122,7 +173,35 @@ v0.3: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 20
 
 v0.4: _feat: adding league_advisor and input_handler modules_ - 5 Nov 2021
 
-v0.4.1: _feat: adding unittests and ascii art and color codes_- 6 Nov 2021
+v0.4.1: _feat: adding unittests and ascii art and color codes_ - 6 Nov 2021
+
+v0.5: _feat: adding discover module and it's unittests_ - 6 Nov 2021
+
+v0.6: _feat: adding scrape module and it's unittests_ - 7 Nov 2021
+
+v0.6.1: _feat: adding browser module and get_items method, receive_user_input_ - 7 Nov 2021
+
+v0.6.2: _feat: adding receive_champions method for browser module_ - 7 Nov 2021
+
+v06.2.1: _feat: adding champion figures to champion browser_ - 7 Nov 2021
+
+v0.6.1: _feat: adding browser module and receive_items method, receive_user_input_- 7 Nov 2021
+
+v0.6.3: _added flo simulation logic module_ - 7 Nov 2021
+
+v0.6.4: _test: adding some simulation tests_- 7 Nov 2021
+
+v0.6.4.1: _feat: 90% compleated from receive_items method in browser module_- 7 Nov 2021
+
+v0.6.4.2: _test: simulation tests for receive_items method in browser module_- 8 Nov 2021
+
+v0.6.5 _extended champion browser print functionality_ - 8 Nov 2021
+
+v0.6.6 _adding simulation tests for receive_items method_ - 8 Nov 2021
+
+v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
+
+v0.9.1 _feat: implemented color mode in champions browser_ - 9 Nov 2021
 
 v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
 

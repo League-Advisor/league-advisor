@@ -56,12 +56,20 @@ strings = {
 
     "main_menu": """
 
-    For new users, enter (""" + color.RED + "h" + color.RESET + """)elp to show all available features and how to operate this program, then (""" + color.RED + "d" + color.RESET + """)iscover the game and learn the rules.
+    For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
 
-    For experienced summoners, (""" + color.RED + "b" + color.RESET + """)rowse the champions and items, get your (""" + color.RED + "s" + color.RESET + """)olo lane build, or raise the stakes and get your (""" + color.RED + "r" + color.RESET + """)anked queue build ready in an instant!""" + "\n"
+    For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!"""
     """
-    To stop the program, enter (""" + color.RED + "q" + color.RESET + """)uit.""",
 
+    To stop the program, enter (q)uit.""",
+
+  "main_menu_color" : f"""
+
+    For new users, enter ({color.RED}h{color.RESET})elp to show all available features and how to operate this program, then ({color.RED}d{color.RESET})iscover the game and learn the rules.
+
+    For experienced summoners, ({color.RED}b{color.RESET})rowse the champions and items, get your ({color.RED}s{color.RESET})olo lane build, or raise the stakes and get your ({color.RED}r{color.RESET})anked queue build ready in an instant!
+ 
+    To stop the program, enter ({color.RED}q{color.RESET})uit.""",
 
     "help_list": """
         (h): help, provides a list of available features and commands, this is how you got here.
@@ -82,6 +90,62 @@ strings = {
     "champion_list_upper": ['Aatrox', 'Ahri', 'Akali', 'Akshan', 'Alistar', 'Amumu', 'Anivia', 'Annie', 'Aphelios', 'Ashe', 'Aurelion Sol', 'Azir', 'Bard', 'Blitzcrank', 'Brand', 'Braum', 'Caitlyn', 'Camille', 'Cassiopeia', "Cho'Gath", 'Corki', 'Darius', 'Diana', 'Draven', 'Dr. Mundo', 'Ekko', 'Elise', 'Evelynn', 'Ezreal', 'Fiddlesticks', 'Fiora', 'Fizz', 'Galio', 'Gangplank', 'Garen', 'Gnar', 'Gragas', 'Graves', 'Gwen', 'Hecarim', 'Heimerdinger', 'Illaoi', 'Irelia', 'Ivern', 'Janna', 'Jarvan IV', 'Jax', 'Jayce', 'Jhin', 'Jinx', "Kai'Sa", 'Kalista', 'Karma', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kayn', 'Kennen', "Kha'Zix", 'Kindred', 'Kled', "Kog'Maw", 'LeBlanc', 'Lee Sin', 'Leona', 'Lillia', 'Lissandra', 'Lucian', 'Lulu', 'Lux', 'Malphite', 'Malzahar', 'Maokai', 'Master Yi', 'Miss Fortune', 'Wukong', 'Mordekaiser', 'Morgana', 'Nami', 'Nasus', 'Nautilus', 'Neeko', 'Nidalee', 'Nocturne', 'Nunu & Willump', 'Olaf', 'Orianna', 'Ornn', 'Pantheon', 'Poppy', 'Pyke', 'Qiyana', 'Quinn', 'Rakan', 'Rammus', "Rek'Sai", 'Rell', 'Renekton', 'Rengar', 'Riven', 'Rumble', 'Ryze', 'Samira', 'Sejuani', 'Senna', 'Seraphine', 'Sett', 'Shaco', 'Shen', 'Shyvana', 'Singed', 'Sion', 'Sivir', 'Skarner', 'Sona', 'Soraka', 'Swain', 'Sylas', 'Syndra', 'Tahm Kench', 'Taliyah', 'Talon', 'Taric', 'Teemo', 'Thresh', 'Tristana', 'Trundle', 'Tryndamere', 'Twisted Fate', 'Twitch', 'Udyr', 'Urgot', 'Varus', 'Vayne', 'Veigar', "Vel'Koz", 'Vex', 'Vi', 'Viego', 'Viktor', 'Vladimir', 'Volibear', 'Warwick', 'Xayah', 'Xerath', 'Xin Zhao', 'Yasuo', 'Yone', 'Yorick', 'Yuumi', 'Zac', 'Zed', 'Ziggs', 'Zilean', 'Zoe', 'Zyra'],
 
 
-    "champion_list_lower": ['aatrox', 'ahri', 'akali', 'akshan', 'alistar', 'amumu', 'anivia', 'annie', 'aphelios', 'ashe', 'aurelion sol', 'azir', 'bard', 'blitzcrank', 'brand', 'braum', 'caitlyn', 'camille', 'cassiopeia', "cho'gath", 'corki', 'darius', 'diana', 'draven', 'dr. mundo', 'ekko', 'elise', 'evelynn', 'ezreal', 'fiddlesticks', 'fiora', 'fizz', 'galio', 'gangplank', 'garen', 'gnar', 'gragas', 'graves', 'gwen', 'hecarim', 'heimerdinger', 'illaoi', 'irelia', 'ivern', 'janna', 'jarvan iv', 'jax', 'jayce', 'jhin', 'jinx', "kai'sa", 'kalista', 'karma', 'karthus', 'kassadin', 'katarina', 'kayle', 'kayn', 'kennen', "kha'zix", 'kindred', 'kled', "kog'maw", 'leblanc', 'lee sin', 'leona', 'lillia', 'lissandra', 'lucian', 'lulu', 'lux', 'malphite', 'malzahar', 'maokai', 'master yi', 'miss fortune', 'wukong', 'mordekaiser', 'morgana', 'nami', 'nasus', 'nautilus', 'neeko', 'nidalee', 'nocturne', 'nunu & willump', 'olaf', 'orianna', 'ornn', 'pantheon', 'poppy', 'pyke', 'qiyana', 'quinn', 'rakan', 'rammus', "rek'sai", 'rell', 'renekton', 'rengar', 'riven', 'rumble', 'ryze', 'samira', 'sejuani', 'senna', 'seraphine', 'sett', 'shaco', 'shen', 'shyvana', 'singed', 'sion', 'sivir', 'skarner', 'sona', 'soraka', 'swain', 'sylas', 'syndra', 'tahm kench', 'taliyah', 'talon', 'taric', 'teemo', 'thresh', 'tristana', 'trundle', 'tryndamere', 'twisted fate', 'twitch', 'udyr', 'urgot', 'varus', 'vayne', 'veigar', "vel'koz", 'vex', 'vi', 'viego', 'viktor', 'vladimir', 'volibear', 'warwick', 'xayah', 'xerath', 'xin zhao', 'yasuo', 'yone', 'yorick', 'yuumi', 'zac', 'zed', 'ziggs', 'zilean', 'zoe', 'zyra']
+    "champion_list_lower": ['aatrox', 'ahri', 'akali', 'akshan', 'alistar', 'amumu', 'anivia', 'annie', 'aphelios', 'ashe', 'aurelion sol', 'azir', 'bard', 'blitzcrank', 'brand', 'braum', 'caitlyn', 'camille', 'cassiopeia', "cho'gath", 'corki', 'darius', 'diana', 'draven', 'dr. mundo', 'ekko', 'elise', 'evelynn', 'ezreal', 'fiddlesticks', 'fiora', 'fizz', 'galio', 'gangplank', 'garen', 'gnar', 'gragas', 'graves', 'gwen', 'hecarim', 'heimerdinger', 'illaoi', 'irelia', 'ivern', 'janna', 'jarvan iv', 'jax', 'jayce', 'jhin', 'jinx', "kai'sa", 'kalista', 'karma', 'karthus', 'kassadin', 'katarina', 'kayle', 'kayn', 'kennen', "kha'zix", 'kindred', 'kled', "kog'maw", 'leblanc', 'lee sin', 'leona', 'lillia', 'lissandra', 'lucian', 'lulu', 'lux', 'malphite', 'malzahar', 'maokai', 'master yi', 'miss fortune', 'wukong', 'mordekaiser', 'morgana', 'nami', 'nasus', 'nautilus', 'neeko', 'nidalee', 'nocturne', 'nunu & willump', 'olaf', 'orianna', 'ornn', 'pantheon', 'poppy', 'pyke', 'qiyana', 'quinn', 'rakan', 'rammus', "rek'sai", 'rell', 'renekton', 'rengar', 'riven', 'rumble', 'ryze', 'samira', 'sejuani', 'senna', 'seraphine', 'sett', 'shaco', 'shen', 'shyvana', 'singed', 'sion', 'sivir', 'skarner', 'sona', 'soraka', 'swain', 'sylas', 'syndra', 'tahm kench', 'taliyah', 'talon', 'taric', 'teemo', 'thresh', 'tristana', 'trundle', 'tryndamere', 'twisted fate', 'twitch', 'udyr', 'urgot', 'varus', 'vayne', 'veigar', "vel'koz", 'vex', 'vi', 'viego', 'viktor', 'vladimir', 'volibear', 'warwick', 'xayah', 'xerath', 'xin zhao', 'yasuo', 'yone', 'yorick', 'yuumi', 'zac', 'zed', 'ziggs', 'zilean', 'zoe', 'zyra'],
 
+
+      "help_list_color" : f"""
+        ({color.RED}h{color.RESET}): help, provides a list of available features and commands, this is how you got here.
+
+        ({color.RED}d{color.RESET}): discover, provides printed text of game description and rules.
+
+        ({color.RED}b{color.RESET}): browse, provides a list of items or champions to choose from, and select a specific one to view its' stats.
+
+        ({color.RED}s{color.RESET}): solo, provides the optimal build path for one champion.
+
+        ({color.RED}r{color.RESET}): ranked, provieds the statically superior build based on its' win rate based on your team and the enemy's.
+
+        ({color.RED}q{color.RESET}): quit, quits the program.
+    """,
+
+    "desc" : f"""
+        
+        
+        League of Legends is one of the world's most popular video games, developed by Riot Games. 
+
+        It features a team-based competitive game mode based on strategy and outplaying opponents.
+
+        League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
+
+        > Two teams 5 players battle each other on a chosen map. 
+
+        The game's objective is to destroy the key building in enemy base - the Nexus. 
+
+        The gameplay combines use of skill and tactics, and there are many roads to victory. 
+
+        There are plenty of things that a player needs to keep an eye on, such as map visibility,
+         enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
+
+        Outnumbering your opponent may often turn out to be the key to success.
+
+        > LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
+         which are detailed further in the guide.
+
+        > League of Legends is based on microtransactions. Downloading and playing the game is free.
+ 
+        > All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
+        which are awarded to each player for their sheer participation in battles.
+
+        > Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
+
+        Skins are just a visual aspect - they do not influence champions' statistics. 
+
+        Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
+
+        Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
+        become the most popular e-sport in the world. 
+
+        To discover more about League of Legends, visit the official website at https://www.leagueoflegends.com.
+
+        To go back to main menu , press any key.
+       """
 }
