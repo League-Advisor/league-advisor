@@ -100,3 +100,6 @@ class MatchData:
 
 
 
+user_input=[["Orianna", "Cho'Gath", "Garen", "Poppy", "Malzahar"],["Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"],"Orianna"]
+a = MatchData()
+print(a.data_analyzer(user_input))   
