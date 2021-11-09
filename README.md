@@ -78,8 +78,10 @@ VS Code
 - pandas
 - difflib
 - collections
+- builtins
 
 ```
+
 
 ---
 
@@ -125,6 +127,26 @@ _receive_champions method for browser module_ - 7 Nov 2021
 
 _print champion figures in champion browser_ - 7 Nov 2021
 
+#### V 0.6.3
+
+_added flo simulation logic module_ - 7 Nov 2021
+
+#### V 0.6.4
+
+_adding some simulation tests_ - 7 Nov 2021
+
+### V 0.6.5
+
+_extended champion browser print functionality_ - 8 Nov 2021
+
+#### V 0.6.6
+
+_adding simulation tests for receive_items method_ - 8 Nov 2021
+
+#### V 0.7
+
+## _solo_items and unit tests_ -7 Nov 2021
+
 ### V 0.8.0
 
 *adding match_data_scraper and ranked_items modules and games data json file* - 7 Nov 2021
@@ -140,6 +162,15 @@ _print champion figures in champion browser_ - 7 Nov 2021
 ### V 0.8.4
 
 *data_analyzer method for MatchData class* - 9 Nov 2021
+
+### V 0.9.0
+
+_implementing color mode in league champion browser feature_ - 9 Nov 2021
+
+### V 0.9.1
+
+_implemented color mode in champions browser_ - 9 Nov 2021
+
 ---
 
 ## Getting Started
@@ -161,7 +192,7 @@ v0.2: _docs: Adding the software requermints and adding domain model_ - 3 Nov 20
 
 v0.3: _docs: Adding user stories ,update domain model and wireframes_ - 4 Nov 2021
 
-v0.4: *feat: adding league_advisor and input_handler modules* - 5 Nov 2021
+v0.4: _feat: adding league_advisor and input_handler modules_ - 5 Nov 2021
 
 v0.4.1: _feat: adding unittests and ascii art and color codes_ - 6 Nov 2021
 
@@ -175,6 +206,22 @@ v0.6.2: _feat: adding receive_champions method for browser module_ - 7 Nov 2021
 
 v06.2.1: _feat: adding champion figures to champion browser_ - 7 Nov 2021
 
+v0.6.1: _feat: adding browser module and receive_items method, receive_user_input_- 7 Nov 2021
+
+v0.6.3: _added flo simulation logic module_ - 7 Nov 2021
+
+v0.6.4: _test: adding some simulation tests_- 7 Nov 2021
+
+v0.6.4.1: _feat: 90% compleated from receive_items method in browser module_- 7 Nov 2021
+
+v0.6.4.2: _test: simulation tests for receive_items method in browser module_- 8 Nov 2021
+
+v0.6.5 _extended champion browser print functionality_ - 8 Nov 2021
+
+v0.6.6 _adding simulation tests for receive_items method_ - 8 Nov 2021
+
+v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
+
 v0.8.0: *feat: adding match_data_scraper and ranked_items modules games data json file* - 7 Nov 2021
 
 v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module*  - 8 Nov 2021
@@ -182,7 +229,10 @@ v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data 
 v0.8.2 *feat : data analysis method for ranked module inprogress*  - 8 Nov 2021
 
 v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
----
+
+v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
+
+v0.9.1 _feat: implemented color mode in champions browser_ - 9 Nov 2021
 
 ## Authors
 

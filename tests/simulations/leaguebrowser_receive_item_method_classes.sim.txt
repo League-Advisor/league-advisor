@@ -1,0 +1,28 @@
+
+Would you like to preview (i)tems or (c)hampions?
+To stop the program, enter (q)uit || (b)ack to the main menu.
+
+> i
+
+*** Which class items would you like to check from the list below? ***
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+
+To stop the program, enter (q)uit || (b)ack to the last menu.
+
+> Lethality
+
+The item names below are in Lethality class.
+
+Serrated Dirk || Youmuu's Ghostblade || Umbral Glaive || Edge of Night || The Collector || Duskblade of Draktharr || Eclipse || Prowler's Claw || Serpent's Fang
+
+To stop the program, enter (q)uit || (b)ack to the last menu.
+
+
+*** Which item would you like to Preview from the list above? ***
+
+To stop the program, enter (q)uit || (b)ack to the last menu.
+
+
