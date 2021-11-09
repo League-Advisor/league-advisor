@@ -73,8 +73,13 @@ VS Code
 - black
 - bs4
 - Requests
+- dotenv
+- jupyterlab
+- pandas
 - difflib
+- collections
 - builtins
+
 ```
 
 
@@ -142,6 +147,22 @@ _adding simulation tests for receive_items method_ - 8 Nov 2021
 
 ## _solo_items and unit tests_ -7 Nov 2021
 
+### V 0.8.0
+
+*adding match_data_scraper and ranked_items modules and games data json file* - 7 Nov 2021
+
+### V 0.8.1
+
+*adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module* - 8 Nov 2021
+
+### V 0.8.2
+
+*adding data analysis method for ranked module inprogress* - 8 Nov 2021
+
+### V 0.8.4
+
+*data_analyzer method for MatchData class* - 9 Nov 2021
+
 ### V 0.9.0
 
 _implementing color mode in league champion browser feature_ - 9 Nov 2021
@@ -199,11 +220,19 @@ v0.6.5 _extended champion browser print functionality_ - 8 Nov 2021
 
 v0.6.6 _adding simulation tests for receive_items method_ - 8 Nov 2021
 
+v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
+
+v0.8.0: *feat: adding match_data_scraper and ranked_items modules games data json file* - 7 Nov 2021
+
+v0.8.1 *feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module*  - 8 Nov 2021
+
+v0.8.2 *feat : data analysis method for ranked module inprogress*  - 8 Nov 2021
+
+v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
+
 v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
 
 v0.9.1 _feat: implemented color mode in champions browser_ - 9 Nov 2021
-
-v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
 
 ## Authors
 
