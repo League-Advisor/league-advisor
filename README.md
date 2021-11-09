@@ -125,6 +125,9 @@ _adding some simulation tests_ - 7 Nov 2021
 
 _adding simulation tests for receive_items method_ - 8 Nov 2021
 
+### V 0.9.0
+_implementing color mode in league champion browser feature_ - 9 Nov 2021
+
 ---
 
 ## Getting Started
@@ -163,6 +166,8 @@ v0.6.3: _test: adding some simulation tests_- 7 Nov 2021
 v0.6.3: _feat: 90% compleated from receive_items method in browser module_- 7 Nov 2021
 
 v0.6.3: _test: simulation tests for receive_items method in browser module_- 8 Nov 2021
+
+v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
 
 ---
 
