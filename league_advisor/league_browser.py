@@ -52,6 +52,29 @@ class LeagueBrowser:
         Arguments: None
 
         Return: invoke receive_user_input() depend on the user_response
+
+    ---
+
+        get_color_mode:
+            
+            This method sets the color mode for the module.
+
+            Arguments:
+
+                color_mode: String
+
+                Return: String
+
+    ---
+
+        clear:
+            
+            This method clears the screen.
+
+            Arguments: None
+
+            Return: None
+
     """
 
     def __init__(self):
@@ -70,6 +93,7 @@ class LeagueBrowser:
     def clear(self):
         clear = lambda: os.system('clear')
         clear()
+        
     def receive_user_input(self):
 
 

@@ -30,9 +30,21 @@ class SoloItems:
         Return: list of optimal items 
      ---------------------------------------------------------------------------------
       direct_input: 
+
         this method direct the user input to correspounding get_item method
+
         Argument: None 
+        
         Return: list of times 
+     ---------------------------------------------------------------------------------
+
+        clear:
+            
+            This method clears the screen.
+
+            Arguments: None
+
+            Return: None
 
     """
 

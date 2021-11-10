@@ -125,7 +125,10 @@ def test_input_handler_help_user_color(input_handler_fixture):
   diffs = diff(input_handler_fixture.help_user, path="tests/simulations/help_user.sim.txt")
   assert not diffs, diffs
   
-
+def test_input_handler_else():
+  league_advisor = LeagueAdvisor()
+  diffs = diff(league_advisor.run_program, path="tests/simulations/input_handler_else.sim.txt")
+  assert not diffs, diffs
 
 # Fixtures
 @pytest.fixture
