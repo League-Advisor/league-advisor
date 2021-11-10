@@ -1,0 +1,13 @@
+
+
+
+ Our recommended build considering the composition:
+
+
+["Doran's Blade", 'Divine Sunderer', 'Tear of the Goddess', "Caulfield's Warhammer", 'Ionian Boots of Lucidity', 'Stealth Ward', 'Divine Sunderer', 'Muramana', 'Ionian Boots of Lucidity', "Caulfield's Warhammer"]
+
+
+
+These items are commonly bought for your champion:
+
+['Ionian Boots of Lucidity', 'Farsight Alteration', 'Divine Sunderer', 'Muramana', "Doran's Blade"]
