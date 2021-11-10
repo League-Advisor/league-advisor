@@ -7,6 +7,7 @@ from league_advisor.league_browser import LeagueBrowser
 from league_advisor.match_data_analysis import MatchData
 from league_advisor.ranked_items import RankedItem
 
+
 class InputHandler:
     """
     This class handles all user inputs and redirects them to their corresponding functions.
@@ -66,7 +67,7 @@ class InputHandler:
       -------------------------------------------------------------------------------------
 
         get_color_mode:
-            
+
             This method sets the color mode for the module.
 
             Arguments:
@@ -86,7 +87,7 @@ class InputHandler:
         self.solo_champion = SoloItems()
         self.match_data = MatchData()
         self.ranked_items = RankedItem()
-        
+
     def welcome_message(self):
         print(strings["logo_ascii"])
         print(strings["welcome_message"])
@@ -133,20 +134,18 @@ class InputHandler:
         elif user_input == "s" or user_input == "solo":
             self.solo_champion.get_color_mode(self.mode)
             solo_items = self.solo_champion.direct_input()
-            
+
             if solo_items == "b" or solo_items == "back":
                 self.input_flag = False
             else:
                 solo_items
 
-
         elif user_input == "r" or user_input == "ranked":
             self.ranked_items.get_color_mode(self.mode)
             self.match_data.get_color_mode(self.mode)
-            self.ranked_items.handle_user_input()
-            list_of_champions = self.ranked_items.match
-            
-            items_list=self.match_data.data_analyzer(list_of_champions)
+            list_of_champions = self.ranked_items.prompt_user()
+
+            items_list = self.match_data.data_analyzer(list_of_champions)
             print(items_list)
         elif user_input == "q" or user_input == "quit":
             self.quit_program()

@@ -42,32 +42,35 @@
     To stop the program, enter (q)uit.
 > r
 
-Enter your team champion seperated by comma, starting with your champion name.
+Enter your team composition, seperated by commas.
 
-> aatrox,akali,alistar,annie,aphelios
+[Support,Adc,Mid,Jungle,Top]
 
-Enter your enemy team champions seperated by comma.
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> alistar,ezreal,syndra,volibear,camille
 
-> kalista,karthus,kassadin,maokai,mordekaise
+Enter your current champion name.
 
-You entered wrong enemy names
+> ezreal
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> thresh,jinx,zed,nidalee,darius
 
 
-Enter your enemy team champions seperated by comma.
 
-> kalista,karthus,kassadin,maokai,mordekaiser
+Our recommended build considering the composition:
 
-No data matched for champion items within your collection
 
-Please try with another collections
-
-None
+ ["Doran's Blade", 'Divine Sunderer', 'Tear of the Goddess', "Caulfield's Warhammer", 'Ionian Boots of Lucidity', 'Stealth Ward', 'Essence Reaver', 'Muramana', 'Frozen Heart', 'Tiamat'] 
 
 
 
  These items are commonly bought for your champion:
 
-['Stealth Ward', 'Goredrinker', 'Plated Steelcaps', "Doran's Blade", "Sterak's Gage"]
+['Ionian Boots of Lucidity', 'Farsight Alteration', 'Divine Sunderer', 'Muramana', "Doran's Blade"]
 
 
     For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
