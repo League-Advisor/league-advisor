@@ -44,9 +44,3 @@ class LeagueScraper:
         with open("league_advisor/string_assets/champions.json", "w+") as f:
             f.write(response)
         return champions.status_code
-
-
-if __name__ == '__main__':
-    leag_csrp = LeagueScraper()
-    print(leag_csrp.get_item())
-    print(leag_csrp.get_champion())

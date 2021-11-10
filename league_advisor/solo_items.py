@@ -39,12 +39,14 @@ class SoloItems:
     def __init__(self):
         self.user_input = ""
         self.mode = ""
+
     def prompt_user(self):
         self.user_input = input("> ")
 
-    # def clear(self):
-    #     clear = lambda: os.system('clear')
-    #     clear()
+    def clear(self):
+        clear = lambda: os.system('clear')
+        clear()
+        return
 
     def get_color_mode(self, color_mode):
         self.mode = color_mode
@@ -133,7 +135,7 @@ class SoloItems:
                     print()
                     print("Enter any key to go back...")
                     self.prompt_user()
-                    # self.clear()
+                    self.clear()
                     return "b"
                 except:
                     if self.mode == "c":
@@ -141,5 +143,5 @@ class SoloItems:
                     else:
                         print("Connection error... Please try again in a moment.")
                     self.prompt_user()
-                    # self.clear()
+                    self.clear()
                     return "b"

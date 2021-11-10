@@ -1,7 +1,7 @@
-"""This module tests solo_items solo_item class """
-from league_advisor.league_advisor import LeagueAdvisor
+"""This module tests solo_item class """
+
 from league_advisor.solo_items import SoloItems
-from tests.flo import diff
+
 
 def test_solo_item_get_items_lucian():
     # Arrange
@@ -24,11 +24,17 @@ def test_solo_item_get_items_zed():
     # Assert
     assert expected == actual
 
-def test_input_handler_welcome_screen():
-    league_advisor = LeagueAdvisor()  
-    diffs = diff(league_advisor.run_program, path="tests/simulations/solo_champion.sim.txt")
-    assert not diffs, diffs
+def test_solo_clear():
+    # Arrange
+    solo_item = SoloItems()
+    expected = None
 
+    # Act
+    actual = solo_item.clear()
+
+    # Assert
+    assert expected == actual
+   
 def test_color_mode():
     # Arrange
     solo_item = SoloItems()
@@ -39,3 +45,4 @@ def test_color_mode():
 
     # Assert
     assert actual == expected 
+

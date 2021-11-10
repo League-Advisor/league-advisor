@@ -360,10 +360,3 @@ class LeagueBrowser:
             return "b"
 
 
-
-if __name__ == "__main__":
-    leagueBrowser = LeagueBrowser()
-    leagueBrowser.receive_user_input()
-
-
-

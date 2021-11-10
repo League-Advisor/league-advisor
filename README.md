@@ -189,6 +189,9 @@ _adding color mode to other features and polishing them_ - 9 Nov 2021
 ### V0.9.3.1
 _test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
 
+### V0.9.5.1
+_fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
+
 ---
 
 ## Getting Started
@@ -261,6 +264,8 @@ v0.9.2 _feat: updating ranked item module to handle the both user and enemy team
 v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 Nov 2021
 
 v0.9.3.1 _test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
+
+v0.9.5.1 _fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
 
 ---
 

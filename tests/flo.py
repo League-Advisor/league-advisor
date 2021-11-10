@@ -1,9 +1,7 @@
-
-from league_advisor.league_advisor import LeagueAdvisor
 import builtins
 import difflib
 import sys
-
+import re
 
 def diff(start_func, path=""):
     """runs a given methods function and compares output with contents of given simulation
@@ -27,6 +25,7 @@ def diff(start_func, path=""):
     def mock_print(*args):
         nonlocal text
         text += "".join(args) + "\n"
+        text = re.sub(r'\x1b(\[.*?[@-~]|\].*?(\x07|\x1b\\))', '', text)
 
 
     # # inner function to mock input functionality
@@ -87,9 +86,3 @@ def _find_differences(text, expected_lines):
     diffed = difflib.unified_diff(actual_lines, expected_lines)
 
     return "\n".join(diffed)
-
-
-if __name__ == '__main__':
-    leagueadvisor = LeagueAdvisor()
-    diffs = diff(leagueadvisor, path="tests/quetter.sim.txt")
-    assert not diffs, diffs
