@@ -210,8 +210,18 @@ _docs: fixed docstrings_ - 10 Nov 2021
 ### V 0.9.9.1
 _refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
+
+# V 0.9.9.3
+_test: fix the test for match data analysis module after refactoring the module_ - 10 Nov 2021
+
+### v0.9.9.7 
+_testing match data analysis module_ - 10 Nov 2021
+
+---
+
 ### V 0.9.9.3
 _test: added tests for solo champion_ - 10 Nov 2021
+
 
 ### V 0.9.9.4
 _""refactor:implementing color mode into ranked champion and formatting prints""_ - 10 Nov 2021
@@ -351,6 +361,12 @@ v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
 v0.9.9.4 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
 
 v0.9.9.5 _docs: adding domain model image and get started section to the README_- 10 Nov 2021
+
+v0.9.9.3 test: fix the test for match data analysis module after refactoring the module - 10 Nov 2021
+
+
+v0.9.9.7 test: testing match data analysis module - 10 Nov 2021
+
 
 ---
 

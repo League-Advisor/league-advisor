@@ -241,3 +241,8 @@ class MatchData:
 
                
 
+if __name__ == "__main__":
+    inp_ = [["Ezreal",  "Nami",  "Syndra", "Nidalee", "Yone"], [
+        "Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"], "Ezreal"]
+    matchdata = MatchData()
+    print(matchdata.data_analyzer(inp_))

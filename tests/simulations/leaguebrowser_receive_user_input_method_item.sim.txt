@@ -1,15 +1,12 @@
 
 Would you like to preview (i)tems or (c)hampions?
 To stop the program, enter (q)uit || (b)ack to the main menu.
-
 > i
 
-*** Which class items would you like to check from the list below? ***
-
-To stop the program, enter (q)uit || (b)ack to the main menu.
+*** Which item class would you like to check from the list below? ***
 
 Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
 
-To stop the program, enter (q)uit || (b)ack to the last menu.
-
 > q
+
+                    Thank you for using League Advisor. Hope to see you again soon!
