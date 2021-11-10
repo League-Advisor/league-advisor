@@ -4,7 +4,8 @@ from league_advisor.discover import Discover
 from league_advisor.string_assets.menu_strings import strings
 from league_advisor.solo_items import SoloItems
 from league_advisor.league_browser import LeagueBrowser
-
+from league_advisor.match_data_analysis import MatchData
+from league_advisor.ranked_items import RankedItem
 
 class InputHandler:
     """
@@ -72,6 +73,8 @@ class InputHandler:
         self.league_browser = LeagueBrowser()
         self.discover = Discover()
         self.solo_champion = SoloItems()
+        self.match_data = MatchData()
+        self.ranked_items = RankedItem()
         
     def welcome_message(self):
         print(strings["logo_ascii"])
@@ -127,9 +130,13 @@ class InputHandler:
 
 
         elif user_input == "r" or user_input == "ranked":
-            self.input_flag = True
-            print("ranked")
-
+            self.ranked_items.get_color_mode(self.mode)
+            self.match_data.get_color_mode(self.mode)
+            self.ranked_items.handle_user_input()
+            list_of_champions = self.ranked_items.match
+            
+            items_list=self.match_data.data_analyzer(list_of_champions)
+            print(items_list)
         elif user_input == "q" or user_input == "quit":
             self.quit_program()
 

@@ -4,6 +4,8 @@ import json
 # from pandas.io.json import json_normalize
 import difflib as diff
 from collections import Counter
+from league_advisor.string_assets.colors import color
+
 
 
 class MatchData:
@@ -31,6 +33,11 @@ class MatchData:
         self.user_input =[]
         self.champion = ''
         self.df_for_winners = []
+        self.mode = ''
+
+    def get_color_mode(self, color_mode):
+        self.mode = color_mode
+        return self.mode    
     def data_analyzer(self,user_input) :
         self.user_input = user_input
         self.champion = user_input[2] 
@@ -59,7 +66,7 @@ class MatchData:
                         elif "team2" in champ_col and row['team2.win'] :
                             self.df_for_winners = self.df_for_winners.append(row, ignore_index=True)  
         
-
+        print(self.data_analyzer_items())
         teams_winners_list =[]
 
         for row in self.df_for_winners.itertuples():
@@ -98,11 +105,23 @@ class MatchData:
         try:
             for i in range(5):
                 recommended_build.append(most_common_items_used[i][0])
-            return f"These items are commonly bought for your champion: ==> {recommended_build}"
+            if self.mode =="c":
+                return f"""\n {color.GREEN}These items are commonly bought for your champion:{color.RESET}
+                                
+                                {recommended_build} 
+                            \n
+                            """
+            else:
+                 return f"""\nThese items are commonly bought for your champion:
+                                
+                                {recommended_build} 
+                            \n
+                            """               
         except:
-
-            print("There is no enough data , please try our solo champion")    
-            
+            if self.mode == "c":
+                print(f"\n{color.RED}There is no enough data , please try our solo champion{color.RESET}\n")    
+            else:
+                print(f"\nThere is no enough data , please try our solo champion\n")
         
 
     def data_analyzer_items(self):
@@ -153,7 +172,7 @@ class MatchData:
                 team_2_champions_winer = []
         # print(winer_items)
 
-        threshold = 0.40
+        threshold = 0.3
         data_normalyzed_str = ""
         data_normalyzed_items = []
         for i in winer_items:
@@ -180,7 +199,10 @@ class MatchData:
                 dif_itm.append(self.df_for_winners[col_].iloc[row_])
             # print(dif_itm)
         except:
-            print("No data matched for champion items within your collection")
+            if self.mode == "c":
+                print(f"{color.RED}No data matched for champion items within your collection{color.RESET}")
+            else:
+                print(f"No data matched for champion items within your collection")
 
         analy_itm_names = []
         f = open("league_advisor/string_assets/items.json")
@@ -191,16 +213,30 @@ class MatchData:
                 if i != 0:
                     analy_itm_names.append(data[f"{i}"]["name"])
         if analy_itm_names != []:
-            return f"Our recommended build considering the composition: ==> {analy_itm_names}"
+            if self.mode == "c": 
+
+                print(f"""\n{color.GREEN}Our recommended build considering the composition:{color.RESET}\n""")
+                
+              
+
+                return analy_itm_names[:10]
+
+                        
+            else:
+                print(f"""\n Our recommended build considering the composition:\n""")
+              
+                return analy_itm_names[:10]
+                        
+                                 
         else:
+
             print("Please try with another collections")
 
 
-# user_input = [["Nami", "Ezreal", "Syndra", "Nidalee", "Yone"], [
-#     "Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"], "Ezreal"]
-# a = MatchData()
-# print(a.data_analyzer(user_input))   
-# print(a.data_analyzer_items())
+user_input = [["Ezreal", "Nami", "Syndra", "Nidalee", "Yone"], [ "Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"], "Ezreal"]
+a = MatchData()
+print(a.data_analyzer(user_input))   
+
 
                
 

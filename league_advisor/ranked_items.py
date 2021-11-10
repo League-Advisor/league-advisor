@@ -2,6 +2,7 @@
 
 from league_advisor.string_assets.menu_strings import strings
 
+
 class RankedItem:
     """This module will direct the user input to the match data analysis module
 
@@ -74,15 +75,22 @@ class RankedItem:
         self.enemy_champion = ""
         self.user_flage = False
         self.enemy_flage = False
+        self.mode = ""
+
+    def get_color_mode(self, color_mode):
+        self.mode = color_mode
+        return self.mode     
 
     def prompt_user(self):
-        print("Enter your team champion seperated by comma, starting with your champion name.")
-        self.user_champion = input("> ").lower().strip()
-
+       
+            print("Enter your team champion seperated by comma, starting with your champion name.")
+            self.user_champion = input("> ")
+        
     def handle_user_choice(self):
 
         for champ in self.user[0]:
-            if champ in strings["champion_list_lower"]:
+            if champ.lower().strip() in strings["champion_list_lower"]:
+                champ = champ.title()
                 self.user_flage = True
 
             else:
@@ -106,20 +114,20 @@ class RankedItem:
 
     def prompt_user_enemy(self):
         print("Enter your enemy team champions seperated by comma.")
-        self.enemy_champion = input("> ").lower().strip()
+        self.enemy_champion = input("> ")
 
     def handle_enemy_choice(self):
         for champ in self.user[1]:
-            if champ in strings["champion_list_lower"]:
+            if champ.lower().strip() in strings["champion_list_lower"]:
                 self.enemy_flage = True
-
+                champ = champ.title()
             else:
                 print("You entered wrong enemy names")
                 self.handle_user_enemy()
         if self.enemy_flage == True:
             self.match.insert(1, self.enemy_champion.split(","))
             self.handle_match()
-
+            
     def handle_user_enemy(self):
 
         self.prompt_user_enemy()
@@ -143,4 +151,10 @@ class RankedItem:
                     self.match.pop(2)
 
         self.match.append(self.match[0][0])
-        print (self.match)
+        for i in self.match[0]:
+            i=i.title()
+        for j in self.match[1]:
+           j = j.title()
+        self.match[2] = self.match[2].title()
+          
+        return self.match
