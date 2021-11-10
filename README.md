@@ -82,7 +82,6 @@ VS Code
 
 ```
 
-
 ---
 
 ## Recent Updates
@@ -105,12 +104,11 @@ _league_advisor and input_handler modules_ - 5 Nov 2021
 
 #### V 0.4.1
 
-_input_handler unittests and ascii art and color codes- 6 Nov 2021
+\_input_handler unittests and ascii art and color codes- 6 Nov 2021
 
 #### V 0.5
 
 _discover module and unittests_ - 6 Nov 2021
-
 
 #### V 0.6
 
@@ -158,15 +156,15 @@ _adding match_scraper, get_match_data_by_id, and filter_match_data methods to ma
 
 ### V 0.8.2
 
-*adding data analysis method for ranked module inprogress* - 8 Nov 2021
+_adding data analysis method for ranked module inprogress_ - 8 Nov 2021
 
 ### V 0.8.3
 
-*extended match_scraper functionality to handle larger data queries and added mroe unittests* - 9 Nov 2021
+_extended match_scraper functionality to handle larger data queries and added mroe unittests_ - 9 Nov 2021
 
 ### V 0.8.4
 
-*data_analyzer method for MatchData class* - 9 Nov 2021
+_data_analyzer method for MatchData class_ - 9 Nov 2021
 
 ### v 0.8.5
 
@@ -185,42 +183,54 @@ _implemented color mode in champions browser_ - 9 Nov 2021
 _updating the ranked item module to handle both team and the proper check for them weather in numbers of champions also the repeated champion in both team or repeated name in same team_ - 9 Nov 2021
 
 ### V 0.9.3
+
 _adding color mode to other features and polishing them_ - 9 Nov 2021
 
 ### V0.9.3.1
-_test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
+
+_test: adding automated unit tests for input_handler and solo_item modules_ - 9 Nov 2021
 
 ### V 0.9.5
+
 _discover module unittests_ - 9 Nov 2021
 
 ### V0.9.5.1
-_fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
+
+_fix: added the ability to test colored text and edited assets_ - 10 Nov 2021
 
 ### V 0.9.7
+
 _match data analysis module unittests_ - 9 Nov 2021
 
 ### V 0.9.8
+
 _test: recieve_champions method for LeagueBrowser class module unittests_
 
 ### V 0.9.9.1
+
 _fix: fixed automated unittests_ - 10 Nov 2021
 
 ### V 0.9.9.2
+
 _docs: fixed docstrings_ - 10 Nov 2021
 
 # V 0.9.9.1
+
 _refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
 ### V 0.9.9.3
+
 _test: added tests for solo champion_ - 10 Nov 2021
 
 ### V 0.9.9.4
+
 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
 
+### V 0.9.9.6
+
+_refactor:updating the ranked item with color and add automated test_ - 10 Nov 2021
+
 ---
-
-
-
 
 ## Getting Started
 
@@ -271,15 +281,15 @@ v0.6.6 _adding simulation tests for receive_items method_ - 8 Nov 2021
 
 v0.7: _feat: adding solo_items and unit tests_ -7 Nov 2021
 
-v0.8.0: *feat: adding match_data_scraper and ranked_items modules games data json file* - 7 Nov 2021
+v0.8.0: _feat: adding match_data_scraper and ranked_items modules games data json file_ - 7 Nov 2021
 
 v0.8.1 _feat: adding match_scraper, get_match_data_by_id, and filter_match_data methods to match_data_scraper module_ - 8 Nov 2021
 
-v0.8.2 *feat : data analysis method for ranked module inprogress*  - 8 Nov 2021
+v0.8.2 _feat : data analysis method for ranked module inprogress_ - 8 Nov 2021
 
-v0.8.3 *feat: extended match_scraper functionality to handle larger data queries and added mroe unittests* - 9 Nov 2021
+v0.8.3 _feat: extended match_scraper functionality to handle larger data queries and added mroe unittests_ - 9 Nov 2021
 
-v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
+v0.8.4 _feat : data_analyzer method for MatchData class_ - 9 Nov 2021
 
 v0.8.5 _feat: adding ranked_item, get user choice and comapre it with the list of champions and then send it to data analysis module to pick the optimal items for the user with respect to user team champions also with respect to enemy team champions _ - 8 Nov 2021
 
@@ -291,11 +301,11 @@ v0.9.2 _feat: updating ranked item module to handle the both user and enemy team
 
 v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 Nov 2021
 
-v0.9.3.1 _test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
+v0.9.3.1 _test: adding automated unit tests for input_handler and solo_item modules_ - 9 Nov 2021
 
 v0.9.5 _test: discover module unittests_ - 9 Nov 2021
 
-v0.9.5.1 _fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
+v0.9.5.1 _fix: added the ability to test colored text and edited assets_ - 10 Nov 2021
 
 v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
 
@@ -303,13 +313,14 @@ v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_
 
 v0.9.8.1 _fix: fixed automated unittests_ - 10 Nov 2021
 
-v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
+v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode\_ - 10 Nov 2021
 
 v0.9.8.2 _docs: fixed docstrings_ - 10 Nov 2021
 
 v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
 
 v0.9.9.4 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
+v0.9.9.6 _refactor:ranked item module and impleminting the color mode and add automated test_ - 10 Nov 2021
 
 ---
 
