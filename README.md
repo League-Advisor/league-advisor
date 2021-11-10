@@ -168,6 +168,10 @@ _adding match_scraper, get_match_data_by_id, and filter_match_data methods to ma
 
 *data_analyzer method for MatchData class* - 9 Nov 2021
 
+### v0.9.4
+
+adding notebook ranked-analysi-elected-items method for MatchData class *  - 9 Nov 2021
+
 ### v 0.8.5
 
 _adding the ranked item module and prompt_user method,handle_user_input method,handle_user_choice method_ - 8 Nov 2021
@@ -205,6 +209,8 @@ _test: recieve_champions method for LeagueBrowser class module unittests_
 # V 0.9.8.1
 _fix: fixed automated unittests_ - 10 Nov 2021
 
+### v0.9.9 
+adding data_analyzer_items method for MatchData class*  - 10 Nov 2021
 
 ---
 
@@ -267,6 +273,8 @@ v0.8.3 *feat: extended match_scraper functionality to handle larger data queries
 
 v0.8.4 *feat : data_analyzer method for MatchData class*  - 9 Nov 2021
 
+v0.9.4 *test : notebook ranked-analysi-elected-items method for MatchData class *  - 9 Nov 2021
+
 v0.8.5 _feat: adding ranked_item, get user choice and comapre it with the list of champions and then send it to data analysis module to pick the optimal items for the user with respect to user team champions also with respect to enemy team champions _ - 8 Nov 2021
 
 v0.9.0: _feat: implementing color mode in league champion browser feature_ - 9 Nov 2021
@@ -288,6 +296,8 @@ v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
 v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_ - 10 Nov 2021
 
 v0.9.8.1 fix: fixed automated unittests_ - 10 Nov 2021
+
+v0.9.9 *feat : data_analyzer_items method for MatchData class*  - 10 Nov 2021
 
 ---
 
