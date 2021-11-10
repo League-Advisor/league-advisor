@@ -1,9 +1,6 @@
 """This module will get user choice and comapre it with the list of champions and then send it to data analysis module to pick the optimal items for the user with respect to user team champions also with respect to enemy team champions"""
 
-# from league_advisor.string_assets.champions import champy
-champy = ['aatrox', 'ahri', 'akali', 'akshan', 'alistar', 'amumu', 'anivia', 'annie', 'aphelios', 'ashe', 'aurelion sol', 'azir', 'bard', 'blitzcrank', 'brand', 'braum', 'caitlyn', 'camille', 'cassiopeia', "cho'gath", 'corki', 'darius', 'diana', 'draven', 'dr. mundo', 'ekko', 'elise', 'evelynn', 'ezreal', 'fiddlesticks', 'fiora', 'fizz', 'galio', 'gangplank', 'garen', 'gnar', 'gragas', 'graves', 'gwen', 'hecarim', 'heimerdinger', 'illaoi', 'irelia', 'ivern', 'janna', 'jarvan iv', 'jax', 'jayce', 'jhin', 'jinx', "kai'sa", 'kalista', 'karma', 'karthus', 'kassadin', 'katarina', 'kayle', 'kayn', 'kennen', "kha'zix", 'kindred', 'kled', "kog'maw", 'leblanc', 'lee sin', 'leona', 'lillia', 'lissandra', 'lucian', 'lulu', 'lux', 'malphite', 'malzahar', 'maokai', 'master yi', 'miss fortune',
-          'wukong', 'mordekaiser', 'morgana', 'nami', 'nasus', 'nautilus', 'neeko', 'nidalee', 'nocturne', 'nunu & willump', 'olaf', 'orianna', 'ornn', 'pantheon', 'poppy', 'pyke', 'qiyana', 'quinn', 'rakan', 'rammus', "rek'sai", 'rell', 'renekton', 'rengar', 'riven', 'rumble', 'ryze', 'samira', 'sejuani', 'senna', 'seraphine', 'sett', 'shaco', 'shen', 'shyvana', 'singed', 'sion', 'sivir', 'skarner', 'sona', 'soraka', 'swain', 'sylas', 'syndra', 'tahm kench', 'taliyah', 'talon', 'taric', 'teemo', 'thresh', 'tristana', 'trundle', 'tryndamere', 'twisted fate', 'twitch', 'udyr', 'urgot', 'varus', 'vayne', 'veigar', "vel'koz", 'vex', 'vi', 'viego', 'viktor', 'vladimir', 'volibear', 'warwick', 'xayah', 'xerath', 'xin zhao', 'yasuo', 'yone', 'yorick', 'yuumi', 'zac', 'zed', 'ziggs', 'zilean', 'zoe', 'zyra']
-
+from league_advisor.string_assets.menu_strings import strings
 
 class RankedItem:
     """This module will direct the user input to the match data analysis module
@@ -79,13 +76,13 @@ class RankedItem:
         self.enemy_flage = False
 
     def prompt_user(self):
-        print("Enter your team champion seperated by comma")
-        self.user_champion = input("> ")
+        print("Enter your team champion seperated by comma, starting with your champion name.")
+        self.user_champion = input("> ").lower().strip()
 
     def handle_user_choice(self):
 
         for champ in self.user[0]:
-            if champ in champy:
+            if champ in strings["champion_list_lower"]:
                 self.user_flage = True
 
             else:
@@ -108,12 +105,12 @@ class RankedItem:
             self.handle_user_input()
 
     def prompt_user_enemy(self):
-        print("Enter your enemy team champions seperated by comma")
-        self.enemy_champion = input("> ")
+        print("Enter your enemy team champions seperated by comma.")
+        self.enemy_champion = input("> ").lower().strip()
 
     def handle_enemy_choice(self):
         for champ in self.user[1]:
-            if champ in champy:
+            if champ in strings["champion_list_lower"]:
                 self.enemy_flage = True
 
             else:
@@ -146,4 +143,4 @@ class RankedItem:
                     self.match.pop(2)
 
         self.match.append(self.match[0][0])
-        return self.match
+        print (self.match)
