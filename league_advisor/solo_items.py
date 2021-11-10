@@ -30,9 +30,21 @@ class SoloItems:
         Return: list of optimal items 
      ---------------------------------------------------------------------------------
       direct_input: 
+
         this method direct the user input to correspounding get_item method
+
         Argument: None 
+        
         Return: list of times 
+     ---------------------------------------------------------------------------------
+
+        clear:
+            
+            This method clears the screen.
+
+            Arguments: None
+
+            Return: None
 
     """
 
@@ -43,10 +55,10 @@ class SoloItems:
     def prompt_user(self):
         self.user_input = input("> ")
 
-    def clear(self):
-        clear = lambda: os.system('clear')
-        clear()
-        return
+    # def clear(self):
+    #     clear = lambda: os.system('clear')
+    #     clear()
+    #     return
 
     def get_color_mode(self, color_mode):
         self.mode = color_mode
@@ -135,7 +147,7 @@ class SoloItems:
                     print()
                     print("Enter any key to go back...")
                     self.prompt_user()
-                    self.clear()
+                    # self.clear()
                     return "b"
                 except:
                     if self.mode == "c":
@@ -143,5 +155,5 @@ class SoloItems:
                     else:
                         print("Connection error... Please try again in a moment.")
                     self.prompt_user()
-                    self.clear()
+                    # self.clear()
                     return "b"

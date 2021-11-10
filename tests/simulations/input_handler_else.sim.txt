@@ -32,17 +32,20 @@
 
     Enter (c)olor to use color mode, or continue in basic mode by entering any button.
         
-> 
+> c
 
 
     For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
 
     For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!
-
+ 
     To stop the program, enter (q)uit.
-> s
-Enter your champion name to process their optimal build path.
-            You can still go (b)ack or (q)uit the program.
+> a
+Please enter a valid command.
 
-> q
-Thank you for using League Advisor. Hope to see you again soon!
+
+    For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
+
+    For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!
+ 
+    To stop the program, enter (q)uit.

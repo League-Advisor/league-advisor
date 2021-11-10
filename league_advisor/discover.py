@@ -17,6 +17,18 @@ class Discover:
             Arguments: None
 
             Return: None
+            
+      -------------------------------------------------------------------------------------
+
+        get_color_mode:
+            
+            This method sets the color mode for the module.
+
+            Arguments:
+
+                color_mode: String
+
+                Return: String
     """
     def __init__(self):
         self.mode = ""
