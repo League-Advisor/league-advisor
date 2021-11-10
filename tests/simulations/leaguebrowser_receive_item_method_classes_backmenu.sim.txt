@@ -1,0 +1,21 @@
+
+Would you like to preview (i)tems or (c)hampions?
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> i
+
+*** Which item class would you like to check from the list below? ***
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+
+> Mana
+
+Items with  Mana stats.
+*** Which item would you like to Preview? ***
+Faerie Charm || Sapphire Crystal || Doran's Ring || Total Biscuit of Everlasting Will || Corrupting Potion || Shurelya's Battlesong || Elixir of Sorcery || Archangel's Staff || Manamune || Chemtech Putrifier || Glacial Buckler || Guardian Angel || Seraph's Embrace || Muramana || Zeke's Convergence || Tear of the Goddess || Redemption || Frozen Heart || Guardian's Orb || Forbidden Idol || Mikael's Blessing || Ardent Censer || Lost Chapter || Spellthief's Edge || Frostfang || Shard of True Ice || Spectral Sickle || Harrowing Crescent || Black Mist Scythe || Imperial Mandate || The Golden Spatula || Bandleglass Mirror || Staff of Flowing Water || Moonstone Renewer || Liandry's Anguish || Luden's Tempest || Everfrost
+
+> b
+
+*** Which item class would you like to check from the list below? ***
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+

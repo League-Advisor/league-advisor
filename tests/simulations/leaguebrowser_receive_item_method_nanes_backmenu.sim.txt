@@ -1,0 +1,83 @@
+
+Would you like to preview (i)tems or (c)hampions?
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> i
+
+*** Which item class would you like to check from the list below? ***
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+
+> Armor Penetration
+
+Items with  Armor Penetration stats.
+*** Which item would you like to Preview? ***
+Last Whisper || Lord Dominik's Regards || Divine Sunderer || Eclipse || Serylda's Grudge
+
+> Divine Sunderer
+
+
+  ++++++++oooooosshhhhddhhhyyhhyyyyyyyyyyyyyyyyyyyyyyyyooyyhhhhhhhhhhhhhhhddmmmmmmNNmmmmmmNmmmmmmmmmmd
+  ++++++ooooooooyyddddhhhhhhhhyyyyyyyyyyyyyyyyyyyyysyo//+osyhyssssssssyhhhdmmNNNNmmmmmmmNNNNmmmmmmmmdd
+  ++++++syysoosshhddhhhhhhhhyyyyyyyyyyyyyyyyyyyysssss/..../++////++++syhhhdmmNmmmmmmmmmNNNNNNNNmmmmddd
+  ++++++ossooosyhhhhhhhhhhhyyyyssssyyyyyyyyyso+ossyh:. ..-/////:/++oyhddddddmmddddmmmNNNNmmmmmmmmddddd
+  +++++++ooooosyhhhhhhhhhyyyysssssssssyyyyso//ssshys``.:///////+ooyhdddddddddddddddmmNNNNmmmmmmddddmdd
+  ++++++++oooosyhhhyyyyyyyysssssssssyyyyyo+//+syydo/`-/////+++ossydddddddddddddddddmmNNNNmmdddddmmmNmm
+  +++++++ooooossyhdhhyhhyyyssssssyyyyyo/:/+s+osddh+.::///++oosssyysssssyyhdddddddddddmmmmmddddmmNNNNmm
+  ++++++oooooosshhdhhhhhhhyssssssyyy/-..-ssosyydmo:.:///++++osyyyyoo+oo+ooyhddddddddddddddddddmmNNNmdd
+  ++++++ooooooyhdhhhhhhhhhhyssssyys:.``:+ys+yhmmd/:.:///+++++oshyyo+++++++ossdddddddddddddddddmmNmmddd
+  +++++++ooooyhdhhhhhhhhhhhyyyyyho/````+hoooyhmmd/:.://///+++oshyyoo+++++++++hhhdddddddddddddddddddddd
+  +++++++++sydddhyyhhddddhhhhhhhy:.```:od+oyhhhhy/-.::://///+osyyhso+++++++++++oyhdddhhhhdddddddddddhh
+  +++++o+ooyhdhhyyyhhhhddddhhhhs:.````osy+oyyyyyy/-.:::::://+++osyyso+++++++++++ooyhddddhdddddddddddhh
+  +++++o+oshddhysyyyhhhddddhhh+:````.-oo++oysss+/-..-----://///+osyyyo++//+++++++++hdddddhhddddddddddh
+  ++++++oooyhhysssyyyhhy///:-.``..``-:o+/:::---..--:::://////+++++yyyys+////////////+hdmmdhhhhhhhdddhh
+  +++++ooossssssssyyyhhy.`````....``.---.....-----------:/:::::::/osyys+///////////shmmmmdhhhhhhdddhhh
+  +++++ooossssssssyyyhhy/-`.......```.---...........----:////::----:/++o++///:///+odmmmmdhhhhhhhdhhhhh
+  ++++oooossssssssssssyhs/............-.`...--..........-----------..---/+o++////+sdNNmmhysssyhhhhhhhh
+  ++++ooooooosssssssssssh+-`.............-....````.-:::::::::::::-------..-+oso+syhmNNmdhyoooshhhhhhhh
+  ++++ooooooossssssssssshs+``..........--.````````-:o+//////////:::----:::-::dddmmNNNmddhyoooosyhhhhhh
+  +++oooooooossssssssssshys```...........`...------.:/++/::::+++////++:`.-+/-:odmNNmmddhhso++++ohhhhhh
+  +++oooooooosssssssssyyhyy:-.```..`..-----:-::::://---......:/++++++++:.`:+s::-dmNmdhyyyso+///+yyhhhh
+  +++oooooooosssssssssyyyyhys+.``````.------//+++++o+/-...--....------:so+`:+s/`/sNmdsoooo++///+oyhhhh
+  ++ooooooossssssssssyyyyyhhys.```````-:++/::/oooso+///:-.---........:/sso---s+/.:ddho++++++++//+shhhh
+  ooooooooosssoooosssyyyyhhy+-`````...`-/yyyoo+ooooo///+//-...--.....:/+/::-.:/+.-/yyo+//////////syyyy
+  sssoooooossoooossyyyyyyhho/`-.```......::/+oyss++/////+++/.........//:-.:--.-/--.oys+//////////osyyy
+  sso+oooooooooossyyyyyyhhh..`--```...........-/+yss:/+//:+o++++:-...//:--:::`-/-.`+os+//////////osyyy
+  oooooooooooosssyyyyhhhhs+``.--.```....-....````:sdso+yhyhhyso/-...-//----::..-:-./oo+//////////osyyy
+  oooooooooooossyyyyyhhhh+-``.--.``........```````:omy/sso/:........-/:----::..---.:+o+//////////osyyy
+  ooooooooooossyyyyyyhhy+-`...:::......```````````..mho::/-........-:/:--:-::.----.://///////////osyyy
+  +ooooooooooyyyyyyyyhys.``...:/:..`````......./++:.o++//+:---.-..`.:/:--::::.-:--.://///////////oyyyy
+  +oooooooosyhhyyyyhhy+-`.-------..---.....-/+shddo/:::::::::-.--.`-//:--::::.--..-//////////////syyyy
+  +ooooooosyhhhyyyhhhs-``.:---------....-/+yhddddho::::::::::-.--.`.:/:-:::::---..-:/://////////osyyyy
+  oooooooshhdhhyhhhyo...`.-------..```:+sdddddddh+:.---::----..---.-://-://::--...::::////:::::/ssyyyy
+  oooooosydddyhhhhh/:`....------.``.:+hhddddddho/.-----:----...-----://:///:---..-::::::::::::/+syyhhy
+  ooooosyhdhhyyhhyo.`---..-.....`.-oyhddddddhy/-.-::-:///:-..------://///+/-.-..--::::::::::::+oyyyhyy
+  oooosyhhhhyyhhs/```...```..```-yhdddddhhs+-..-::::-:/+++:-..-:---:/++/++:-....---::::::::::+syyhhyys
+  oooosyhhhhhhys.............`-:oyhhhhs+/--...-------.....---..::--:+ooo//....-----:::::::::/osyhyssss
+  oooosyyhhhhs/-...----.....:/ooosso+/--...----.....---..`......----/ooo:-...------::::::::oosssssssss
+  ooossyhhhhy.......-:::-:/oo++os/::----------.....--............---:oo:-....------::::::/+sssssssssss
+  sssyyhhhh+-``........---.`````````````.-::................--::/+soo:.``.:------------:+oyssooooooooo
+  syyhhhys/.```......-............````````.:--........---:-:://+os+/:.`.-:::---------:/+sssooooooooooo
+  yyhhhh/-`````....--...`../////+-.......`....`..---:::::--:://++/..`.-:::--------.:/ossysoooooooooooo
+  hhhhy/.`..````..-.....`...-/::////::........-::::----::////::--...-::::::::----:+ssssooooooooooooooo
+  hhho/```..```....```````````-::://++:-...-::::::--::-:---...`````..:::::::--::osysoooooooooooo++++++
+  hs/.```.......``  ```....````.-:::/+/:.-:///::::--.....````````````:::::---/ohyysooooooooooo++++++++
+  o:`````````.`` `.-:+ooooo//:````..://::+++//:--.........``````..```-:/:://+hhyoooooooooooo++++++++++
+  ``````````````/+osyyyyyyyyyso/-.``.....---...`````....-:/+oooooo+/-.-+++sssysooooooooo+oossyyso+++++
+  ```````.:+ooosyyyyyyyssssyyyyysoo/:::-..`````````....:+yyyyyyyyssso++osssssooooooooo+++oshhhys++++++
+  ``````/+hhhhhyyyyyyssssssyyyyyyyyysssss/-```....:///+yhhhhhhhyyssssssssssssoooooooo++++++sooo+++++++
+  ````-ohdyyyyyyysssssssssssyhhhssssssssss+``.-:://:+syyyyhddhhsssssoooooooooooooo+ooo++++++++++++++++
+  ```+shhhyyyyyssssssssssssyhdyyssssssssss+``.-:::::ssyyyyhddhysssoooooooo+ooooo+++++o++++++++++++++++
+  `-+hhhyyyyyyysssssssssssshhhsssssssssssso///+++sssyyyyyyhhhysssooooooo+++++o++++++++++++++++++++++++
+  
+Divine Sunderer
+
+35 Attack Damage400 Health20 Ability HasteSpellblade: After using an Ability, your next Attack is enhanced with an additional 12% (9% for Ranged owners) target max Health physical damage On-Hit (1.5s cooldown). If the target is a champion, restore 65% of the enhanced damage (40% for Ranged owners).Mythic Passive: Grants all other Legendary items 5% Armor Penetration and 5% Magic Penetration.Spellblade will deal a minimum of (150% base Attack Damage) damage to units, but no more than (250% base Attack Damage) damage to Monsters.
+divine sunderer
+
+To stop the program, enter (q)uit || (b)ack to the last menu.
+> b
+
+*** Which item class would you like to check from the list below? ***
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+

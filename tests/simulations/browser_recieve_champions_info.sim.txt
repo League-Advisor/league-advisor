@@ -1,0 +1,82 @@
+ Which champion tag would you like to check from the list below?
+ To stop the program, enter (q)uit || (b)ack to the main menu.
+Fighter || Tank || Mage || Assassin || Marksman || Support
+
+> Mage
+Ahri || Amumu || Anivia || Annie || Aurelion Sol || Azir || Bard || Brand || Cassiopeia || Cho'Gath || Diana || Elise || Evelynn || Ezreal || Fiddlesticks || Galio || Gragas || Heimerdinger || Ivern || Janna || Jhin || Karma || Karthus || Kassadin || Katarina || Kennen || Kog'Maw || LeBlanc || Lillia || Lissandra || Lulu || Lux || Malzahar || Maokai || Morgana || Nami || Neeko || Nidalee || Orianna || Rumble || Ryze || Seraphine || Sona || Soraka || Swain || Sylas || Syndra || Taliyah || Twisted Fate || Varus || Veigar || Vel'Koz || Vex || Viktor || Vladimir || Xerath || Yuumi || Ziggs || Zilean || Zoe || Zyra
+
+Which champion whould you like to Know about?
+> Varus
+
+
+                    
+                        ````````` `````   ``      ```````````````````  ```````...````````````````````   
+        ```````````````.-:/-.-///..-...`  .- `````.-///+/::::::::-:-..`-:://+////////////////////:-.`   
+    ```.............-+osy+/hdh---...```..```....-oyydhysssss++:.-/.`:osssssssssssssssyyyyyyyyys+:.   
+    ``..-----------:+oosyhsmNN/::..-````..``.```./yhNmhyssss+-.-//``:ssssyhhdhhhhyyyssyyyhhdddyo:.`  
+    ``...---------:/+++++ohNNms-:-.-.`````.``.`-ysyhmmyooo+:...:/.``-+osyhdmdddddddhyysssssyyyso:.`  
+    ``...---------:+++++++yNNdy---.--````````.`odyhhdhoo/---..-+:```.+syhddmmmmdddhhdhyssssssso+:.   
+    ``...---------/+++//++hmmdh:-:-...```.`````/hsyhyo/-..--.-::-```.osyhhdddmmmmmdhhhhhyyssso+/-.   
+    ``...--------:/++////+hdhys/-:-```.``..`  `.+o+o+:......--..-```.oyhddmmmdhddmmddhyhhyysss+/-.   
+    ``...--------:/++/::/odhso+///-```--.`..`````-:-...`..-......```.oyyhddmNNNmyyhdddhhyyyyys+/-`   
+    ``...--------:///:::+shy+/////:. `.--.`.--...-....``.....--..```.+oymmmmdmNNmhsyhdddhyyhyso:-`   
+    ``...--------:///::/oysyo+///:-.  .--:-``-:::---......-----.````-/oohmNmmmmNNmdyssyhddhyyyo/-`   
+    ``...-----.--:///::++yo+///::-..` `-:::-`..--:::--..-:::---.```.-:++shmNNNNNNNNdysssyhhhyyo/-.   
+    ``...------.-://////+++////-.```..`.-::/. ``...-..:///:::--.```.--++oohNMMNNNmmNdyssssyyyyo/-.   
+    ``...---------:////+oo++/::--..` .-..::/:`  ````.-:///::::-.`...--:/osshNMNmmNmdmmyosssssso/-.   
+    ``...---------://///+/++/:----..``.:::://:`  ```..:////:-...`.----::oysshNNmddmmdddsoosssso/-.   
+    ``...----------://///++/:----....``-///////`  `...://:-----.--------/yysydNNmddmmmdhs++osso/-.   
+    ``...-.---.----:://///:----..``...``:++++++/```.---//--:-.``.--.----:oyyshdNNmddmmNmdyo+oo+/-.   
+    ``..------------:////:----:``.:+/:-.`:/+o++o/``-:/::---.`` ``.-:--..-/sysyhdNNmdmdmmNNmhyyo/-.   
+    ``..------------:::/:-----:``.:sNNmyo.-/+++oo:.:/+o:-..`````.---.----:+syyyhmmmddmddddddhhs+:.   
+    ``..-------------::::..---:``--+dNNNNh+..-+oo+-//oyo-.```...---::::---/+syyhdmmdhdmdddhyso/:.`   
+    ``..----------::::::-..---:-`--.-/shmmms.`-/o+:/oys:-`.---::////::::---/osyyhddmdhdddddhys+:.`   
+    ``..------.-:///:--.....--::.`----:://sy/`..-//:oy/-:::::+oooo+++++/:--:+ossyhddmhhhhddhyso/-`   
+    ``.-----::://:--.````..---:/:-..-://////:-:-.-:-++::::/++oo++++++//:--..:++osyhhddhhyyhhhyo/-`   
+    ``..-:/+++/:-....`  `-..--:////+/--://++++s+--://:///::------:://--......:+oosyhhddhyyysyyo/-.   
+    ``..--/////:``````  `-..---:/+++/::::+oosso+::/osso+/:::::ohmNNMNmmhs/-`..:++osyhhddhyyssso+-.   
+    ``...-:/:::-`````   .------:::--.:/+sosooo+::+osyyo/-/+//ososdmNNNNdho/:-`.:+ossyyyhdhysso+/-`   
+    ``...--/:-..``````  .-----.`.-:/+oossoooo+///+osso+:/oso+sso//://++/:......-/+oosyyyhhhyso+/-`   
+    ``.-:--:/:..`````` `-------://+oooosooo+++//+oooo+//+osss++++++///:-....----:++oosyyyyyhys+:-`   
+    `.-::---::-.````   `-::----::/++ooossoo+++//+ooo+///+ossso////+//:-.----:--..:++oosyyyyyys+/-`   
+    `.::----:--.````   .-:::-::::/++oosssoo+////oo++///++ossso/:/ooo+///:::----..-/++ossssyyys+/-`   
+    `.------:-..````` `.-::::::::/+++ooooo+///:+oo+///++oossss:--+oo++/:::----....-/++oosyyyss+:-`   
+    `.----.---.`````` `.-:::::::://++oooo+//+//oo+////+osssssso:-/o+///:::--..``..-::/+oosyhhyo+-`   
+    `.---..---.``````  `-::::-::///+++ooo::/++ooo+//+/+ossssssso:.+//:::::-.`````.---:/++osyhhyo:.   
+    `..-...--..``````  `.-::--::////+++oo/--/+soo++///+ooossssoo+.:/:::::-`` `` `-.---:/++osyyyo:.   
+    `......-...```````  `-:---:/::///+++o+:-:+oo+//::/ooooooo++//::/://::.  ````.------::/+ososo/.   
+    `..........```````   .-::-:/:::://+++++:-::::-:/+ooooo++++///::///::. ``````-------:::/+++++:.   
+    ``........`````````   .-:::://:.--::/++//:::/++oo++++++++////////::.` ``````-------:::://///:.   
+    ``..`....```````````  `-:-::///::--...-/++++oooo++++++++///////:::-  ```````-------::::::::-..   
+    ``````..````````````   .--::::::://++:.---:::/+++///+++////////::.   ```````.:---::::::::::-.`   
+    ``````..````````````   `.----::::::/++/++++/::::::::/+//////:::-`` ````....``::::::-----:--..`   
+    ``````````````````````  `--------::::::///////://///////::::-.```````..`...``./::::----::::.``   
+    ``````````````````````   `-----------::://////////////::/:-`` ```````````...``::::::::::::-.``   
+        `````````````````````    .------::::::::/::/::///:::::-.`` ``````````````..``.:/::::::::-..``   
+        `````````````````````    `.----::::///:::::::::::::--`  ``````````````````````-///::::--..```   
+        `````````````````````     `..--::::://::::::::::-.`   `````````````````````````:::::-----.``    
+        ```````````````````` ```   `..-----::::::::::-.`   ````````````````````````````.::::::---.```   
+    ````````  `````````````      ``.-.----:::::-.`   ````````````````````````````````-+/::::--..``   
+        ``````             ```         ``...---.``     ````````````````````````````````:osoo//:--..`    
+                                                                ``````````````   ```-//////::-.`` 
+    
+
+                    One of the ancient darkin, Varus was a deadly killer who loved to torment his foes, driving them almost to insanity before delivering the killing arrow. He was imprisoned at the end of the Great Darkin War, but escaped centuries later in the remade...
+
+                    Champion name : Varus
+                    Attack : 7 /10
+                    Defense : 3 /10
+                    Magic : 4 /10
+                    Difficulty : 2 /10
+                    
+                    Base Health : 530
+                    Base Mana : 360
+                    Base Armor : 27
+                    Base Magic Resistance : 30
+                    Attack Damage : 59
+                    Attack Range : 575
+                    Attack Speed : 0.658
+                    Movement Speed : 330
+                        
+To go back to main menu , press any key
+> 

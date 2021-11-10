@@ -1,0 +1,4 @@
+
+    Enter (c)olor to use color mode, or continue in basic mode by entering any button.
+        
+> 

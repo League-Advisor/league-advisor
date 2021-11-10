@@ -1,0 +1,78 @@
+
+Would you like to preview (i)tems or (c)hampions?
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> i
+
+*** Which item class would you like to check from the list below? ***
+
+Move Speed || Base Mana Regen || Base Health Regen || Health || Critical Strike Chance || Ability Power || Mana || Armor || Magic Resist || Omnivamp || Attack Damage || Attack Speed || Life Steal || Armor Penetration || Lethality || Ability Haste || Physical Vamp || Tenacity
+
+> Tenacity
+
+Items with  Tenacity stats.
+*** Which item would you like to Preview? ***
+Elixir of Iron || Sunfire Aegis || Mercury's Treads || Silvermere Dawn || Anathema's Chains
+
+> Anathema's Chains
+
+
+  `````````````````-::::-..............```````      ``````       `````````````````````````````````````
+  ``````````````.-://:-.........-..``````````````   ``````       `````````````````````````````````````
+  ````````````-:///:-.``.........````````````````   `````---..```    `````````````````````````````````
+  `````````.-////:-```........```````````````` `````.-::+hhyyyyyo/-.``````````````````````````````````
+  ```````.:/+o+/..`.....````````````````     ``:/+oohyosydhhhhhhhyyyy/:.``   `````````````````````````
+  ``````:/ooo/:.``.....`````````````````    `./syoyhy+-ossoo++++///+oo+/-.   `````````````````````````
+  ..``.:ossoo/-....://:-   ````````````````.:/+osyyy-../++-.`````     `..`   ``````````` `````````````
+  ..``.-://::....:+sys/-   ``````````````///+ooyhdo:`-//:.`                        ````    ```````````
+  ..````.......-/+oo+:.`   ```````````-/so+/osddds/.:/+.`  ````````````  `````````````  `````   ``````
+  ...`..---...-/oo+-.`` ``````````  `.ossooossyyy////:.`  ``````````````.-+osooo+++/::-.``   `  `````.
+  .:+/:...``.:/+/:.```````````````../oo+/o++::---///`` `````````      `:oydddddddddhhhys+/:-.      `.-
+  -/oo+-.`.--+//.```````````````.+ooooo+/::::/++/-.`  `````````    `./oyhhyyyddddhyso+++++/:-.`    ..-
+  /+++/:..-::/:-``````````````.:oooosyyyhyhhsssso+/:.`   ```    .-/+syyddhoyhyo++/-.``````````   ``---
+  ///-----:::.`````````````.-:so/+++oshddmmdys+oshhhhys-..``/+osyyhyssssyydso.--.` ````````````` `````
+  //:---:::--``````````````++o+/:+ossyhdddddddhhydhhysso+/-:yss/:-/+oyyyddo:-:-.`  `````````````...```
+  /:.---:::..``````````````/+o+++ooyyhhdmmmmmmmmmdysyssoshsso+/-.````/ohso--.``    ```````````--:..`.-
+  --.---:-..````....`````` :+oooosyyhddhyyyydddhyddddddddddds/-.--:::--.`` ````````````````..-:-`..-::
+  .-----..````......`````` /+++oshdhhy+//---ossosdhyooohdddddys.:/:-``` `````````````````.---.``..--..
+  .-:-...````......````````o+/yhhssoos+//+/-///::+:..-:ss+//osy+/:``  ``````````````````.-:--...``````
+  --:---..``...``````````:+o+/yso++o++-/oso++/-`````:+s/:....-/s/-``````````````````````.``-/o/- `````
+  -:/++/.......-`.-/+/::osy::::/+++/++soo+++++-.``.-o+:-....-::o/:`````````````````.-/:-`..///.```````
+  ::/+/-........-/ossysss++::/+osoosyyhs+///+oso++++/:-:::--://o/-```````````````..-:/:----.``````````
+  ::/:-........`:+so++//ooossssssssssshhhysssooyyhyyoo+/////++++-` ``  ````````...-...-:-.````````````
+  :::-......--...-+oo:/+sso+++++osssyyhhddddddhhyyyyooossossyyys/.`   ````````.....```````````````````
+  :::--...----...:+oo:/+s++///+oyhhhhhddddddmmmysyhdsoooooooyyyhys-.` `...```.....````````````````````
+  ::-----------:+oyso:+osoosssyyhhdmddddmmmmmdssymddyhdddddddddddhyo-``.``````````````````````````````
+  ::-------:/+ooyhhso/osysoyyyyhmhs/-..:+mNNhyohdhdmmddhhhhhhhhhhhhddo/```````````````````````````````
+  ::-------/+::/+oooo+syssoyyhmdy/::-----dmmo+shmmdhyso/:-:::+o:.`-:/o+.` ````````.```````````-.``````
+  ::::----://---:+oooosysooddmyo-::////:-sss:/yddyo+///-..-::oy:.```````````.```..``````````..++``````
+  ::::::--:/+/:://++ossssssdho/:-://++::-/////+++//:://:--::/oy/- ```````....```````````````:syo``````
+  ///:::::+oo/+o:/++oyssoydyo::::://+/::////////::----://::/+sy+- ```........```.....`````.+shhs`` ```
+  //////++o/:-/o///+odyo-+y+/::::::/++////////:--...:::++++++ooo:``........``---:/+++/:-//+syhs+``````
+  /+o+/:/:.```:oo+:+sdys-::--::::///+++///::::--..--:::/+oooo/-........```.-:+++ooooosss++osso-.``````
+  oo+-.``````.-:o+/+sdys/:----:::///++///:::::------:::::/++oo+...-:///::://///++++oos+/+oys/.````````
+  s/.``````.-:.`////odhh+//:::::////++//////::---:::::::---::///::/++//o++::://+++o++/++yyy..`````````
+  s+-```..`-::.`://oshso+++//::::://++/////:::::::::/:-...-----//:::--:o//-:///++++//syhho:``````````.
+  +/.``....:/.../+oys+//ooo::::::::/++++///////::///:-...--------..--/++/::::/++oosoosyho:`````````..-
+  ..`.-:---//``.oosso/osyyy/:::::::/++++//////::::::....----------::/+o+++oooosssssyyhs+..`..`````...-
+  ```-::--:::``.syyo+/ooso+/::::::::/++++////::::::-...-------..-:ssssssyhdddhs+syhso-..``.``````..-..
+  --:///:://:``.syyss/os+////::::::://o+////::------......------+ydhsyyho+:::hhho/:.``..`...``..---...
+  +/////:://:``./+so++os+////::::::://o+////::::----......::---/sdysooo/.````///.``....`````..........
+  -----/:://:``..-/+++ss+/////::::::/+o+////:::::--------:::-/+hddyyy/:````````````````````...........
+  .....:////:..`.-////syyo////::::::/+o+/::::::::::::::::://oyhdddso/-.............```....`.......---.
+  ````.-//////-`.:+///+ohhh+/::::::/+o+//:::::::////+ooooshhdddddds+..................--...--...-:::.`
+  ```...:/+//+:-`.:+ooooshmdy//::::/++//://:::/oosssyyhhyyyyyyyhhds/.................---......--:::```
+  ......-://////.` :+dysyhdhs+/////+++//:+++++syyyyyys+//::----:/o/:..............-::--....--:::-..```
+  ```...--:/+//+/:.`.+oodddoo++++++oo+/++///:::/+ooo/:------.................---:::-....--:o++-.......
+  ..`..--:://+/////-....///++oooo++++//:---...-/++//::::::-----...........---:::--..-----/oo+-........
+  .....-----://+/////:..`-://+///////+/-`````./+o///::::::-----------...---::::------...-:/:-.........
+  ...-.....---::////////:------://////:-`...`.ooo///::::::::----------------:::--::-..................
+  .........--...--::///////::::::://:-.....```-+oo+//////::::::-:::::-------::::///:-.................
+  ..............-----:::::::::::::-...``..`` `-+ssoo///////::::-:::::-----::://::::--.................
+  
+Anathema's Chains
+
+{'650 Health20 Ability HasteActive - Vow: Choose a Nemesis to start building a Vendetta (90s).Vendetta: Take up to 30% reduced damage from your Nemesis, 1% per Vendetta stack. You gain stacks over time, and reach the maximum number of stacks after 60 seconds.Vengeance: At maximum stacks, your Nemesis has 20% reduced Tenacity while near you.Active can be cast while dead and at global range. Stacks reset upon choosing a new target. Cannot be cast for 15 seconds while in-combat with champions."She swore to dedicate her life to his destruction. The gauntlets heard."'}
+anathema's chains
+
+To stop the program, enter (q)uit || (b)ack to the last menu.
+> 

@@ -1,0 +1,131 @@
+
+
+                                                                                                    
+                                                                                                    
+                  `sy+       `ssssssy.       +ss-         `:oyhddhy:   `ss+     `ss+  `ssssssy`            
+                    hM+        hMo...:`      .NyNN.      `sNh/.   `:-    hM+      hM+   hMo...:`            
+                    hM+        yM+          `dh /Md     .NM/             hM+      hM/   hM+                 
+                    hM+        yMmddm       ym`  sMy    sMm        -::   hM+      hM/   hMmddd              
+                    hM+        yM+         oMyyyyydMo   oMN`       :MN   hM+      hM/   hM+                 
+                    hM+     `  yM+        /M/     `mM:   hMm:      -MN   yMy      mM/   hM+                 
+                    dMdsssydo  dMdsssyhy :Nh       -MN:   :yNmyo+++yMN   `hMdo++sdmMo   mMdsssyhs           
+                  `--------  `--------``---       `---`     .:////:-`     `://:. .--  `--------`           
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                  dmm:      `hmdhhhdhs:   -mm:      +my `dmo   +hmdhdmh     -sddhhdmds-    /mmhyddy-       
+                  +N/NN.      sMo    .oMm:  /Mm`     yN.  dM/  oMm`    .   .dMo`     :dMh`  .MM   -MM:      
+                -M/ :Mm`     sMo      :MM-  sMh    +M:   dM/  :NMy/`     `NM/         hMd  .MM   /Mm.      
+                .Nd:::hMh     sMo       NM+   dM+  -Mo    dM/   `/sdMmy/  :MM`         :MM` .MM.hNy:        
+              `dd/////hMs    sMo      -MN.   .NM-`Ny     dM/       `:dMm `NMo         sMd  .MM -mN+        
+              yN.     `mM/   sMo    .oNm-     /Mmdm`     dM/  :`     +Mm  -mMs.     .sMh`  .MM  `sMd-      
+            `sNs       /NN/ `hNmddddds:        +NN.     `mNs  +Nmdhdmd+`    /ymdhyhdds-    /NN-   .yNh:    
+                                          `               ```            ```                        
+                                                                                                    
+                                                                                                    
+
+    
+
+     Welcome summoner! Get ready to start playing League of Legends like a pro! League Advisor will provide you with all you need to know to get started with the game.
+     
+
+    Enter (c)olor to use color mode, or continue in basic mode by entering any button.
+        
+> c
+
+
+    For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
+
+    For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!
+ 
+    To stop the program, enter (q)uit.
+> r
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> x,r,y
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> alistar,ezreal,syndra,volibear,camill
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> 1,2,3,4,5
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> alistar,ezreal,syndra,volibear,camille
+
+Enter your current champion name.
+
+> x
+Enter your champion name correctly.
+
+Enter your current champion name.
+
+> ezreal
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> x,y,u
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> q,t,r,u,i
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> thresh,jinx,zed,nidalee,ezreal
+Please enter a valid composition. One champion cannot be on both teams.
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> thresh,jinx,zed,nidalee,darius
+
+
+
+Our recommended build considering the composition:
+
+
+ ["Doran's Blade", 'Divine Sunderer', 'Tear of the Goddess', "Caulfield's Warhammer", 'Ionian Boots of Lucidity', 'Stealth Ward', 'Essence Reaver', 'Muramana', 'Frozen Heart', 'Tiamat'] 
+
+
+
+ These items are commonly bought for your champion:
+
+['Ionian Boots of Lucidity', 'Farsight Alteration', 'Divine Sunderer', 'Muramana', "Doran's Blade"]
+
+
+    For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.
+
+    For experienced summoners, (b)rowse the champions and items, get your (s)olo lane build, or raise the stakes and get your (r)anked queue build ready in an instant!
+ 
+    To stop the program, enter (q)uit.
