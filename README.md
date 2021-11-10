@@ -58,6 +58,141 @@ _A player often has to do lots of mental math in order to figure out what should
 
 ---
 
+## Project Directory Tree
+
+```py
+.
+├── LICENSE
+├── README.md
+├── assets
+│   ├── Domain_Model_old.png
+│   ├── domain_model.png
+│   ├── league_advisor_wireframe_1.png
+│   ├── league_advisor_wireframe_2.png
+│   ├── league_advisor_wireframe_3.png
+│   ├── league_advisor_wireframe_4.png
+│   └── league_advisor_wireframe_5.png
+├── league_advisor
+│   ├── __pycache__
+│   │   ├── discover.cpython-39.pyc
+│   │   ├── input_handler.cpython-39.pyc
+│   │   ├── league_advisor.cpython-39.pyc
+│   │   ├── league_browser.cpython-39.pyc
+│   │   ├── league_scraper.cpython-39.pyc
+│   │   ├── match_data_analysis.cpython-39.pyc
+│   │   ├── ranked_items.cpython-39.pyc
+│   │   ├── solo_items.cpython-39.pyc
+│   │   └── test.cpython-39.pyc
+│   ├── discover.py
+│   ├── input_handler.py
+│   ├── league_advisor.py
+│   ├── league_browser.py
+│   ├── league_scraper.py
+│   ├── match-data-analysis.ipynb
+│   ├── match_data_analysis.py
+│   ├── match_data_scraper.py
+│   ├── ranked_items.py
+│   ├── solo_items.py
+│   ├── string_assets
+│   │   ├── __pycache__
+│   │   │   ├── champs.cpython-39.pyc
+│   │   │   ├── champs_color.cpython-39.pyc
+│   │   │   ├── colors.cpython-39.pyc
+│   │   │   ├── items.cpython-39.pyc
+│   │   │   ├── items_color.cpython-39.pyc
+│   │   │   └── menu_strings.cpython-39.pyc
+│   │   ├── analyzed_item.json
+│   │   ├── champions.json
+│   │   ├── champions.py
+│   │   ├── champs.py
+│   │   ├── champs_color.py
+│   │   ├── colors.py
+│   │   ├── filtered_data.json
+│   │   ├── games.json
+│   │   ├── html.html
+│   │   ├── items.json
+│   │   ├── items.py
+│   │   ├── items_color.py
+│   │   ├── match.json
+│   │   ├── match_data_analysis.csv
+│   │   ├── menu_strings.py
+│   │   └── string_file.txt
+│   └── test.py
+├── poetry.lock
+├── pyproject.toml
+├── requirements.md
+└── tests
+    ├── __pycache__
+    │   ├── flo.cpython-39.pyc
+    │   ├── test_browser_recieve_champions.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_discover.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_input_handler.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_league_advisor.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_league_browser.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_league_scraper.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_match_data_analysis.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_match_scraper.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_module_browser_recieve_champions.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_module_discover.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_module_league_scraper.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_module_match_scraper.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_module_solo_items.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_discover.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_input_handler.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_league_advisor.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_league_browser.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_ranked_item.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_sim_solo_item.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_solo_items.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_solo_items_AAA.cpython-39-pytest-6.2.5.pyc
+    │   ├── test_solo_items_b.cpython-39-pytest-6.2.5.pyc
+    │   └── test_solo_items_sim.cpython-39-pytest-6.2.5.pyc
+    ├── flo.py
+    ├── simulations
+    │   ├── browser_recieve_champions_info.sim.txt
+    │   ├── browser_recieve_champions_start.sim.txt
+    │   ├── color_mode.sim.txt
+    │   ├── discover_method.sim.txt
+    │   ├── discover_method_any_key.txt
+    │   ├── discover_method_quit.txt
+    │   ├── help_color.sim.txt
+    │   ├── help_user.sim.txt
+    │   ├── input_handler_else.sim.txt
+    │   ├── leaguebrowser_receive_item_method_classes.sim.txt
+    │   ├── leaguebrowser_receive_item_method_classes_backmenu.sim.txt
+    │   ├── leaguebrowser_receive_item_method_names.sim.txt
+    │   ├── leaguebrowser_receive_item_method_nanes_backmenu.sim.txt
+    │   ├── leaguebrowser_receive_user_input_method_item.sim.txt
+    │   ├── leaguebrowser_receive_user_input_method_quit.sim.txt
+    │   ├── matchdata_analyzer.sim.txt
+    │   ├── quetter.sim.txt
+    │   ├── ranked_error_color.sim.txt
+    │   ├── ranked_item_color_r.sim.txt
+    │   ├── solo_champion.sim.txt
+    │   ├── solo_champion_back.sim.txt
+    │   ├── solo_champion_back_color.sim.txt
+    │   ├── solo_champion_color.sim.txt
+    │   ├── solo_champion_error.sim.txt
+    │   ├── solo_champion_error_color.sim.txt
+    │   ├── solo_champion_quit.sim.txt
+    │   ├── solo_champion_quit_color.sim.txt
+    │   └── welcome_screen.sim.txt
+    ├── test_match_data_analysis.py
+    ├── test_module_browser_recieve_champions.py
+    ├── test_module_discover.py
+    ├── test_module_league_scraper.py
+    ├── test_module_match_scraper.py
+    ├── test_module_solo_items.py
+    ├── test_sim_discover.py
+    ├── test_sim_input_handler.py
+    ├── test_sim_league_advisor.py
+    ├── test_sim_league_browser.py
+    ├── test_sim_ranked_item.py
+    └── test_sim_solo_item.py
+```
+
+---
+
 ## Tools Used
 
 VS Code
@@ -252,9 +387,13 @@ _refactor:updating the ranked item with color and add automated test_ - 10 Nov 2
 ### V 0.9.9.8 
 _testing match data analysis module_ - 10 Nov 2021
 
-### V 0.9.9
+### V 0.9.9.9
 
 _refactor:refactore the ranked item with color and add automated tests_ - 10 Nov 2021
+
+### V 1.0
+
+_docs: added project tree and test coverage_ - 11 Nov 2021
 
 ---
 
@@ -403,6 +542,47 @@ v0.9.9.7 _refactor:ranked item module and impleminting the color mode and add au
 v0.9.9.8 test: testing match data analysis module - 10 Nov 2021
 
 v0.9.9.9 _refactor:ranked item module and impleminting the color mode and add automated tests_ - 10 Nov 2021
+
+v1.0 _docs: added project tree and test coverage_ - 11 Nov 2021
+
+---
+
+## Testing Coverage
+
+```py
+----------- coverage: platform linux, python 3.9.5-final-0 -----------
+Name                                             Stmts   Miss  Cover
+--------------------------------------------------------------------
+league_advisor/discover.py                          16      1    94%
+league_advisor/input_handler.py                     60      9    85%
+league_advisor/league_advisor.py                    28      2    93%
+league_advisor/league_browser.py                   182     43    76%
+league_advisor/league_scraper.py                    17      0   100%
+league_advisor/match_data_analysis.py              163      2    99%
+league_advisor/ranked_items.py                     105     25    76%
+league_advisor/solo_items.py                        90      6    93%
+league_advisor/string_assets/champs.py               1      0   100%
+league_advisor/string_assets/champs_color.py         2      0   100%
+league_advisor/string_assets/colors.py              21      0   100%
+league_advisor/string_assets/items.py                1      0   100%
+league_advisor/string_assets/items_color.py          2      0   100%
+league_advisor/string_assets/menu_strings.py         2      0   100%
+tests/flo.py                                        44      0   100%
+tests/test_match_data_analysis.py                   21      0   100%
+tests/test_module_browser_recieve_champions.py       3      0   100%
+tests/test_module_discover.py                        9      0   100%
+tests/test_module_league_scraper.py                 13      0   100%
+tests/test_module_match_scraper.py                   0      0   100%
+tests/test_module_solo_items.py                     21      0   100%
+tests/test_sim_discover.py                          14      0   100%
+tests/test_sim_input_handler.py                     75      0   100%
+tests/test_sim_league_advisor.py                    10      0   100%
+tests/test_sim_league_browser.py                    32      0   100%
+tests/test_sim_ranked_item.py                       10      0   100%
+tests/test_sim_solo_item.py                         34      0   100%
+--------------------------------------------------------------------
+TOTAL                                              976     88    91%
+```
 
 ---
 
