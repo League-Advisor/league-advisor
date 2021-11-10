@@ -1,0 +1,83 @@
+ Which champion tag would you like to check from the list below?
+ To stop the program, enter (q)uit || (b)ack to the main menu.
+Fighter || Tank || Mage || Assassin || Marksman || Support
+
+> mage
+Ahri || Amumu || Anivia || Annie || Aurelion Sol || Azir || Bard || Brand || Cassiopeia || Cho'Gath || Diana || Elise || Evelynn || Ezreal || Fiddlesticks || Galio || Gragas || Heimerdinger || Ivern || Janna || Jhin || Karma || Karthus || Kassadin || Katarina || Kennen || Kog'Maw || LeBlanc || Lillia || Lissandra || Lulu || Lux || Malzahar || Maokai || Morgana || Nami || Neeko || Nidalee || Orianna || Rumble || Ryze || Seraphine || Sona || Soraka || Swain || Sylas || Syndra || Taliyah || Twisted Fate || Varus || Veigar || Vel'Koz || Vex || Viktor || Vladimir || Xerath || Yuumi || Ziggs || Zilean || Zoe || Zyra
+
+Which champion whould you like to Know about?
+> amumu
+
+
+                                                                                                       
+            ````````                       ```````````````                                            
+        ```.-.---.``````````````````````````....-------------.......````````````````````````````````   
+        ``.::----......................---------...-:/+++++++++/------------.......................```  
+        `.---....................--:::://///::--------:+oooooooo+/:--::-------------...............```  
+    ``....................--:///+++++++o++++/:--------/+oooooo++/:-::-------------.............````  
+    ```..-....------...--:://+++++oooooooooooo/:--------:/+oo+++//:----------.......--..........```  
+    ```...-----------.:://++++++ooooooooooo+++++++++/////::://///::------......----------.......```  
+    ``.....----------//+++++ooooooooosssssyyyyyyyyssssssssso+/:::::----.........------------....```  
+    ``..------------/+++++++ooossssyyyyyyyyyyyyyyyyssssssssso++/:::------.........------------...``  
+    ``.--::::------/+ooooosssyyyyyyyyyyyyyyyyyyyyyyyyyssssoo++//::::-------.........------------.``  
+    ``.-:::::-----:/oossyyyyyyysssssyyyhhhhhhyyyyyyyyyyysssoo++//::----------....................``  
+    ``.-::::-----:/+syyyyyyyyyysooooosyyyyyyhhhyyyysssooosoo+++//:---------------...............```  
+    `..-:::::::-:+syyyysssysssooooooooossyyhhhhhhhhhhyysoo+//:::-----------------------.....---..``  
+    `..-:::::::::+ssyssssssssooo++++++++osyhhhhyhhhhhhyyso++/::----...........--------------..-..``  
+    ``.-:::::::::/ooooosyyssooo++///::::/ossoosssyhhhhhhyyso/:::--................-------------..``  
+    ``.-::::::::-/+osyysssoo++//:::::-------::/osyyyhhhhhyyso+/::---..................----------.``  
+    ``.-::::::::/ossyysoo+//::::::-------------:/+osyyyyhyyso+/::---.....................-------.``  
+    ``.-:::::::+ossso++/:---------------------:::://+++osssoo++/:----.......................----.``  
+    `.--:::::::/+++//::--:/++/--::::---------:////:-:////+++++///::--............................``  
+    `.--:::::::::/:----/+ossoo/-::::--------:ohhdhs+:----::://///:::--..........................```  
+    `.--:::::::--:---/ohdmNmdys-:::---------:dNNNNNNmho:..---::::::----.........................```  
+    `..-::::::::----:hmNNNNNmhy:://:--------/mNNNMMMNNNmy+-.----------...........................``  
+    `.--:::::::::--:ymNNMMMNmhs:/++/::------oNNNMMMMMNNNNmh+/:::-............................-...``  
+    `.--:::::::::--+dNNNMMMNmh++oo++///:---.+mNNMMMMMMNNNmmho+///:-...`..........................``  
+    `.--:::::/:/:--+dmNNMNNmds:oo+//////:----sNNNNMMMMNNNmdyso++//:......````..............-.....``  
+    `.-::::::/:/:-:ohdmmmmdhsoyhhysoo+/::-----ymmNNNNNNmdhyysoo++/--.............................``  
+    `.--::://///:::+syyyyysoshddhhssooo+//:-::-+hdddddhhyyysso++/--:.................---------..```  
+    `.--::::///:--+soysss++yhddddhsoooooooo/:::::+syyyyysssoo+/:----....................--------.``  
+    `.-::/:///:--:////++:/ooosyhhhyooooooooo+///::/ooooydysys+/------.......................---..``` 
+        `.:://///:/oosoooo+:------:/+ssoooosssssoo+++/::::+oo++/---::--..................::::-----..``` 
+    `..-:////:/ossssssss+:-::::::--:++oosssssssooo++//:------:-::----.........--.....://:::--///-.`` 
+    `.--::::::+ossyyyyyyso///////++++//+ossssssssssoo++//::-://:::----......:///:-..-//:::---++/-.`` 
+    `.-::::::/+ssyyyyyyyssssyyyyyyyysssoooossssssssoooooo++///:::::-----...:/+//::--////:::-:+/:.``` 
+    `.-::::/:/+ssyyyyyyyhhhhhhhhyyyyyyyyyyssssssssssooooooo++++/:::------.-++//:::-:/+/::::-:::-.``` 
+    `.-:://///+osssssssyyyyyyyyyhhhhhhyyyyyyyssssooooooooooo+++//::::-----/++////:-://::::--::--.``` 
+    `.-://////++oosssyyyyyyyssssssyyhhhhhhyyyyssssoooo+++++++/++::::------/++/::/--///:::-.---.-.``` 
+    `.-:///////ooosssysso+//::/+oossooossyyyysssssooo+++////////::-------://:::::.-++:::-...-....``` 
+    `.-:////+//++oossssooooooo+/////++++/++oooooooo+++////:::------------/o+/:::-.-::::--........``  
+    `.-:/+++++//++oossssssssssssssssooooooo+++///::::::::------.........-++:::::-..-::-.```.....```  
+    `.-://+++++/+++oooosooooo++ooo++//+++oooooo++//:::::::-----------.-:///:----...---.`````...````  
+    `.-:/+++++++///++++++++////::::://///+++++/////::::::------------:++++/:-......````````...`````  
+    `.-:/++++++++/::::::///////////////::::::::::::::---------------/+oo+///:-...```````....``````   
+    `.-:////+++++++/::-:::://///////::::::::---------------------.-:+ooo+/::--............````````   
+    `.-://////+++++++//::---::::::::::::::-----............-------/++//+/:-.............``````````   
+    `.-://///////++++++++//:::::----------......................-::///::--...````.......``````````   
+    `.-://////////++++++++++++//::---...........................-:::::--..............````...````    
+    `.-:///////////+++++++++++++++++///::::-----:::-`````........::::--...``..........````..``````   
+        ``..---:::///////////////////////////////////:...```````.....----..```````````...````.``````    
+        ```.`......--------------:::::----:-------.``````````````.--...```````````````````````````     
+        `````````````..........................``````````   ````....````       ````````               
+    
+
+            Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe...
+
+            Champion name : Amumu
+            Attack : 2 /10
+            Defense : 6 /10
+            Magic : 8 /10
+            Difficulty : 3 /10
+            
+            Base Health : 615
+            Base Mana : 285
+            Base Armor : 30
+            Base Magic Resistance : 32
+            Attack Damage : 53
+            Attack Range : 125
+            Attack Speed : 0.736
+            Movement Speed : 335
+                 
+To go back to main menu , press any key
+> 

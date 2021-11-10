@@ -3,7 +3,7 @@
 
 from league_advisor.input_handler import InputHandler
 from league_advisor.string_assets.menu_strings import strings
-
+import os
 
 class LeagueAdvisor:
     """
@@ -25,20 +25,32 @@ class LeagueAdvisor:
     def __init__(self):
         self.input_handler = InputHandler()
         self.welcome_flag = True
+        self.mode = ""
 
     def run_program(self):
 
         if self.welcome_flag == True:
             self.welcome_flag = False
             self.input_handler.welcome_message()
-
+            self.mode = self.input_handler.color_mode()
+            if self.mode.lower() == "c" or self.mode.lower() == "color" or self.mode.lower() == "colour":
+                self.mode = "c"
+            # if self.mode or self.mode=="":
+            #     clear = lambda: os.system('clear')
+            #     clear()
+                   
         self.input_handler.input_flag = False
 
         while not self.input_handler.input_flag:
-            print(strings["main_menu"])
-            self.input_handler.prompt_user()
-            self.input_handler.input_interpreter(self.input_handler.user_input)
+            if self.mode == "c":
+                print(strings["main_menu_color"])
+                self.input_handler.prompt_user()
+                self.input_handler.input_interpreter(self.input_handler.user_input)
 
+            else:
+                print(strings["main_menu"])
+                self.input_handler.prompt_user()
+                self.input_handler.input_interpreter(self.input_handler.user_input)
 
 if __name__ == "__main__":
 
