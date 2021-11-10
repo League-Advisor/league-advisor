@@ -21,7 +21,7 @@ def test_data_analyzer_no_items():
     #Arrange
     user_input=[["ahri", "irelia", "Ryze", "akshan", "aatrox"],["Tryndamere", "Samira", "teemo", "Sejuan", "Gnar"],"teemo"]      
     recommended_build= MatchData()
-    expected = "There is no enough data , please try our solo champion"
+    expected = None
 
     #Act
     actual=recommended_build.data_analyzer(user_input)
