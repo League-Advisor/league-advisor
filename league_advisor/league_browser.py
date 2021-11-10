@@ -298,89 +298,95 @@ class LeagueBrowser:
                         print()
 
                     print("Which champion whould you like to Know about?")
+                while not self.user_response.lower().strip() in [tag.lower() for tag in self.user_choise]:
+                    self.prompt_user()
 
-                self.prompt_user()
+                    if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
+                        self.clear()
+                        self.receive_champions()
 
-                if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
+                    if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                        print("""
+                            Thank you for using League Advisor. Hope to see you again soon!""")
+                        quit()
+
+                    if not self.user_response.lower().strip() in [tag.lower() for tag in self.user_choise]:
+                        print("Please enter a valid command.")
+                        continue
+                
+                    else:                       
+
+            
+                        champion_info = []
+                        champion_figure = ""
+
+                        for i in data:
+                            if self.user_response.lower().title().strip() in self.user_choise :
+                                for key in champions_ascii:
+                                    if self.user_response.lower().strip() == key:
+
+                                        if self.mode == "c": 
+                                            champion_figure = champions_color_ascii[key]
+
+                                        else:
+                                            champion_figure = champions_ascii[key]
+
+                                if self.user_response.lower().title().strip() == data[i]["name"]:
+                                        champion_info.append(data[i]["name"])
+                                        champion_info.append(data[i]["info"])
+                                        champion_info.append(data[i]["stats"])
+                                        champion_info.append(data[i]["blurb"])
+
+                    if self.mode == "c":
+                        print(f"""
+
+                    {champion_figure}
+
+                    {color.GREEN}{champion_info[3]}{color.RESET}
+
+                    {color.YELLOW}Champion name :{color.RESET} {color.CYAN}{champion_info[0]}{color.RESET}
+                    {color.YELLOW}Attack :{color.RESET} {color.CYAN}{champion_info[1]["attack"]} /10{color.RESET}
+                    {color.YELLOW}Defense :{color.RESET} {color.CYAN}{champion_info[1]["defense"]} /10{color.RESET}
+                    {color.YELLOW}Magic :{color.RESET} {color.CYAN}{champion_info[1]["magic"]} /10{color.RESET}
+                    {color.YELLOW}Difficulty :{color.RESET} {color.CYAN}{champion_info[1]["difficulty"]} /10{color.RESET}
+                    
+                    {color.YELLOW}Base Health :{color.RESET} {color.CYAN}{champion_info[2]["hp"]}{color.RESET}
+                    {color.YELLOW}Base Mana :{color.RESET} {color.CYAN}{champion_info[2]["mp"]}{color.RESET}
+                    {color.YELLOW}Base Armor :{color.RESET} {color.CYAN}{champion_info[2]["armor"]}{color.RESET}
+                    {color.YELLOW}Base Magic Resistance :{color.RESET} {color.CYAN}{champion_info[2]["spellblock"]}{color.RESET}
+                    {color.YELLOW}Attack Damage :{color.RESET} {color.CYAN}{champion_info[2]["attackdamage"]}{color.RESET}
+                    {color.YELLOW}Attack Range :{color.RESET} {color.CYAN}{champion_info[2]["attackrange"]}{color.RESET}
+                    {color.YELLOW}Attack Speed :{color.RESET} {color.CYAN}{champion_info[2]["attackspeed"]}{color.RESET}
+                    {color.YELLOW}Movement Speed :{color.RESET} {color.CYAN}{champion_info[2]["movespeed"]}{color.RESET}
+                        """)
+
+
+                    else:
+                        print(f"""
+
+                    {champion_figure}
+
+                    {champion_info[3]}
+
+                    Champion name : {champion_info[0]}
+                    Attack : {champion_info[1]["attack"]} /10
+                    Defense : {champion_info[1]["defense"]} /10
+                    Magic : {champion_info[1]["magic"]} /10
+                    Difficulty : {champion_info[1]["difficulty"]} /10
+                    
+                    Base Health : {champion_info[2]["hp"]}
+                    Base Mana : {champion_info[2]["mp"]}
+                    Base Armor : {champion_info[2]["armor"]}
+                    Base Magic Resistance : {champion_info[2]["spellblock"]}
+                    Attack Damage : {champion_info[2]["attackdamage"]}
+                    Attack Range : {champion_info[2]["attackrange"]}
+                    Attack Speed : {champion_info[2]["attackspeed"]}
+                    Movement Speed : {champion_info[2]["movespeed"]}
+                        """)
+
+                    print("To go back to main menu , press any key")
+                    self.prompt_user()
                     self.clear()
-                    self.receive_champions()
-
-                if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
-                    print("""
-                        Thank you for using League Advisor. Hope to see you again soon!""")
-                    quit()
-
-            
-                champion_info = []
-                champion_figure = ""
-
-                for i in data:
-                    if self.user_response.lower().title().strip() in self.user_choise :
-                        for key in champions_ascii:
-                            if self.user_response.lower().strip() == key:
-
-                                if self.mode == "c": 
-                                    champion_figure = champions_color_ascii[key]
-
-                                else:
-                                    champion_figure = champions_ascii[key]
-
-                        if self.user_response.lower().title().strip() == data[i]["name"]:
-                                champion_info.append(data[i]["name"])
-                                champion_info.append(data[i]["info"])
-                                champion_info.append(data[i]["stats"])
-                                champion_info.append(data[i]["blurb"])
-
-            if self.mode == "c":
-                print(f"""
-
-            {champion_figure}
-
-            {color.GREEN}{champion_info[3]}{color.RESET}
-
-            {color.YELLOW}Champion name :{color.RESET} {color.CYAN}{champion_info[0]}{color.RESET}
-            {color.YELLOW}Attack :{color.RESET} {color.CYAN}{champion_info[1]["attack"]} /10{color.RESET}
-            {color.YELLOW}Defense :{color.RESET} {color.CYAN}{champion_info[1]["defense"]} /10{color.RESET}
-            {color.YELLOW}Magic :{color.RESET} {color.CYAN}{champion_info[1]["magic"]} /10{color.RESET}
-            {color.YELLOW}Difficulty :{color.RESET} {color.CYAN}{champion_info[1]["difficulty"]} /10{color.RESET}
-            
-            {color.YELLOW}Base Health :{color.RESET} {color.CYAN}{champion_info[2]["hp"]}{color.RESET}
-            {color.YELLOW}Base Mana :{color.RESET} {color.CYAN}{champion_info[2]["mp"]}{color.RESET}
-            {color.YELLOW}Base Armor :{color.RESET} {color.CYAN}{champion_info[2]["armor"]}{color.RESET}
-            {color.YELLOW}Base Magic Resistance :{color.RESET} {color.CYAN}{champion_info[2]["spellblock"]}{color.RESET}
-            {color.YELLOW}Attack Damage :{color.RESET} {color.CYAN}{champion_info[2]["attackdamage"]}{color.RESET}
-            {color.YELLOW}Attack Range :{color.RESET} {color.CYAN}{champion_info[2]["attackrange"]}{color.RESET}
-            {color.YELLOW}Attack Speed :{color.RESET} {color.CYAN}{champion_info[2]["attackspeed"]}{color.RESET}
-            {color.YELLOW}Movement Speed :{color.RESET} {color.CYAN}{champion_info[2]["movespeed"]}{color.RESET}
-                """)
-
-
-            else:
-                print(f"""
-
-            {champion_figure}
-
-            {champion_info[3]}
-
-            Champion name : {champion_info[0]}
-            Attack : {champion_info[1]["attack"]} /10
-            Defense : {champion_info[1]["defense"]} /10
-            Magic : {champion_info[1]["magic"]} /10
-            Difficulty : {champion_info[1]["difficulty"]} /10
-            
-            Base Health : {champion_info[2]["hp"]}
-            Base Mana : {champion_info[2]["mp"]}
-            Base Armor : {champion_info[2]["armor"]}
-            Base Magic Resistance : {champion_info[2]["spellblock"]}
-            Attack Damage : {champion_info[2]["attackdamage"]}
-            Attack Range : {champion_info[2]["attackrange"]}
-            Attack Speed : {champion_info[2]["attackspeed"]}
-            Movement Speed : {champion_info[2]["movespeed"]}
-                 """)
-
-            print("To go back to main menu , press any key")
-            self.prompt_user()
-            self.clear()
-            return "b"
+                    return "b"
 
 

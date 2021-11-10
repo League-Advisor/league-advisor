@@ -214,7 +214,8 @@ _refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 202
 ### V 0.9.9.3
 _test: added tests for solo champion_ - 10 Nov 2021
 
-
+### V 0.9.9.4
+_refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
 
 ---
 
@@ -302,11 +303,13 @@ v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_
 
 v0.9.8.1 _fix: fixed automated unittests_ - 10 Nov 2021
 
+v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
+
 v0.9.8.2 _docs: fixed docstrings_ - 10 Nov 2021
 
 v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
 
-v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
+v0.9.9.4 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
 
 ---
 

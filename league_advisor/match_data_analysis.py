@@ -38,6 +38,7 @@ class MatchData:
     def get_color_mode(self, color_mode):
         self.mode = color_mode
         return self.mode    
+
     def data_analyzer(self,user_input) :
         self.user_input = user_input
         self.champion = user_input[2] 
@@ -66,7 +67,9 @@ class MatchData:
                         elif "team2" in champ_col and row['team2.win'] :
                             self.df_for_winners = self.df_for_winners.append(row, ignore_index=True)  
         
+        print()
         print(self.data_analyzer_items())
+        print()
         teams_winners_list =[]
 
         for row in self.df_for_winners.itertuples():
@@ -106,17 +109,19 @@ class MatchData:
             for i in range(5):
                 recommended_build.append(most_common_items_used[i][0])
             if self.mode =="c":
-                return f"""\n {color.GREEN}These items are commonly bought for your champion:{color.RESET}
+                print()
+                print(f"""\n {color.GREEN}These items are commonly bought for your champion:{color.RESET}""")
+                print()
                                 
-                                {recommended_build} 
-                            \n
-                            """
+                return (f"{color.MAGENTA}{recommended_build}{color.RESET}")
+
             else:
-                 return f"""\nThese items are commonly bought for your champion:
-                                
-                                {recommended_build} 
-                            \n
-                            """               
+                print()
+                print(f"""\nThese items are commonly bought for your champion:""")
+                print()
+             
+            return recommended_build
+               
         except:
             if self.mode == "c":
                 print(f"\n{color.RED}There is no enough data , please try our solo champion{color.RESET}\n")    
@@ -125,7 +130,6 @@ class MatchData:
         
 
     def data_analyzer_items(self):
-
         self.user_team = self.user_input[0]
         team_1_champions_winer = []
         team_2_champions_winer = []
@@ -214,29 +218,26 @@ class MatchData:
                     analy_itm_names.append(data[f"{i}"]["name"])
         if analy_itm_names != []:
             if self.mode == "c": 
-
+                print()
                 print(f"""\n{color.GREEN}Our recommended build considering the composition:{color.RESET}\n""")
-                
+                print()
               
 
-                return analy_itm_names[:10]
+                return (f"{color.MAGENTA} {analy_itm_names[:10]} {color.RESET}")
 
                         
             else:
+                print()
                 print(f"""\n Our recommended build considering the composition:\n""")
-              
+                print()
+
                 return analy_itm_names[:10]
                         
                                  
         else:
-
-            print("Please try with another collections")
-
-
-user_input = [["Ezreal", "Nami", "Syndra", "Nidalee", "Yone"], [ "Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"], "Ezreal"]
-a = MatchData()
-print(a.data_analyzer(user_input))   
-
+            print()
+            print("Please try with another collections") 
+            print()
 
                
 

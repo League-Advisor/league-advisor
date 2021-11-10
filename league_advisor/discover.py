@@ -47,7 +47,7 @@ class Discover:
         user_input = input("> ")
         if user_input or user_input=="":
             clear = lambda: os.system('clear')
-            # clear()
+            clear()
 
 
 
