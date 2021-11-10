@@ -82,8 +82,9 @@ class RankedItem:
         return self.mode     
 
     def prompt_user(self):
-       
+            print()
             print("Enter your team champion seperated by comma, starting with your champion name.")
+            print()
             self.user_champion = input("> ")
         
     def handle_user_choice(self):
@@ -94,7 +95,9 @@ class RankedItem:
                 self.user_flage = True
 
             else:
+                print()                
                 print("You entered wrong names")
+                print()                
                 self.handle_user_input()
         if self.user_flage == True:
             self.match.insert(0, self.user_champion.split(","))
@@ -109,11 +112,15 @@ class RankedItem:
         if len(set(self.user[0])) == 5:
             self.handle_user_choice()
         else:
+            print()
             print("You should add 5 unique champion names")
+            print()            
             self.handle_user_input()
 
     def prompt_user_enemy(self):
+        print()        
         print("Enter your enemy team champions seperated by comma.")
+        print()        
         self.enemy_champion = input("> ")
 
     def handle_enemy_choice(self):
@@ -122,7 +129,9 @@ class RankedItem:
                 self.enemy_flage = True
                 champ = champ.title()
             else:
+                print()
                 print("You entered wrong enemy names")
+                print()
                 self.handle_user_enemy()
         if self.enemy_flage == True:
             self.match.insert(1, self.enemy_champion.split(","))
@@ -137,24 +146,28 @@ class RankedItem:
         if len(set(self.user[1])) == 5:
             self.handle_enemy_choice()
         else:
+            print()                
             print("You should add 5 enemy unique champion names")
+            print()            
             self.handle_user_enemy()
 
     def handle_match(self):
         for i in self.match[0]:
             for j in self.match[1]:
                 if i == j:
+                    print()                         
                     print("Same champion can not be in both team ")
+                    print()                    
                     self.match.pop(1)
 
                     self.handle_user_enemy()
                     self.match.pop(2)
 
         self.match.append(self.match[0][0])
-        for i in self.match[0]:
-            i=i.title()
-        for j in self.match[1]:
-           j = j.title()
+
+        for i in range(2):
+            for j in range(len(self.match[i])):
+                self.match[i][j] = self.match[i][j].title()
         self.match[2] = self.match[2].title()
           
         return self.match
