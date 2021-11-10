@@ -35,9 +35,9 @@ class LeagueAdvisor:
             self.mode = self.input_handler.color_mode()
             if self.mode.lower() == "c" or self.mode.lower() == "color" or self.mode.lower() == "colour":
                 self.mode = "c"
-            if self.mode or self.mode=="":
-                clear = lambda: os.system('clear')
-                clear()
+            # if self.mode or self.mode=="":
+            #     clear = lambda: os.system('clear')
+            #     clear()
                    
         self.input_handler.input_flag = False
 

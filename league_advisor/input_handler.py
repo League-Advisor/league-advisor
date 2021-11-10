@@ -135,10 +135,3 @@ class InputHandler:
 
         else:
             print("Please enter a valid command.")
-
-
-if __name__ == "__main__":
-
-    inputhandler = InputHandler()
-    brm_user = inputhandler.prompt_user()
-    inputhandler.input_interpreter(brm_user)

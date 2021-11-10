@@ -39,12 +39,14 @@ class SoloItems:
     def __init__(self):
         self.user_input = ""
         self.mode = ""
+
     def prompt_user(self):
         self.user_input = input("> ")
 
     def clear(self):
         clear = lambda: os.system('clear')
         clear()
+        return
 
     def get_color_mode(self, color_mode):
         self.mode = color_mode

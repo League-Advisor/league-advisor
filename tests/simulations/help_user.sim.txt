@@ -1,0 +1,13 @@
+
+        (h): help, provides a list of available features and commands, this is how you got here.
+
+        (d): discover, provides printed text of game description and rules.
+
+        (b): browse, provides a list of items or champions to choose from, and select a specific one to view its' stats.
+
+        (s): solo, provides the optimal build path for one champion.
+
+        (r): ranked, provieds the statically superior build based on its' win rate based on your team and the enemy's.
+
+        (q): quit, quits the program.
+    

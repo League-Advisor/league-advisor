@@ -5,46 +5,31 @@ from league_advisor.string_assets.colors import color
 strings = {
 
     "logo_ascii": """
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                            .-:://///::-.                              
-                       .dNNNN+               -dNNNNNNNNNNNNN/               +NNNNNs                    `:ohmNNNMMMMMMMNNh        -dNNNN+           -mNNNm+     -dNNNNNNNNNNNNN:                         
-                        oMMMN                 oMMMNssooooshm/               sMMNMMM+                 -smNMNdyo/:---:/ohmd         sMMMN             sMMMN       sMMMNssooosshN:                         
-                        +MMMm                 /MMMm        .`              :NMd-NMMN-              .yNMMmo-`           .:         +MMMd             +MMMd       +MMMd        .`                         
-                        /MMMm                 /MMMm                       .NMN. /MMMm.            /NMMMy.                         +MMMd             +MMMd       +MMMd                                   
-                        /MMMm                 /MMMm                      `dMM/   sMMMh`          :NMMMs                           +MMMd             +MMMd       +MMMd                                   
-                        /MMMm                 /MMMN::::::/               sMMs    `dMMMo          mMMMm`                           +MMMd             +MMMd       +MMMm::::::/                            
-                        /MMMm                 /MMMMMMMMMMN              +MMd`     .NMMM/        .MMMMy                `.....      +MMMd             +MMMd       +MMMMMMMMMMm                            
-                        /MMMm                 /MMMN:::::/s             -NMMhsssssssmMMMN-       -MMMMy                -mNNNm      +MMMd             +MMMd       +MMMm:::::/s                            
-                        /MMMm                 /MMMm                   `mMMmdddddddddmMMMm`      `NMMMN`                sMMMd      +MMMd             +MMMd       +MMMd                                   
-                        /MMMm                 /MMMm                   hMMs           dMMMy       oMMMMh`               +MMMd      +MMMm             +MMMd       +MMMd                                   
-                        /MMMm                 /MMMm                  oMMm`           .NMMM+       yMMMMd-              +MMMd      /MMMM`            sMMMd       +MMMd                                   
-                        +MMMm           -+    /MMMm           `/`   :MMN.             :MMMM:       +NMMMMy:            +MMMd      `NMMMd.          +MMMMd       +MMMd           ./                      
-                        oMMMNsoo++++oshNM-    +MMMNsoo++++osymMo   -NMM+               sMMMN-       `omMMMMNy+:-.``..-/yMMMd       .mMMMMh+-.`.-/sNMNMMMm       sMMMNso+++++oshmM+                      
-                       -mMMMMMMMMMMMMMMM+    .mMMMMMMMMMMMMMMMd  `+NMMM+               /MMMMNo`        -ohNMMMMMMMMMMMMMMMNh        `/hNMMMMMMMMMNy:/MMMM+     -mMMMMMMMMMMMMMMMh                       
-                                                                                                           `.-/+oooooo+/:-.``           `-/+ooo+/-`                       
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                        
-                     `osssss`              -ossssssyyyyso+/-``        .ossss-             -sssso`  /sssss+`      `.+shddmmmddhs/             `:+shddmmddhyo:`           -ossssssyyyso/-`                
-                      yMMMMMh               oMMMMNNmmmmNNMMMNho.       -NMMMy              hMMMo    dMMMN`      /dMMMNmhyyhmNMMh          `+hNMMNNdhyhhmNMMMNh+`         sMMMMNmddmNMMMms`              
-                     -MMmhMMMs              -MMMM.      .-+hNMMMh-      :MMMM/             mMMh     sMMMd      sMMMN+.      `:oy        `sNMMNy/.       `:sNMMMNo`       :MMMM     .+NMMMm.             
-                    `mMN-`NMMM/             .MMMM`          .sMMMMs      sMMMN.           oMMm`     oMMMh     .MMMMs                   :NMMMs`             `oMMMMm.      -MMMM       -MMMMy             
-                    hMM/  -MMMN.            .MMMM`            :NMMMh      dMMMd          -MMM-      oMMMh     `MMMMd.                 /MMMM/                 -NMMMN.     -MMMM       `MMMMy             
-                   sMMy    +MMMm`           .MMMM`             /MMMM+     .NMMMo        `mMM+       oMMMh      /NMMMMh+.             .NMMMs                   :MMMMh     -MMMM      `yMMMd`             
-                  /MMd`     hMMMh           .MMMM`              NMMMd      /MMMM-       hMMy        oMMMh       .sNMMMMMmy+-         oMMMM-                    dMMMM.    -MMMM   ./sNMMd+`              
-                 -NMM/------:NMMMo          .MMMM`              hMMMN       yMMMm`     +MMm`        oMMMh         `:ohNMMMMNmy/`     yMMMM.                    sMMMM-    -MMMM +NNMMh+.`                
-                `mMMMNNNNNNNNMMMMM:         .MMMM`              mMMMh       `mMMMy    -NMN-         oMMMh            ``-ohNMMMMNs`   sMMMM/                    yMMMM`    -MMMM  +MMMm:                  
-                yMMy::::::::::oMMMN.        .MMMM`             /MMMM:        :MMMM/  `mMM/          oMMMh                 `:hMMMMd   -MMMMd`                  `NMMMy     -MMMM   :mMMNs`                
-               oMMm`           yMMMd`       .MMMM`            /NMMMo          oMMMN. yMMy           oMMMh                   `hMMMM.   oMMMMy`                `hMMMd`     -MMMM    .yMMMm/               
-              :NMN-            `mMMMs       .MMMM`         `-yNMMN+            hMMMh+MMd`           oMMMh     -`             yMMMd     +NMMMd:              -dMMMh.      -MMMM     `+mMMMh-             
-             .mMM+              -NMMM+      -MMMM-.....--/sdNMMNy-             .NMMMMMN-            sMMMh     ods/-.`    `.:hMMMd.      -yNMMNh/.`      `-/hNMMd/`       :MMMM       .yNMMNs.           
-            -mMMM`               sMMMMo`    oMMMMNNmmmNNMMMNmh+-                :mMMMM/            `dMMMN`    .NMMNmddhhddmMMNd+`         -sdNMMNdhyyyyhdNMMmy/`         sMMMM:        :hNMMms-         
-           :syyyy:              .oyyyyy+.  :syyyyyyyyssoo+:-.                    `/hNs             /yyyyy+`    :oydmmmmmmmdy+-`             `-/shdmmmmmmdy+:.           -syyyyo.         :oyhhy+`       
 
-
+                                                                                                    
+                                                                                                    
+                  `sy+       `ssssssy.       +ss-         `:oyhddhy:   `ss+     `ss+  `ssssssy`            
+                    hM+        hMo...:`      .NyNN.      `sNh/.   `:-    hM+      hM+   hMo...:`            
+                    hM+        yM+          `dh /Md     .NM/             hM+      hM/   hM+                 
+                    hM+        yMmddm       ym`  sMy    sMm        -::   hM+      hM/   hMmddd              
+                    hM+        yM+         oMyyyyydMo   oMN`       :MN   hM+      hM/   hM+                 
+                    hM+     `  yM+        /M/     `mM:   hMm:      -MN   yMy      mM/   hM+                 
+                    dMdsssydo  dMdsssyhy :Nh       -MN:   :yNmyo+++yMN   `hMdo++sdmMo   mMdsssyhs           
+                  `--------  `--------``---       `---`     .:////:-`     `://:. .--  `--------`           
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                  dmm:      `hmdhhhdhs:   -mm:      +my `dmo   +hmdhdmh     -sddhhdmds-    /mmhyddy-       
+                  +N/NN.      sMo    .oMm:  /Mm`     yN.  dM/  oMm`    .   .dMo`     :dMh`  .MM   -MM:      
+                -M/ :Mm`     sMo      :MM-  sMh    +M:   dM/  :NMy/`     `NM/         hMd  .MM   /Mm.      
+                .Nd:::hMh     sMo       NM+   dM+  -Mo    dM/   `/sdMmy/  :MM`         :MM` .MM.hNy:        
+              `dd/////hMs    sMo      -MN.   .NM-`Ny     dM/       `:dMm `NMo         sMd  .MM -mN+        
+              yN.     `mM/   sMo    .oNm-     /Mmdm`     dM/  :`     +Mm  -mMs.     .sMh`  .MM  `sMd-      
+            `sNs       /NN/ `hNmddddds:        +NN.     `mNs  +Nmdhdmd+`    /ymdhyhdds-    /NN-   .yNh:    
+                                          `               ```            ```                        
+                                                                                                    
+                                                                                                    
 
     """,
 

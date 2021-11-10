@@ -11,7 +11,7 @@ def test_leaguebrowser_receive_user_input_method_quit():
     leaguebrowser = LeagueBrowser()
     diffs = diff(leaguebrowser.receive_user_input,path="tests/simulations/leaguebrowser_receive_user_input_method_quit.sim.txt")
     assert not diffs, diffs
-
+    
 
 def test_leaguebrowser_receive_user_input_method_item_class():
     leaguebrowser = LeagueBrowser()

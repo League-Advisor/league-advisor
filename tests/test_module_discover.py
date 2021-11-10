@@ -20,5 +20,5 @@ def test_discover_method(capfd):
     out, err = capfd.readouterr()
 
     #Assert
-    assert not out == strings["desc"] + "\n"
+    assert not out == strings["disc"] + "\n"
     assert err == ""  

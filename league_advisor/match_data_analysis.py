@@ -97,9 +97,3 @@ class MatchData:
         except:
             print("There is no enough data , please try our solo champion")    
             return 
-
-
-
-user_input=[["Orianna", "Cho'Gath", "Garen", "Poppy", "Malzahar"],["Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"],"Orianna"]
-a = MatchData()
-print(a.data_analyzer(user_input))   

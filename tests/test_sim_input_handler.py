@@ -2,6 +2,8 @@
 
 from league_advisor.input_handler import InputHandler 
 from league_advisor.string_assets.menu_strings import strings
+from league_advisor.league_advisor import LeagueAdvisor
+from tests.flo import diff
 import pytest
 
 def test_creates_instant(input_handler_fixture):
@@ -103,9 +105,27 @@ def test_input_interpreter_quit():
   #Assert
   assert e.type == SystemExit
 
-@pytest.mark.skip("NEEDS SIMULATION")
-def test_prompt_user():
-  pass
+def test_input_handler_welcome_screen(input_handler_fixture):
+  diffs = diff(input_handler_fixture.welcome_message, path="tests/simulations/welcome_screen.sim.txt")
+  assert not diffs, diffs
+
+def test_input_handler_help_user(input_handler_fixture):
+
+  diffs = diff(input_handler_fixture.help_user, path="tests/simulations/help_user.sim.txt")
+  assert not diffs, diffs
+
+def test_input_handler_color_mode(input_handler_fixture):
+
+  diffs = diff(input_handler_fixture.color_mode, path="tests/simulations/color_mode.sim.txt")
+  assert not diffs, diffs
+
+
+def test_input_handler_help_user_color(input_handler_fixture):
+  input_handler_fixture.mode = "c"
+  diffs = diff(input_handler_fixture.help_user, path="tests/simulations/help_user.sim.txt")
+  assert not diffs, diffs
+  
+
 
 # Fixtures
 @pytest.fixture
