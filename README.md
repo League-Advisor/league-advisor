@@ -192,6 +192,9 @@ _discover module unittests_ - 9 Nov 2021
 
 ### V 0.9.7
 _match data analysis module unittests_ - 9 Nov 2021
+
+### V 0.9.8
+_test: recieve_champions method for LeagueBrowser class module unittests_
 ---
 
 ## Getting Started
@@ -266,6 +269,8 @@ v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 No
 v0.9.5 _test: discover module unittests_ - 9 Nov 2021
 
 v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
+
+v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_ - 10 Nov 2021
 ---
 
 ## Authors
