@@ -44,3 +44,12 @@ def test_leaguebrowser_receive_item_method_classes_backmenu():
                  path="tests/simulations/leaguebrowser_receive_item_method_classes_backmenu.sim.txt")
     assert not diffs, diffs
 
+def test_leaguebrowser_receive_champions_start():
+    leaguebrowser = LeagueBrowser()
+    diffs = diff(leaguebrowser.receive_champions,path="tests/simulations/browser_recieve_champions_start.sim.txt")
+    assert not diffs, diffs
+
+def test_leaguebrowser_receive_champions_info():
+    leaguebrowser = LeagueBrowser()
+    diffs = diff(leaguebrowser.receive_champions,path="tests/simulations/browser_recieve_champions_info.sim.txt")
+    assert not diffs, diffs   

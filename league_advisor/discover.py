@@ -1,4 +1,4 @@
-"""This module provides the user with the rules of the game"""
+"""This module provides simulation tests for discover module"""
 
 import os
 from league_advisor.string_assets.menu_strings import strings
@@ -36,10 +36,7 @@ class Discover:
         if user_input or user_input=="":
             clear = lambda: os.system('clear')
             # clear()
-          
-if __name__ == "__main__":
-    discover = Discover()
-    discover.discover()
+
 
 
 

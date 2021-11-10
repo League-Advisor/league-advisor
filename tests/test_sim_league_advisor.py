@@ -8,7 +8,7 @@ def test_input_handler_help_user_color():
   diffs = diff(league_advisor.run_program, path="tests/simulations/help_color.sim.txt")
   assert not diffs, diffs
 
-def test_input_handler_help_solo_color():
+def test_input_handler_solo_color():
     league_advisor = LeagueAdvisor()
     diffs = diff(league_advisor.run_program, path="tests/simulations/solo_champion_color.sim.txt")
     assert not diffs, diffs
