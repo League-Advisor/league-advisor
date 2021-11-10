@@ -1,0 +1,6 @@
+ Which champion tag would you like to check from the list below?
+ To stop the program, enter (q)uit || (b)ack to the main menu.
+Fighter || Tank || Mage || Assassin || Marksman || Support
+
+> 
+Please enter a valid command.

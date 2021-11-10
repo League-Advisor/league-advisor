@@ -111,6 +111,7 @@ _input_handler unittests and ascii art and color codes- 6 Nov 2021
 
 _discover module and unittests_ - 6 Nov 2021
 
+
 #### V 0.6
 
 _scrape module and unittests_ - 7 Nov 2021
@@ -189,9 +190,17 @@ _adding color mode to other features and polishing them_ - 9 Nov 2021
 ### V0.9.3.1
 _test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
 
+### V 0.9.5
+_discover module unittests_ - 9 Nov 2021
+
 ### V0.9.5.1
 _fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
 
+### V 0.9.7
+_match data analysis module unittests_ - 9 Nov 2021
+
+### V 0.9.8
+_test: recieve_champions method for LeagueBrowser class module unittests_
 ---
 
 ## Getting Started
@@ -265,7 +274,13 @@ v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 No
 
 v0.9.3.1 _test: adding automated unit tests for input_handler and solo_item modules_ -  9 Nov 2021
 
+v0.9.5 _test: discover module unittests_ - 9 Nov 2021
+
 v0.9.5.1 _fix: added the ability to test colored text and edited assets_ -  10 Nov 2021
+
+v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
+
+v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_ - 10 Nov 2021
 
 ---
 

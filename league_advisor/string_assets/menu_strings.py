@@ -93,85 +93,81 @@ strings = {
     """,
 
     "disc" : f"""
-        
-        
-        League of Legends is one of the world's most popular video games, developed by Riot Games. 
+        1- League of Legends is one of the world's most popular video games, developed by Riot Games. 
 
-        It features a team-based competitive game mode based on strategy and outplaying opponents.
+        2- It features a team-based competitive game mode based on strategy and outplaying opponents.
 
-        League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
+        3- League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
 
-        Two teams 5 players battle each other on a chosen map. 
+        4- Two teams 5 players battle each other on a chosen map. 
 
-        The game's objective is to destroy the key building in enemy base - the Nexus. 
+        5- The game's objective is to destroy the key building in enemy base - the Nexus. 
 
-        The gameplay combines use of skill and tactics, and there are many roads to victory. 
+        6- The gameplay combines use of skill and tactics, and there are many roads to victory. 
 
-        There are plenty of things that a player needs to keep an eye on, such as map visibility,
-         enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
+        7- There are plenty of things that a player needs to keep an eye on, such as map visibility,
+           enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
 
-        Outnumbering your opponent may often turn out to be the key to success.
+        8- Outnumbering your opponent may often turn out to be the key to success.
 
-        LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
-         which are detailed further in the guide.
+        9- LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
+           which are detailed further in the guide.
 
-        League of Legends is based on microtransactions. Downloading and playing the game is free.
+        10- League of Legends is based on microtransactions. Downloading and playing the game is free.
  
-        All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
-        which are awarded to each player for their sheer participation in battles.
+        11- All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
+            which are awarded to each player for their sheer participation in battles.
 
-        Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
+        12- Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
 
-        Skins are just a visual aspect - they do not influence champions' statistics. 
+        13- Skins are just a visual aspect - they do not influence champions' statistics. 
 
-        Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
+        14- Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
 
-        Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
+        15- Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
         become the most popular e-sport in the world. 
 
-        To discover more about League of Legends, visit the official website at https://www.leagueoflegends.com.
+        16- To discover more about League of Legends, visit the official website at https://www.leagueoflegends.com.
 
-        To go back to main menu , press any key.
-       """,
+        17- To go back to main menu , press any key.
+        """,
 
        "disc_color" : f"""
-        
-        
-        League of Legends is one of the world's most popular video games, developed by Riot Games. 
+        1- League of Legends is one of the world's most popular video games, developed by Riot Games. 
 
-        It features a team-based competitive game mode based on strategy and outplaying opponents.
+        2- It features a team-based competitive game mode based on strategy and outplaying opponents.
 
-        League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
+        3- League of Legends is a MOBA (Multiplayer Online Battle Arena) type of game.
 
-        Two teams 5 players battle each other on a chosen map. 
+        4- Two teams 5 players battle each other on a chosen map. 
 
-        The game's objective is to destroy the key building in enemy base - the Nexus. 
+        5- The game's objective is to destroy the key building in enemy base - the Nexus. 
 
-        The gameplay combines use of skill and tactics, and there are many roads to victory. 
+        6- The gameplay combines use of skill and tactics, and there are many roads to victory. 
 
-        There are plenty of things that a player needs to keep an eye on, such as map visibility,
-         enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
+        7- There are plenty of things that a player needs to keep an eye on, such as map visibility,
+           enemies spotted on the lane, as well as those who may suddenly appear on the frontline.
 
-        Outnumbering your opponent may often turn out to be the key to success.
+        8- Outnumbering your opponent may often turn out to be the key to success.
 
-        LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
-        which are detailed further in the guide.
+        9- LoL offers three game modes: Classic (maps: Summoner's Rift), and ARAM (Howling Abyss),
+           which are detailed further in the guide.
 
-        League of Legends is based on microtransactions. Downloading and playing the game is free.
+        10- League of Legends is based on microtransactions. Downloading and playing the game is free.
  
-        All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
-        which are awarded to each player for their sheer participation in battles.
+        11- All in-game champions, runes, and runebook pages can be purchased with BE (Blue Essence),
+            which are awarded to each player for their sheer participation in battles.
 
-        Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
+        12- Real money can be spent on OE (Orange Essence), which allow players to buy additional skins for their champions. 
 
-        Skins are just a visual aspect - they do not influence champions' statistics. 
+        13- Skins are just a visual aspect - they do not influence champions' statistics. 
 
-        Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
+        14- Another benefit of having OE is that you can spend them to immediately purchase champions of your interest. 
 
-        Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
+        15- Only runes are available exclusively for BE. Owing to its attractiveness and mechanics LoL has quickly
         become the most popular e-sport in the world. 
 
-        To discover more about League of Legends, visit the official website at {color.BLUE}https://www.leagueoflegends.com{color.RESET}.
+        16- To discover more about League of Legends, visit the official website at {color.BLUE}https://www.leagueoflegends.com{color.RESET}.
 
         {color.RED}To go back to main menu , press any key.{color.RESET}
        """
