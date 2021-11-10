@@ -42,26 +42,86 @@
     To stop the program, enter (q)uit.
 > r
 
-Enter your team champion seperated by comma, starting with your champion name.
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> x,r,y
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> alistar,ezreal,syndra,volibear,camill
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> 1,2,3,4,5
+Please enter a valid composition.
+
+Enter your team composition, seperated by commas.
+
+[Support,Adc,Mid,Jungle,Top]
+
+To stop the program, enter (q)uit || (b)ack to the main menu.
+> alistar,ezreal,syndra,volibear,camille
+
+Enter your current champion name.
+
+> x
+Enter your champion name correctly.
+
+Enter your current champion name.
+
+> ezreal
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> x,y,u
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> q,t,r,u,i
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
+
+> thresh,jinx,zed,nidalee,ezreal
+Please enter a valid composition. One champion cannot be on both teams.
+Please enter a valid composition.
+
+Enter your enemy composition, seperated by commas.
+
+Support,Adc,Mid,Jungle,Top
 
 > thresh,jinx,zed,nidalee,darius
-
-Enter your enemy team champions seperated by comma.
-
-> alistar,ezreal,syndra,volibear,camille
 
 
 
 Our recommended build considering the composition:
 
 
- ['Locket of the Iron Solari', 'Pauldrons of Whiterock', 'Control Ward', 'Mobility Boots', 'Kindlegem', 'Oracle Lens', 'Bulwark of the Mountain', 'Mobility Boots', "Zeke's Convergence", 'Locket of the Iron Solari'] 
+ ["Doran's Blade", 'Divine Sunderer', 'Tear of the Goddess', "Caulfield's Warhammer", 'Ionian Boots of Lucidity', 'Stealth Ward', 'Essence Reaver', 'Muramana', 'Frozen Heart', 'Tiamat'] 
 
 
 
  These items are commonly bought for your champion:
 
-['Oracle Lens', 'Locket of the Iron Solari', 'Pauldrons of Whiterock', 'Mobility Boots', 'Control Ward']
+['Ionian Boots of Lucidity', 'Farsight Alteration', 'Divine Sunderer', 'Muramana', "Doran's Blade"]
 
 
     For new users, enter (h)elp to show all available features and how to operate this program, then (d)iscover the game and learn the rules.

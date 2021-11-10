@@ -2,6 +2,7 @@
 
 from league_advisor.string_assets.menu_strings import strings
 from league_advisor.string_assets.colors import color
+import os
 
 
 class RankedItem:
@@ -12,174 +13,181 @@ class RankedItem:
 
       prompt_user:
 
-      this method will ask the user to input names of champion separting them with comma
+      this method will ask the user to input names of champion separting them with comma and checking for their validity.
 
       Arguments: None
 
       Return: None
+     ---
+
+        get_color_mode:
+
+            This method sets the color mode for the module.
+
+            Arguments:
+
+                color_mode: String
+
+                Return: String
+
     ---
 
-      handle_user_choice:
+        clear:
 
-        this method will check if the user input champion are exists in the list of champions 
+            This method clears the screen.
 
-        Arguments: None
+            Arguments: None
 
-        Return: weather if the user input real names of champions or not 
-    ---    
-      handle_user_input:
-
-        this method will check if the user input five names or not  
-
-        Arguments: None
-
-        Return: weather if the user input 5 names seperated by comma or not  
-    ---    
-      prompt_user_enemy:
-
-        this method will ask the user to input names of champion of enemy team separting them with comma
-
-        Arguments: None
-
-        Return: weather if the user input 5 names seperated by comma or not
-    ---
-
-      handle_enemy_choice:
-
-         this method will check if the user input five names or not  
-
-        Arguments: None
-
-        Return: weather if the user input 5 names seperated by comma or not 
-    ---
-      handle_user_enemy:
-
-        this method will check if the user input five names or not  
-
-        Arguments: None
-
-        Return: weather if the user input 5 names seperated by comma or not  
-    ---
-      handle_match:
-
-        this method will check if the user input any champion name in both team or not   
-
-        Arguments: None
-
-        Return: weather if the user input a name of champion in both team or not and if true it well ask him to modefiy the enemy team and if not it will return a list of champion names                        
+            Return: None                     
     """
 
     def __init__(self):
-        self.user = []
-        self.match = []
-        self.user_champion = ""
-        self.enemy_champion = ""
-        self.user_flage = False
-        self.enemy_flage = False
+        self.user_response = ""
+        self.team = []
+        self.enemy = []
+        self.analysis_data = []
+        self.champion = ""
         self.mode = ""
 
     def get_color_mode(self, color_mode):
         self.mode = color_mode
         return self.mode
 
+    def clear(self):
+        def clear(): return os.system('clear')
+        clear()
+
     def prompt_user(self):
-        print()
-        print(
-            f"{color.BLUE}Enter your team champion seperated by comma, starting with your champion name.{color.RESET}")
-        print()
-        self.user_champion = input("> ")
 
-    def handle_user_choice(self):
+        while not len(self.team) == 5:
+            if self.mode == "c":
 
-        for champ in self.user[0]:
-            if champ.lower().strip() in strings["champion_list_lower"]:
-                champ = champ.title()
-                self.user_flage = True
+                print()
+                print("Enter your team composition, seperated by commas.")
+                print()
+                print(
+                    f"{color.YELLOW}[Support,Adc,Mid,Jungle,Top]{color.RESET}")
+                print()
+                print(
+                    f"To stop the program, enter ({color.RED}q{color.RESET})uit || ({color.RED}b{color.RESET})ack to the main menu.")
 
             else:
                 print()
-                print(f"{color.RED}You entered wrong names{color.RESET}")
+                print("Enter your team composition, seperated by commas.")
                 print()
-                self.handle_user_input()
-        if self.user_flage == True:
-            self.match = []
-            self.match.insert(0, self.user_champion.split(","))
-
-            self.handle_user_enemy()
-
-    def handle_user_input(self):
-
-        self.prompt_user()
-        if self.user_champion == "b":
-            return
-        self.user.insert(0, self.user_champion.split(","))
-        if len(set(self.user[0])) == 5:
-            self.handle_user_choice()
-        else:
-            print()
-            print(f"{color.RED}You should add 5 unique champion names{color.RESET}")
-            print()
-            self.handle_user_input()
-
-    def prompt_user_enemy(self):
-        print()
-        print(
-            f"{color.BLUE}Enter your enemy team champions seperated by comma.{color.RESET}")
-        print()
-        self.enemy_champion = input("> ")
-
-    def handle_enemy_choice(self):
-        for champ in self.user[1]:
-            if champ.lower().strip() in strings["champion_list_lower"]:
-                self.enemy_flage = True
-                champ = champ.title()
-            else:
+                print("Support,Adc,Mid,Jungle,Top")
                 print()
-                print(f"{color.RED}You entered wrong enemy names{color.RESET}")
-                print()
-                self.handle_user_enemy()
-        if self.enemy_flage == True:
-            if len(self.match) > 1:
-                self.match.pop(1)
-                if len(self.match) > 2:
-                    self.match.pop(2)
-            self.match.insert(1, self.enemy_champion.split(","))
-            self.handle_match()
+                print("To stop the program, enter (q)uit || (b)ack to the main menu.")
 
-    def handle_user_enemy(self):
+            self.user_response = input("> ")
 
-        self.prompt_user_enemy()
-        if self.enemy_champion == "b":
-            return
-        self.user.insert(1, self.enemy_champion.split(","))
-        if len(set(self.user[1])) == 5:
-            self.handle_enemy_choice()
-        else:
-            print()
-            print(
-                f"{color.RED}You should add 5 enemy unique champion names{color.RESET}")
-            print()
-            self.handle_user_enemy()
+            if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
+                self.clear()
+                return self.receive_item()
 
-    def handle_match(self):
-        for i in self.match[0]:
-            for j in self.match[1]:
-                if i == j:
-                    print()
+            if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                print("""
+                        Thank you for using League Advisor. Hope to see you again soon!""")
+                quit()
+
+            if len(self.user_response.split(',')) == 5:
+                self.team = self.user_response.split(',')
+
+            for i in range(len(self.team)):
+                if not self.team[i].lower().strip() in strings["champion_list_lower"]:
+                    self.team = []
+                    break
+
+            if not len(self.team) == 5:
+                if self.mode == "c":
                     print(
-                        f"{color.RED}Same champion can not be in both team{color.RESET}")
+                        f"{color.RED}Please enter a valid composition.{color.RESET}")
+                else:
+                    print("Please enter a valid composition.")
+                continue
+
+            else:
+
+                while True:
+                    if self.mode == "c":
+                        print()
+                        print(
+                            f"{color.YELLOW}Enter your current champion name.{color.RESET}")
+                        print()
+                    else:
+                        print()
+                        print("Enter your current champion name.")
+                        print()
+
+                    self.user_response = input("> ")
+
+                    if not self.user_response.lower().strip() in [name.lower() for name in self.team] or not self.user_response.lower().strip() in strings["champion_list_lower"]:
+                        if self.mode == "c":
+                            print(
+                                f"{color.RED}Enter your champion name correctly.{color.RESET}")
+                        else:
+                            print("Enter your champion name correctly.")
+                        continue
+
+                    else:
+                        self.champion = self.user_response
+                        break
+
+                while not len(self.enemy) == 5:
+
                     print()
-                    self.match.pop(1)
+                    print("Enter your enemy composition, seperated by commas.")
+                    print()
+                    if self.mode == "c":
+                        print(
+                            f"{color.YELLOW}Support,Adc,Mid,Jungle,Top{color.RESET}")
+                    else:
+                        print("Support,Adc,Mid,Jungle,Top")
+                    print()
+                    self.user_response = input("> ")
 
-                    self.handle_user_enemy()
-                    self.match.pop(2)
-        if len(self.match) > 2:
-            self.match.pop(2)
-        self.match.append(self.match[0][0])
+                    if self.user_response.lower().strip() == "b" or self.user_response.lower().strip() == "back":
+                        self.clear()
+                        return self.receive_item()
 
-        for i in range(2):
-            for j in range(len(self.match[i])):
-                self.match[i][j] = (self.match[i][j]).title()
-        self.match[2] = (self.match[2]).title()
+                    if self.user_response.lower().strip() == "q" or self.user_response.lower().strip() == "quit":
+                        print("""
+                                Thank you for using League Advisor. Hope to see you again soon!""")
+                        quit()
 
-        return self.match
+                    if len(self.user_response.split(',')) == 5:
+                        self.enemy = self.user_response.split(',')
+
+                    for i in range(len(self.enemy)):
+                        if self.enemy[i].lower().strip() in [name.lower() for name in self.team]:
+                            if self.mode == "c":
+                                print(
+                                    f"{color.RED}Please enter a valid composition. One champion cannot be on both teams.{color.RESET}")
+                            else:
+                                print(
+                                    "Please enter a valid composition. One champion cannot be on both teams.")
+                            self.enemy = []
+                            break
+
+                        if not self.enemy[i].lower().strip() in strings["champion_list_lower"]:
+                            self.enemy = []
+                            break
+
+                    if not len(self.enemy) == 5:
+                        if self.mode == "c":
+                            print(
+                                f"{color.RED}Please enter a valid composition.{color.RESET}")
+                        else:
+                            print("Please enter a valid composition.")
+                        continue
+                    else:
+                        self.analysis_data.append(self.team)
+                        self.analysis_data.append(self.enemy)
+                        self.analysis_data.append(self.champion)
+
+                        for i in range(2):
+                            for j in range(len(self.analysis_data[i])):
+                                self.analysis_data[i][j] = self.analysis_data[i][j].title(
+                                )
+                        self.analysis_data[2] = self.analysis_data[2].title()
+                        return(self.analysis_data)

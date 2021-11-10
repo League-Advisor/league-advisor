@@ -230,6 +230,10 @@ _refactor:implementing color mode into ranked champion and formatting prints_ - 
 
 _refactor:updating the ranked item with color and add automated test_ - 10 Nov 2021
 
+### V 0.9.9.8
+
+_refactor:refactore the ranked item with color and add automated tests_ - 10 Nov 2021
+
 ---
 
 ## Getting Started
@@ -320,7 +324,10 @@ v0.9.8.2 _docs: fixed docstrings_ - 10 Nov 2021
 v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
 
 v0.9.9.4 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
+
 v0.9.9.6 _refactor:ranked item module and impleminting the color mode and add automated test_ - 10 Nov 2021
+
+v0.9.9.8 _refactor:ranked item module and impleminting the color mode and add automated tests_ - 10 Nov 2021
 
 ---
 
