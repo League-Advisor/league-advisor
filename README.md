@@ -54,7 +54,7 @@ _A player often has to do lots of mental math in order to figure out what should
 
 ## Domain Model
 
-![Domain_Model](assets/Domain_Model.png)
+![Domain_Model](assets/domain_model.png)
 
 ---
 
@@ -81,7 +81,6 @@ VS Code
 - builtins
 
 ```
-
 
 ---
 
@@ -146,7 +145,7 @@ _adding simulation tests for receive_items method_ - 8 Nov 2021
 
 #### V 0.7
 
-## _solo_items and unit tests_ -7 Nov 2021
+_solo_items and unit tests_ -7 Nov 2021
 
 ### V 0.8.0
 
@@ -202,25 +201,72 @@ _match data analysis module unittests_ - 9 Nov 2021
 ### V 0.9.8
 _test: recieve_champions method for LeagueBrowser class module unittests_
 
-# V 0.9.8.1
+### V 0.9.9.1
 _fix: fixed automated unittests_ - 10 Nov 2021
 
-# V 0.9.9.1
+### V 0.9.9.2
+_docs: fixed docstrings_ - 10 Nov 2021
+
+### V 0.9.9.1
 _refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
-# V 0.9.9.3
-_test: fix the test for match data analysis module after refactoring the module_ - 10 Nov 2021
+### V 0.9.9.3
+_test: added tests for solo champion_ - 10 Nov 2021
+
+### V 0.9.9.4
+_""refactor:implementing color mode into ranked champion and formatting prints""_ - 10 Nov 2021
+
+### V 0.9.9.5
+_docs: adding domain model image and get started section to the README_- 10 Nov 2021
+
 ---
-
-
-
 
 ## Getting Started
 
 Clone this repository to your local machine.
 
-```
-$ git clone git@github.com:League-Advisor/league-advisor.git
+```md
+
+Set the program repo locally on your machine: 
+
+`$ git clone git@github.com:League-Advisor/league-advisor.git`
+
+---------------------------------------------------------------
+
+Navigate to the repo's directory and install required  dependencies:
+
+`$ poetry install`
+
+---------------------------------------------------------------
+
+Run the your code editor of choice
+
+`$ code .`
+
+---------------------------------------------------------------
+
+Run poetry shell
+
+`$ poetry shell`
+
+---------------------------------------------------------------
+
+For the first time using the program, or if you have deleted the included data files, go to `match_data_scraper.py` and uncomment the entire module.
+
+Add your RIOT API key to .env file as shown in .env.sample.
+
+Be sure to read the warnings carefully.
+
+Run the module, this step may take some time and cosume data:
+
+`$ python -m league_advisor.match_data_scraper`
+
+Once it's done, comment the module again to avoid running it again by accident.
+---------------------------------------------------------------
+
+Run the core module and enjoy your easy access to all you need from LeagueAdvisor:
+
+`$ python -m league_advisor.league_advisor`
 
 ```
 
@@ -294,11 +340,18 @@ v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
 
 v0.9.8 _test: recieve_champions method for LeagueBrowser class module unittests_ - 10 Nov 2021
 
-v0.9.8.1 fix: fixed automated unittests_ - 10 Nov 2021
+v0.9.8.1 _fix: fixed automated unittests_ - 10 Nov 2021
 
-v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode - 10 Nov 2021
+v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
-v0.9.9.3 test: fix the test for match data analysis module after refactoring the module - 10 Nov 2021
+v0.9.8.2 _docs: fixed docstrings_ - 10 Nov 2021
+
+v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
+
+v0.9.9.4 _refactor:implementing color mode into ranked champion and formatting prints_ - 10 Nov 2021
+
+v0.9.9.5 _docs: adding domain model image and get started section to the README_- 10 Nov 2021
+
 ---
 
 ## Authors
