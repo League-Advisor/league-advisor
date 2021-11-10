@@ -28,9 +28,9 @@ class MatchData:
         self.user_input = user_input
         self.champion = user_input[2] 
 
-        with open('league_advisor/string_assets/filtered_data_extra.json') as f:
+        with open('league_advisor/string_assets/filtered_data.json') as f:
             data = json.load(f)
-
+              
         df = pd.json_normalize(data)
 
         df.to_csv('league_advisor/string_assets/match_data_analysis.csv', index=False)  
@@ -95,11 +95,13 @@ class MatchData:
                 recommended_build.append(most_common_items_used[i][0])
             return recommended_build
         except:
-            print("There is no enough data , please try our solo champion")    
-            return 
+            return "There is no enough data , please try our solo champion"    
+             
 
 
 
-user_input=[["Orianna", "Cho'Gath", "Garen", "Poppy", "Malzahar"],["Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"],"Orianna"]
-a = MatchData()
-print(a.data_analyzer(user_input))   
+if __name__ == "__main__":
+    user_input=[["ahri", "irelia", "Ryze", "akshan", "aatrox"],["Tryndamere", "Samira", "teemo", "Sejuan", "Gnar"],"teemo"]   
+    match_data=MatchData()
+    print(match_data.data_analyzer(user_input)) 
+    

@@ -188,8 +188,10 @@ _updating the ranked item module to handle both team and the proper check for th
 _adding color mode to other features and polishing them_ - 9 Nov 2021
 
 ### V 0.9.5
-_discover mode unittests_ - 9 Nov 2021
+_discover module unittests_ - 9 Nov 2021
 
+### V 0.9.7
+_match data analysis module unittests_ - 9 Nov 2021
 ---
 
 ## Getting Started
@@ -261,8 +263,9 @@ v0.9.2 _feat: updating ranked item module to handle the both user and enemy team
 
 v0.9.3 _refactor: adding color mode to other features and polishing them_ - 9 Nov 2021
 
-v0.9.5 _discover mode unittests_ - 9 Nov 2021
+v0.9.5 _test: discover module unittests_ - 9 Nov 2021
 
+v0.9.7 _test: match data analysis module unittests_ - 10 Nov 2021
 ---
 
 ## Authors
