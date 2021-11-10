@@ -210,6 +210,10 @@ _refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 202
 
 # V 0.9.9.3
 _test: fix the test for match data analysis module after refactoring the module_ - 10 Nov 2021
+
+### v0.9.9.7 
+_testing match data analysis module_ - 10 Nov 2021
+
 ---
 
 
@@ -299,6 +303,11 @@ v0.9.8.1 fix: fixed automated unittests_ - 10 Nov 2021
 v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode - 10 Nov 2021
 
 v0.9.9.3 test: fix the test for match data analysis module after refactoring the module - 10 Nov 2021
+
+
+
+v0.9.9.7 test: testing match data analysis module - 10 Nov 2021
+
 ---
 
 ## Authors

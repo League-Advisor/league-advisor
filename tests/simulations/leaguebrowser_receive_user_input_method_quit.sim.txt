@@ -1,5 +1,6 @@
 
 Would you like to preview (i)tems or (c)hampions?
 To stop the program, enter (q)uit || (b)ack to the main menu.
-
 > q
+
+                    Thank you for using League Advisor. Hope to see you again soon!
