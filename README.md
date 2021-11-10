@@ -202,16 +202,24 @@ _match data analysis module unittests_ - 9 Nov 2021
 ### V 0.9.8
 _test: recieve_champions method for LeagueBrowser class module unittests_
 
-### V 0.9.8.1
+### V 0.9.9.1
 _fix: fixed automated unittests_ - 10 Nov 2021
 
-### V 0.9.8.2
+### V 0.9.9.2
 _docs: fixed docstrings_ - 10 Nov 2021
+
+# V 0.9.9.1
+_refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
 ### V 0.9.9.3
 _test: added tests for solo champion_ - 10 Nov 2021
 
+
+
 ---
+
+
+
 
 ## Getting Started
 
@@ -297,6 +305,8 @@ v0.9.8.1 _fix: fixed automated unittests_ - 10 Nov 2021
 v0.9.8.2 _docs: fixed docstrings_ - 10 Nov 2021
 
 v0.9.9.3 _test: added tests for solo champion_ - 10 Nov 2021
+
+v0.9.9.1 refactor: refactor the ranked module in basic mode and color mode_ - 10 Nov 2021
 
 ---
 
