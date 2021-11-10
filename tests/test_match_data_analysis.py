@@ -21,10 +21,22 @@ def test_data_analyzer_no_items():
     #Arrange
     user_input=[["ahri", "irelia", "Ryze", "akshan", "aatrox"],["Tryndamere", "Samira", "teemo", "Sejuan", "Gnar"],"teemo"]      
     recommended_build= MatchData()
-    expected = "There is no enough data , please try our solo champion"
+    expected = None
 
     #Act
     actual=recommended_build.data_analyzer(user_input)
 
     #Assert
-    assert actual == expected    
+    assert actual == expected
+
+
+def test_data_analyzer_items():
+    #Arrange
+    user_input = [["Ezreal",  "Nami",  "Syndra", "Nidalee", "Yone"], [
+        "Blitzcranck", "Lillia", "Jax", "Sejuan", "Morgana"], "Ezreal"]
+    recommended_build= MatchData()
+    expected = ['Ionian Boots of Lucidity', 'Farsight Alteration',
+                'Divine Sunderer', 'Muramana', "Doran's Blade"]
+    #Act
+    actual=recommended_build.data_analyzer(user_input)
+    assert actual == expected

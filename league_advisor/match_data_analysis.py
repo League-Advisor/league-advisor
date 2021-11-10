@@ -163,7 +163,7 @@ class MatchData:
                 winer_items.append(team_1_champions_winer)
                 team_1_champions_winer = []
 
-        #/////////////////////////////////////////////////////////////////////////////#
+
 
             team_2_champions_winer.append(row["team2.composition.champion6"])
             team_2_champions_winer.append(row["team2.composition.champion7"])
@@ -187,7 +187,7 @@ class MatchData:
 
                 winer_items.append(team_2_champions_winer)
                 team_2_champions_winer = []
-        # print(winer_items)
+ 
 
         threshold = 0.3
         data_normalyzed_str = ""
@@ -250,3 +250,4 @@ class MatchData:
             print()
             print("Please try with another collections")
             print()
+
