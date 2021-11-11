@@ -42,7 +42,7 @@ class RankedItem:
     """
 
     def __init__(self):
-        self.user_response = ""
+        self.champion = ""
         self.team = []
         self.enemy = []
         self.analysis_data = []
@@ -58,7 +58,11 @@ class RankedItem:
         clear()
 
     def prompt_user(self):
-
+        self.team = []
+        self.enemy = []
+        self.champion = ""
+        self.champion = ""
+        self.analysis_data = []
         while not len(self.team) == 5:
             if self.mode == "c":
 
